@@ -16,5 +16,6 @@ DCRI voc documentation:https://ii-aegean.github.io/dcri-voc-doc/
 
 DCRI ont special IRI: http://w3id.org/dcri-ont-spe
 DCRI ont special proposed prefix: dcri-ont-spe
-DCRI ont special:https://ii-aegean.github.io/dcri-ont-spe-doc/
+DCRI ont special documentation: https://ii-aegean.github.io/dcri-ont-spe-doc/
+
 ---

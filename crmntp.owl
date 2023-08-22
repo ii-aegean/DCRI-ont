@@ -1,0 +1,2154 @@
+<?xml version="1.0"?>
+<rdf:RDF xmlns="http://www.w3.org/2002/07/owl#"
+     xml:base="http://www.w3.org/2002/07/owl"
+     xmlns:crm="http://www.cidoc-crm.org/cidoc-crm/"
+     xmlns:owl="http://www.w3.org/2002/07/owl#"
+     xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+     xmlns:xml="http://www.w3.org/XML/1998/namespace"
+     xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
+     xmlns:crmt="http://www.cidoc-crm.org/extensions/crmntp/"
+     xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#">
+    <Ontology/>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Annotation properties
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- http://www.cidoc-crm.org/extensions/crmntp/H1 -->
+
+    <AnnotationProperty rdf:about="http://www.cidoc-crm.org/extensions/crmntp/H1"/>
+    
+
+
+    <!-- http://www.cidoc-crm.org/extensions/crmntp/H2 -->
+
+    <AnnotationProperty rdf:about="http://www.cidoc-crm.org/extensions/crmntp/H2"/>
+    
+
+
+    <!-- http://www.cidoc-crm.org/extensions/crmntp/Hn -->
+
+    <AnnotationProperty rdf:about="http://www.cidoc-crm.org/extensions/crmntp/Hn"/>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Object Properties
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- http://www.cidoc-crm.org/extensions/crmntp/NTP100_was_not_death_of_person_of_type -->
+
+    <ObjectProperty rdf:about="http://www.cidoc-crm.org/extensions/crmntp/NTP100_was_not_death_of_person_of_type">
+        <rdfs:subPropertyOf rdf:resource="http://www.cidoc-crm.org/extensions/crmntp/NTP93_did_not_take_out_of_existence_persistent_item_of_type"/>
+        <rdfs:domain rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E69_Death"/>
+    </ObjectProperty>
+    
+
+
+    <!-- http://www.cidoc-crm.org/extensions/crmntp/NTP102_does_not_have_title_of_type -->
+
+    <ObjectProperty rdf:about="http://www.cidoc-crm.org/extensions/crmntp/NTP102_does_not_have_title_of_type">
+        <rdfs:subPropertyOf rdf:resource="http://www.cidoc-crm.org/extensions/crmntp/NTP1_is_not_identified_by_appellation_type"/>
+        <rdfs:domain rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E71_Human-Made_Thing"/>
+    </ObjectProperty>
+    
+
+
+    <!-- http://www.cidoc-crm.org/extensions/crmntp/NTP104_is_not_subject_to_right_of_type -->
+
+    <ObjectProperty rdf:about="http://www.cidoc-crm.org/extensions/crmntp/NTP104_is_not_subject_to_right_of_type">
+        <rdfs:domain rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E72_Legal_Object"/>
+    </ObjectProperty>
+    
+
+
+    <!-- http://www.cidoc-crm.org/extensions/crmntp/NTP105_right_is_not_held_by_actor_of_type -->
+
+    <ObjectProperty rdf:about="http://www.cidoc-crm.org/extensions/crmntp/NTP105_right_is_not_held_by_actor_of_type">
+        <rdfs:domain rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E72_Legal_Object"/>
+    </ObjectProperty>
+    
+
+
+    <!-- http://www.cidoc-crm.org/extensions/crmntp/NTP106_is_not_composed_of_symbolic_object_of_type -->
+
+    <ObjectProperty rdf:about="http://www.cidoc-crm.org/extensions/crmntp/NTP106_is_not_composed_of_symbolic_object_of_type">
+        <rdfs:domain rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E90_Symbolic_Object"/>
+    </ObjectProperty>
+    
+
+
+    <!-- http://www.cidoc-crm.org/extensions/crmntp/NTP107_does_not_have_current_or_former_member_of_type -->
+
+    <ObjectProperty rdf:about="http://www.cidoc-crm.org/extensions/crmntp/NTP107_does_not_have_current_or_former_member_of_type">
+        <rdfs:domain rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E74_Group"/>
+    </ObjectProperty>
+    
+
+
+    <!-- http://www.cidoc-crm.org/extensions/crmntp/NTP108_has_not_produced_physical_human-made_thing_of_type -->
+
+    <ObjectProperty rdf:about="http://www.cidoc-crm.org/extensions/crmntp/NTP108_has_not_produced_physical_human-made_thing_of_type">
+        <rdfs:subPropertyOf rdf:resource="http://www.cidoc-crm.org/extensions/crmntp/NTP31_has_not_modified_physical_thing_of_type"/>
+        <rdfs:subPropertyOf rdf:resource="http://www.cidoc-crm.org/extensions/crmntp/NTP92_did_not_bring_into_existence_persistent_item_of_type"/>
+        <rdfs:domain rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E12_Production"/>
+    </ObjectProperty>
+    
+
+
+    <!-- http://www.cidoc-crm.org/extensions/crmntp/NTP109_does_not_have_current_or_former_curator_of_type -->
+
+    <ObjectProperty rdf:about="http://www.cidoc-crm.org/extensions/crmntp/NTP109_does_not_have_current_or_former_curator_of_type">
+        <rdfs:subPropertyOf rdf:resource="http://www.cidoc-crm.org/extensions/crmntp/NTP49_does_not_have_former_or_current_keeper_of_type"/>
+        <rdfs:domain rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E78_Curated_Holding"/>
+    </ObjectProperty>
+    
+
+
+    <!-- http://www.cidoc-crm.org/extensions/crmntp/NTP110_did_not_augment_physical_human-made_thing_of_type -->
+
+    <ObjectProperty rdf:about="http://www.cidoc-crm.org/extensions/crmntp/NTP110_did_not_augment_physical_human-made_thing_of_type">
+        <rdfs:subPropertyOf rdf:resource="http://www.cidoc-crm.org/extensions/crmntp/NTP31_has_not_modified_physical_thing_of_type"/>
+        <rdfs:domain rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E79_Part_Addition"/>
+    </ObjectProperty>
+    
+
+
+    <!-- http://www.cidoc-crm.org/extensions/crmntp/NTP111_did_not_add_physical_thing_of_type -->
+
+    <ObjectProperty rdf:about="http://www.cidoc-crm.org/extensions/crmntp/NTP111_did_not_add_physical_thing_of_type">
+        <rdfs:domain rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E79_Part_Addition"/>
+    </ObjectProperty>
+    
+
+
+    <!-- http://www.cidoc-crm.org/extensions/crmntp/NTP112_did_not_diminish_physical_human-made_thing_of_type -->
+
+    <ObjectProperty rdf:about="http://www.cidoc-crm.org/extensions/crmntp/NTP112_did_not_diminish_physical_human-made_thing_of_type">
+        <rdfs:subPropertyOf rdf:resource="http://www.cidoc-crm.org/extensions/crmntp/NTP31_has_not_modified_physical_thing_of_type"/>
+        <rdfs:domain rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E80_Part_Removal"/>
+    </ObjectProperty>
+    
+
+
+    <!-- http://www.cidoc-crm.org/extensions/crmntp/NTP113_did_not_remove_physical_thing_of_type -->
+
+    <ObjectProperty rdf:about="http://www.cidoc-crm.org/extensions/crmntp/NTP113_did_not_remove_physical_thing_of_type">
+        <rdfs:subPropertyOf rdf:resource="http://www.cidoc-crm.org/extensions/crmntp/NTP12_occurred_not_in_the_presence_of_persistent_item_of_type"/>
+        <rdfs:domain rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E80_Part_Removal"/>
+    </ObjectProperty>
+    
+
+
+    <!-- http://www.cidoc-crm.org/extensions/crmntp/NTP11_did_not_have_participant_of_type -->
+
+    <ObjectProperty rdf:about="http://www.cidoc-crm.org/extensions/crmntp/NTP11_did_not_have_participant_of_type">
+        <rdfs:subPropertyOf rdf:resource="http://www.cidoc-crm.org/extensions/crmntp/NTP12_occurred_not_in_the_presence_of_persistent_item_of_type"/>
+        <rdfs:domain rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E5_Event"/>
+    </ObjectProperty>
+    
+
+
+    <!-- http://www.cidoc-crm.org/extensions/crmntp/NTP121_does_not_overlap_with_place_of_type -->
+
+    <ObjectProperty rdf:about="http://www.cidoc-crm.org/extensions/crmntp/NTP121_does_not_overlap_with_place_of_type">
+        <rdfs:domain rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E53_Place"/>
+    </ObjectProperty>
+    
+
+
+    <!-- http://www.cidoc-crm.org/extensions/crmntp/NTP122_does_not_border_with_place_of_type -->
+
+    <ObjectProperty rdf:about="http://www.cidoc-crm.org/extensions/crmntp/NTP122_does_not_border_with_place_of_type">
+        <rdfs:domain rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E53_Place"/>
+    </ObjectProperty>
+    
+
+
+    <!-- http://www.cidoc-crm.org/extensions/crmntp/NTP123_did_not_result_in_persistent_item_of_type -->
+
+    <ObjectProperty rdf:about="http://www.cidoc-crm.org/extensions/crmntp/NTP123_did_not_result_in_persistent_item_of_type">
+        <rdfs:subPropertyOf rdf:resource="http://www.cidoc-crm.org/extensions/crmntp/NTP92_did_not_bring_into_existence_persistent_item_of_type"/>
+        <rdfs:domain rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E81_Transformation"/>
+    </ObjectProperty>
+    
+
+
+    <!-- http://www.cidoc-crm.org/extensions/crmntp/NTP124_did_not_transform_persistent_item_of_type -->
+
+    <ObjectProperty rdf:about="http://www.cidoc-crm.org/extensions/crmntp/NTP124_did_not_transform_persistent_item_of_type">
+        <rdfs:subPropertyOf rdf:resource="http://www.cidoc-crm.org/extensions/crmntp/NTP93_did_not_take_out_of_existence_persistent_item_of_type"/>
+        <rdfs:domain rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E81_Transformation"/>
+    </ObjectProperty>
+    
+
+
+    <!-- http://www.cidoc-crm.org/extensions/crmntp/NTP128_does_not_carry_symbolic_object_of_type -->
+
+    <ObjectProperty rdf:about="http://www.cidoc-crm.org/extensions/crmntp/NTP128_does_not_carry_symbolic_object_of_type">
+        <rdfs:subPropertyOf rdf:resource="http://www.cidoc-crm.org/extensions/crmntp/NTP130_does_not_show_features_of_thing_of_type"/>
+        <rdfs:domain rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E18_Physical_Thing"/>
+    </ObjectProperty>
+    
+
+
+    <!-- http://www.cidoc-crm.org/extensions/crmntp/NTP129_is_not_about_entity_of_type -->
+
+    <ObjectProperty rdf:about="http://www.cidoc-crm.org/extensions/crmntp/NTP129_is_not_about_entity_of_type">
+        <rdfs:subPropertyOf rdf:resource="http://www.cidoc-crm.org/extensions/crmntp/NTP67_does_not_refer_to_entity_of_type"/>
+        <rdfs:domain rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E89_Propositional_Object"/>
+    </ObjectProperty>
+    
+
+
+    <!-- http://www.cidoc-crm.org/extensions/crmntp/NTP12_occurred_not_in_the_presence_of_persistent_item_of_type -->
+
+    <ObjectProperty rdf:about="http://www.cidoc-crm.org/extensions/crmntp/NTP12_occurred_not_in_the_presence_of_persistent_item_of_type">
+        <rdfs:domain rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E5_Event"/>
+    </ObjectProperty>
+    
+
+
+    <!-- http://www.cidoc-crm.org/extensions/crmntp/NTP130_does_not_show_features_of_thing_of_type -->
+
+    <ObjectProperty rdf:about="http://www.cidoc-crm.org/extensions/crmntp/NTP130_does_not_show_features_of_thing_of_type">
+        <rdfs:domain rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E70_Thing"/>
+    </ObjectProperty>
+    
+
+
+    <!-- http://www.cidoc-crm.org/extensions/crmntp/NTP134_did_not_continue_activity_of_type -->
+
+    <ObjectProperty rdf:about="http://www.cidoc-crm.org/extensions/crmntp/NTP134_did_not_continue_activity_of_type">
+        <rdfs:subPropertyOf rdf:resource="http://www.cidoc-crm.org/extensions/crmntp/NTP15_was_not_influenced_by_entity_of_type"/>
+        <rdfs:domain rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E7_Activity"/>
+    </ObjectProperty>
+    
+
+
+    <!-- http://www.cidoc-crm.org/extensions/crmntp/NTP138_does_not_represent_entity_of_type -->
+
+    <ObjectProperty rdf:about="http://www.cidoc-crm.org/extensions/crmntp/NTP138_does_not_represent_entity_of_type">
+        <rdfs:subPropertyOf rdf:resource="http://www.cidoc-crm.org/extensions/crmntp/NTP67_does_not_refer_to_entity_of_type"/>
+        <rdfs:domain rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E36_Visual_Item"/>
+    </ObjectProperty>
+    
+
+
+    <!-- http://www.cidoc-crm.org/extensions/crmntp/NTP139_does_not_have_alternative_form_of_type -->
+
+    <ObjectProperty rdf:about="http://www.cidoc-crm.org/extensions/crmntp/NTP139_does_not_have_alternative_form_of_type">
+        <rdfs:domain rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E41_Appellation"/>
+    </ObjectProperty>
+    
+
+
+    <!-- http://www.cidoc-crm.org/extensions/crmntp/NTP13_did_not_destroy_physical_thing_of_type -->
+
+    <ObjectProperty rdf:about="http://www.cidoc-crm.org/extensions/crmntp/NTP13_did_not_destroy_physical_thing_of_type">
+        <rdfs:subPropertyOf rdf:resource="http://www.cidoc-crm.org/extensions/crmntp/NTP93_did_not_take_out_of_existence_persistent_item_of_type"/>
+        <rdfs:domain rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E6_Destruction"/>
+    </ObjectProperty>
+    
+
+
+    <!-- http://www.cidoc-crm.org/extensions/crmntp/NTP140_did_not_assign_attribute_to_entity_of_type -->
+
+    <ObjectProperty rdf:about="http://www.cidoc-crm.org/extensions/crmntp/NTP140_did_not_assign_attribute_to_entity_of_type">
+        <rdfs:domain rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E13_Attribute_Assignment"/>
+    </ObjectProperty>
+    
+
+
+    <!-- http://www.cidoc-crm.org/extensions/crmntp/NTP141_did_not_assign_entity_of_type -->
+
+    <ObjectProperty rdf:about="http://www.cidoc-crm.org/extensions/crmntp/NTP141_did_not_assign_entity_of_type">
+        <rdfs:domain rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E13_Attribute_Assignment"/>
+    </ObjectProperty>
+    
+
+
+    <!-- http://www.cidoc-crm.org/extensions/crmntp/NTP142_did_not_use_constituent_of_type -->
+
+    <ObjectProperty rdf:about="http://www.cidoc-crm.org/extensions/crmntp/NTP142_did_not_use_constituent_of_type">
+        <rdfs:domain rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E15_Identifier_Assignment"/>
+    </ObjectProperty>
+    
+
+
+    <!-- http://www.cidoc-crm.org/extensions/crmntp/NTP143_did_not_join_actor_of_type -->
+
+    <ObjectProperty rdf:about="http://www.cidoc-crm.org/extensions/crmntp/NTP143_did_not_join_actor_of_type">
+        <rdfs:subPropertyOf rdf:resource="http://www.cidoc-crm.org/extensions/crmntp/NTP11_did_not_have_participant_of_type"/>
+        <rdfs:domain rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E85_Joining"/>
+    </ObjectProperty>
+    
+
+
+    <!-- http://www.cidoc-crm.org/extensions/crmntp/NTP144_did_not_join_with_group_of_type -->
+
+    <ObjectProperty rdf:about="http://www.cidoc-crm.org/extensions/crmntp/NTP144_did_not_join_with_group_of_type">
+        <rdfs:subPropertyOf rdf:resource="http://www.cidoc-crm.org/extensions/crmntp/NTP11_did_not_have_participant_of_type"/>
+        <rdfs:domain rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E85_Joining"/>
+    </ObjectProperty>
+    
+
+
+    <!-- http://www.cidoc-crm.org/extensions/crmntp/NTP145_did_not_separate_actor_of_type -->
+
+    <ObjectProperty rdf:about="http://www.cidoc-crm.org/extensions/crmntp/NTP145_did_not_separate_actor_of_type">
+        <rdfs:subPropertyOf rdf:resource="http://www.cidoc-crm.org/extensions/crmntp/NTP11_did_not_have_participant_of_type"/>
+        <rdfs:domain rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E86_Leaving"/>
+    </ObjectProperty>
+    
+
+
+    <!-- http://www.cidoc-crm.org/extensions/crmntp/NTP146_did_not_separate_from_group_of_type -->
+
+    <ObjectProperty rdf:about="http://www.cidoc-crm.org/extensions/crmntp/NTP146_did_not_separate_from_group_of_type">
+        <rdfs:subPropertyOf rdf:resource="http://www.cidoc-crm.org/extensions/crmntp/NTP11_did_not_have_participant_of_type"/>
+        <rdfs:domain rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E86_Leaving"/>
+    </ObjectProperty>
+    
+
+
+    <!-- http://www.cidoc-crm.org/extensions/crmntp/NTP147_did_not_curate_curated_holding_of_type -->
+
+    <ObjectProperty rdf:about="http://www.cidoc-crm.org/extensions/crmntp/NTP147_did_not_curate_curated_holding_of_type">
+        <rdfs:domain rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E87_Curation_Activity"/>
+    </ObjectProperty>
+    
+
+
+    <!-- http://www.cidoc-crm.org/extensions/crmntp/NTP148_does_not_have_component_of_type -->
+
+    <ObjectProperty rdf:about="http://www.cidoc-crm.org/extensions/crmntp/NTP148_does_not_have_component_of_type">
+        <rdfs:domain rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E89_Propositional_Object"/>
+    </ObjectProperty>
+    
+
+
+    <!-- http://www.cidoc-crm.org/extensions/crmntp/NTP14_was_not_carried_out_by_actor_of_type -->
+
+    <ObjectProperty rdf:about="http://www.cidoc-crm.org/extensions/crmntp/NTP14_was_not_carried_out_by_actor_of_type">
+        <rdfs:subPropertyOf rdf:resource="http://www.cidoc-crm.org/extensions/crmntp/NTP11_did_not_have_participant_of_type"/>
+        <rdfs:domain rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E7_Activity"/>
+    </ObjectProperty>
+    
+
+
+    <!-- http://www.cidoc-crm.org/extensions/crmntp/NTP151_was_not_formed_from_group_of_type -->
+
+    <ObjectProperty rdf:about="http://www.cidoc-crm.org/extensions/crmntp/NTP151_was_not_formed_from_group_of_type">
+        <rdfs:subPropertyOf rdf:resource="http://www.cidoc-crm.org/extensions/crmntp/NTP11_did_not_have_participant_of_type"/>
+        <rdfs:domain rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E66_Formation"/>
+    </ObjectProperty>
+    
+
+
+    <!-- http://www.cidoc-crm.org/extensions/crmntp/NTP152_does_not_have_parent_of_type -->
+
+    <ObjectProperty rdf:about="http://www.cidoc-crm.org/extensions/crmntp/NTP152_does_not_have_parent_of_type">
+        <rdfs:domain rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E21_Person"/>
+    </ObjectProperty>
+    
+
+
+    <!-- http://www.cidoc-crm.org/extensions/crmntp/NTP157_is_not_at_rest_relative_to_physical_thing_of_type -->
+
+    <ObjectProperty rdf:about="http://www.cidoc-crm.org/extensions/crmntp/NTP157_is_not_at_rest_relative_to_physical_thing_of_type">
+        <rdfs:domain rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E53_Place"/>
+    </ObjectProperty>
+    
+
+
+    <!-- http://www.cidoc-crm.org/extensions/crmntp/NTP15_was_not_influenced_by_entity_of_type -->
+
+    <ObjectProperty rdf:about="http://www.cidoc-crm.org/extensions/crmntp/NTP15_was_not_influenced_by_entity_of_type">
+        <rdfs:domain rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E7_Activity"/>
+    </ObjectProperty>
+    
+
+
+    <!-- http://www.cidoc-crm.org/extensions/crmntp/NTP165_does_not_incorporate_symbolic_object_of_type -->
+
+    <ObjectProperty rdf:about="http://www.cidoc-crm.org/extensions/crmntp/NTP165_does_not_incorporate_symbolic_object_of_type">
+        <rdfs:subPropertyOf rdf:resource="http://www.cidoc-crm.org/extensions/crmntp/NTP106_is_not_composed_of_symbolic_object_of_type"/>
+        <rdfs:domain rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E73_Information_Object"/>
+    </ObjectProperty>
+    
+
+
+    <!-- http://www.cidoc-crm.org/extensions/crmntp/NTP179_did_not_have_sales_price_of_monetary_amount_of_type -->
+
+    <ObjectProperty rdf:about="http://www.cidoc-crm.org/extensions/crmntp/NTP179_did_not_have_sales_price_of_monetary_amount_of_type">
+        <rdfs:domain rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E96_Purchase"/>
+    </ObjectProperty>
+    
+
+
+    <!-- http://www.cidoc-crm.org/extensions/crmntp/NTP17_was_not_motivated_by_entity_of_type -->
+
+    <ObjectProperty rdf:about="http://www.cidoc-crm.org/extensions/crmntp/NTP17_was_not_motivated_by_entity_of_type">
+        <rdfs:subPropertyOf rdf:resource="http://www.cidoc-crm.org/extensions/crmntp/NTP15_was_not_influenced_by_entity_of_type"/>
+        <rdfs:domain rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E7_Activity"/>
+    </ObjectProperty>
+    
+
+
+    <!-- http://www.cidoc-crm.org/extensions/crmntp/NTP187_does_not_have_production_plan_of_type -->
+
+    <ObjectProperty rdf:about="http://www.cidoc-crm.org/extensions/crmntp/NTP187_does_not_have_production_plan_of_type">
+        <rdfs:domain rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E99_Product_Type"/>
+    </ObjectProperty>
+    
+
+
+    <!-- http://www.cidoc-crm.org/extensions/crmntp/NTP188_does_not_require_production_tool_of_type -->
+
+    <ObjectProperty rdf:about="http://www.cidoc-crm.org/extensions/crmntp/NTP188_does_not_require_production_tool_of_type">
+        <rdfs:domain rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E99_Product_Type"/>
+    </ObjectProperty>
+    
+
+
+    <!-- http://www.cidoc-crm.org/extensions/crmntp/NTP190_does_not_have_symbolic_content_of_type -->
+
+    <ObjectProperty rdf:about="http://www.cidoc-crm.org/extensions/crmntp/NTP190_does_not_have_symbolic_content_of_type">
+        <rdfs:subPropertyOf rdf:resource="http://www.cidoc-crm.org/extensions/crmntp/NTP3_does_not_have_note_of_type"/>
+        <rdfs:domain rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E90_Symbolic_Object"/>
+    </ObjectProperty>
+    
+
+
+    <!-- http://www.cidoc-crm.org/extensions/crmntp/NTP1_is_not_identified_by_appellation_type -->
+
+    <ObjectProperty rdf:about="http://www.cidoc-crm.org/extensions/crmntp/NTP1_is_not_identified_by_appellation_type">
+        <rdfs:domain rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E1_CRM_Entity"/>
+    </ObjectProperty>
+    
+
+
+    <!-- http://www.cidoc-crm.org/extensions/crmntp/NTP20_did_not_have_specific_purpose_of_event_of_type -->
+
+    <ObjectProperty rdf:about="http://www.cidoc-crm.org/extensions/crmntp/NTP20_did_not_have_specific_purpose_of_event_of_type">
+        <rdfs:domain rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E7_Activity"/>
+    </ObjectProperty>
+    
+
+
+    <!-- http://www.cidoc-crm.org/extensions/crmntp/NTP22_did_not_transfer_title_to_actor_of_type -->
+
+    <ObjectProperty rdf:about="http://www.cidoc-crm.org/extensions/crmntp/NTP22_did_not_transfer_title_to_actor_of_type">
+        <rdfs:subPropertyOf rdf:resource="http://www.cidoc-crm.org/extensions/crmntp/NTP14_was_not_carried_out_by_actor_of_type"/>
+        <rdfs:domain rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E8_Acquisition"/>
+    </ObjectProperty>
+    
+
+
+    <!-- http://www.cidoc-crm.org/extensions/crmntp/NTP23_did_not_transfer_title_from_actor_of_type -->
+
+    <ObjectProperty rdf:about="http://www.cidoc-crm.org/extensions/crmntp/NTP23_did_not_transfer_title_from_actor_of_type">
+        <rdfs:subPropertyOf rdf:resource="http://www.cidoc-crm.org/extensions/crmntp/NTP14_was_not_carried_out_by_actor_of_type"/>
+        <rdfs:domain rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E8_Acquisition"/>
+    </ObjectProperty>
+    
+
+
+    <!-- http://www.cidoc-crm.org/extensions/crmntp/NTP24_did_not_transfer_title_of_physical_thing_of_type -->
+
+    <ObjectProperty rdf:about="http://www.cidoc-crm.org/extensions/crmntp/NTP24_did_not_transfer_title_of_physical_thing_of_type">
+        <rdfs:domain rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E8_Acquisition"/>
+    </ObjectProperty>
+    
+
+
+    <!-- http://www.cidoc-crm.org/extensions/crmntp/NTP25_did_not_move_physical_object_of_type -->
+
+    <ObjectProperty rdf:about="http://www.cidoc-crm.org/extensions/crmntp/NTP25_did_not_move_physical_object_of_type">
+        <rdfs:subPropertyOf rdf:resource="http://www.cidoc-crm.org/extensions/crmntp/NTP12_occurred_not_in_the_presence_of_persistent_item_of_type"/>
+        <rdfs:domain rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E9_Move"/>
+    </ObjectProperty>
+    
+
+
+    <!-- http://www.cidoc-crm.org/extensions/crmntp/NTP26_did_not_move_to_place_of_type -->
+
+    <ObjectProperty rdf:about="http://www.cidoc-crm.org/extensions/crmntp/NTP26_did_not_move_to_place_of_type">
+        <rdfs:domain rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E9_Move"/>
+    </ObjectProperty>
+    
+
+
+    <!-- http://www.cidoc-crm.org/extensions/crmntp/NTP27_did_not_move_from_place_of_type -->
+
+    <ObjectProperty rdf:about="http://www.cidoc-crm.org/extensions/crmntp/NTP27_did_not_move_from_place_of_type">
+        <rdfs:domain rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E9_Move"/>
+    </ObjectProperty>
+    
+
+
+    <!-- http://www.cidoc-crm.org/extensions/crmntp/NTP28_custody_was_not_surrendered_by_actor_of_type -->
+
+    <ObjectProperty rdf:about="http://www.cidoc-crm.org/extensions/crmntp/NTP28_custody_was_not_surrendered_by_actor_of_type">
+        <rdfs:subPropertyOf rdf:resource="http://www.cidoc-crm.org/extensions/crmntp/NTP14_was_not_carried_out_by_actor_of_type"/>
+        <rdfs:domain rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E10_Transfer_of_Custody"/>
+    </ObjectProperty>
+    
+
+
+    <!-- http://www.cidoc-crm.org/extensions/crmntp/NTP29_custody_was_not_received_by_actor_of_type -->
+
+    <ObjectProperty rdf:about="http://www.cidoc-crm.org/extensions/crmntp/NTP29_custody_was_not_received_by_actor_of_type">
+        <rdfs:subPropertyOf rdf:resource="http://www.cidoc-crm.org/extensions/crmntp/NTP14_was_not_carried_out_by_actor_of_type"/>
+        <rdfs:domain rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E10_Transfer_of_Custody"/>
+    </ObjectProperty>
+    
+
+
+    <!-- http://www.cidoc-crm.org/extensions/crmntp/NTP30_did_not_transfer_custody_of_physical_thing_of_type -->
+
+    <ObjectProperty rdf:about="http://www.cidoc-crm.org/extensions/crmntp/NTP30_did_not_transfer_custody_of_physical_thing_of_type">
+        <rdfs:domain rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E10_Transfer_of_Custody"/>
+    </ObjectProperty>
+    
+
+
+    <!-- http://www.cidoc-crm.org/extensions/crmntp/NTP31_has_not_modified_physical_thing_of_type -->
+
+    <ObjectProperty rdf:about="http://www.cidoc-crm.org/extensions/crmntp/NTP31_has_not_modified_physical_thing_of_type">
+        <rdfs:subPropertyOf rdf:resource="http://www.cidoc-crm.org/extensions/crmntp/NTP12_occurred_not_in_the_presence_of_persistent_item_of_type"/>
+        <rdfs:domain rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E11_Modification"/>
+    </ObjectProperty>
+    
+
+
+    <!-- http://www.cidoc-crm.org/extensions/crmntp/NTP34_did_not_concern_physical_thing_of_type -->
+
+    <ObjectProperty rdf:about="http://www.cidoc-crm.org/extensions/crmntp/NTP34_did_not_concern_physical_thing_of_type">
+        <rdfs:subPropertyOf rdf:resource="http://www.cidoc-crm.org/extensions/crmntp/NTP140_did_not_assign_attribute_to_entity_of_type"/>
+        <rdfs:domain rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E14_Condition_Assessment"/>
+    </ObjectProperty>
+    
+
+
+    <!-- http://www.cidoc-crm.org/extensions/crmntp/NTP35_has_not_identified_condition_state_of_type -->
+
+    <ObjectProperty rdf:about="http://www.cidoc-crm.org/extensions/crmntp/NTP35_has_not_identified_condition_state_of_type">
+        <rdfs:subPropertyOf rdf:resource="http://www.cidoc-crm.org/extensions/crmntp/NTP141_did_not_assign_entity_of_type"/>
+        <rdfs:domain rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E14_Condition_Assessment"/>
+    </ObjectProperty>
+    
+
+
+    <!-- http://www.cidoc-crm.org/extensions/crmntp/NTP37_did_not_assign_identifier_of_type -->
+
+    <ObjectProperty rdf:about="http://www.cidoc-crm.org/extensions/crmntp/NTP37_did_not_assign_identifier_of_type">
+        <rdfs:subPropertyOf rdf:resource="http://www.cidoc-crm.org/extensions/crmntp/NTP141_did_not_assign_entity_of_type"/>
+        <rdfs:domain rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E15_Identifier_Assignment"/>
+    </ObjectProperty>
+    
+
+
+    <!-- http://www.cidoc-crm.org/extensions/crmntp/NTP38_did_not_deassign_identifier_of_type -->
+
+    <ObjectProperty rdf:about="http://www.cidoc-crm.org/extensions/crmntp/NTP38_did_not_deassign_identifier_of_type">
+        <rdfs:subPropertyOf rdf:resource="http://www.cidoc-crm.org/extensions/crmntp/NTP141_did_not_assign_entity_of_type"/>
+        <rdfs:domain rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E15_Identifier_Assignment"/>
+    </ObjectProperty>
+    
+
+
+    <!-- http://www.cidoc-crm.org/extensions/crmntp/NTP39_did_not_measure_entity_of_type -->
+
+    <ObjectProperty rdf:about="http://www.cidoc-crm.org/extensions/crmntp/NTP39_did_not_measure_entity_of_type">
+        <rdfs:subPropertyOf rdf:resource="http://www.cidoc-crm.org/extensions/crmntp/NTP140_did_not_assign_attribute_to_entity_of_type"/>
+        <rdfs:domain rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E16_Measurement"/>
+    </ObjectProperty>
+    
+
+
+    <!-- http://www.cidoc-crm.org/extensions/crmntp/NTP3_does_not_have_note_of_type -->
+
+    <ObjectProperty rdf:about="http://www.cidoc-crm.org/extensions/crmntp/NTP3_does_not_have_note_of_type">
+        <rdfs:domain rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E1_CRM_Entity"/>
+    </ObjectProperty>
+    
+
+
+    <!-- http://www.cidoc-crm.org/extensions/crmntp/NTP40_did_not_observe_dimension_of_type -->
+
+    <ObjectProperty rdf:about="http://www.cidoc-crm.org/extensions/crmntp/NTP40_did_not_observe_dimension_of_type">
+        <rdfs:subPropertyOf rdf:resource="http://www.cidoc-crm.org/extensions/crmntp/NTP141_did_not_assign_entity_of_type"/>
+        <rdfs:domain rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E16_Measurement"/>
+    </ObjectProperty>
+    
+
+
+    <!-- http://www.cidoc-crm.org/extensions/crmntp/NTP41_did_not_classify_entity_of_type -->
+
+    <ObjectProperty rdf:about="http://www.cidoc-crm.org/extensions/crmntp/NTP41_did_not_classify_entity_of_type">
+        <rdfs:subPropertyOf rdf:resource="http://www.cidoc-crm.org/extensions/crmntp/NTP140_did_not_assign_attribute_to_entity_of_type"/>
+        <rdfs:domain rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E17_Type_Assignment"/>
+    </ObjectProperty>
+    
+
+
+    <!-- http://www.cidoc-crm.org/extensions/crmntp/NTP43_does_not_have_dimension_of_type -->
+
+    <ObjectProperty rdf:about="http://www.cidoc-crm.org/extensions/crmntp/NTP43_does_not_have_dimension_of_type">
+        <rdfs:domain rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E70_Thing"/>
+    </ObjectProperty>
+    
+
+
+    <!-- http://www.cidoc-crm.org/extensions/crmntp/NTP44_does_not_have_condition_of_type -->
+
+    <ObjectProperty rdf:about="http://www.cidoc-crm.org/extensions/crmntp/NTP44_does_not_have_condition_of_type">
+        <rdfs:domain rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E18_Physical_Thing"/>
+    </ObjectProperty>
+    
+
+
+    <!-- http://www.cidoc-crm.org/extensions/crmntp/NTP46_is_not_composed_of_physical_thing_of_type -->
+
+    <ObjectProperty rdf:about="http://www.cidoc-crm.org/extensions/crmntp/NTP46_is_not_composed_of_physical_thing_of_type">
+        <rdfs:domain rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E18_Physical_Thing"/>
+    </ObjectProperty>
+    
+
+
+    <!-- http://www.cidoc-crm.org/extensions/crmntp/NTP48_does_not_have_preferred_identifier_of_type -->
+
+    <ObjectProperty rdf:about="http://www.cidoc-crm.org/extensions/crmntp/NTP48_does_not_have_preferred_identifier_of_type">
+        <rdfs:subPropertyOf rdf:resource="http://www.cidoc-crm.org/extensions/crmntp/NTP1_is_not_identified_by_appellation_type"/>
+        <rdfs:domain rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E1_CRM_Entity"/>
+    </ObjectProperty>
+    
+
+
+    <!-- http://www.cidoc-crm.org/extensions/crmntp/NTP49_does_not_have_former_or_current_keeper_of_type -->
+
+    <ObjectProperty rdf:about="http://www.cidoc-crm.org/extensions/crmntp/NTP49_does_not_have_former_or_current_keeper_of_type">
+        <rdfs:domain rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E18_Physical_Thing"/>
+    </ObjectProperty>
+    
+
+
+    <!-- http://www.cidoc-crm.org/extensions/crmntp/NTP4_does_not_have_time-span_of_type -->
+
+    <ObjectProperty rdf:about="http://www.cidoc-crm.org/extensions/crmntp/NTP4_does_not_have_time-span_of_type">
+        <rdfs:domain rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E2_Temporal_Entity"/>
+    </ObjectProperty>
+    
+
+
+    <!-- http://www.cidoc-crm.org/extensions/crmntp/NTP50_does_not_have_current_keeper_of_type -->
+
+    <ObjectProperty rdf:about="http://www.cidoc-crm.org/extensions/crmntp/NTP50_does_not_have_current_keeper_of_type">
+        <rdfs:subPropertyOf rdf:resource="http://www.cidoc-crm.org/extensions/crmntp/NTP49_does_not_have_former_or_current_keeper_of_type"/>
+        <rdfs:domain rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E18_Physical_Thing"/>
+    </ObjectProperty>
+    
+
+
+    <!-- http://www.cidoc-crm.org/extensions/crmntp/NTP51_does_not_have_former_or_current_owner_of_type -->
+
+    <ObjectProperty rdf:about="http://www.cidoc-crm.org/extensions/crmntp/NTP51_does_not_have_former_or_current_owner_of_type">
+        <rdfs:domain rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E18_Physical_Thing"/>
+    </ObjectProperty>
+    
+
+
+    <!-- http://www.cidoc-crm.org/extensions/crmntp/NTP52_does_not_have_current_owner_of_type -->
+
+    <ObjectProperty rdf:about="http://www.cidoc-crm.org/extensions/crmntp/NTP52_does_not_have_current_owner_of_type">
+        <rdfs:subPropertyOf rdf:resource="http://www.cidoc-crm.org/extensions/crmntp/NTP105_right_is_not_held_by_actor_of_type"/>
+        <rdfs:subPropertyOf rdf:resource="http://www.cidoc-crm.org/extensions/crmntp/NTP51_does_not_have_former_or_current_owner_of_type"/>
+        <rdfs:domain rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E18_Physical_Thing"/>
+    </ObjectProperty>
+    
+
+
+    <!-- http://www.cidoc-crm.org/extensions/crmntp/NTP53_does_not_have_former_or_current_location_of_type -->
+
+    <ObjectProperty rdf:about="http://www.cidoc-crm.org/extensions/crmntp/NTP53_does_not_have_former_or_current_location_of_type">
+        <rdfs:domain rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E18_Physical_Thing"/>
+    </ObjectProperty>
+    
+
+
+    <!-- http://www.cidoc-crm.org/extensions/crmntp/NTP54_does_not_have_current_permanent_location_of_type -->
+
+    <ObjectProperty rdf:about="http://www.cidoc-crm.org/extensions/crmntp/NTP54_does_not_have_current_permanent_location_of_type">
+        <rdfs:domain rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E19_Physical_Object"/>
+    </ObjectProperty>
+    
+
+
+    <!-- http://www.cidoc-crm.org/extensions/crmntp/NTP55_does_not_have_current_location_of_type -->
+
+    <ObjectProperty rdf:about="http://www.cidoc-crm.org/extensions/crmntp/NTP55_does_not_have_current_location_of_type">
+        <rdfs:subPropertyOf rdf:resource="http://www.cidoc-crm.org/extensions/crmntp/NTP53_does_not_have_former_or_current_location_of_type"/>
+        <rdfs:domain rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E19_Physical_Object"/>
+    </ObjectProperty>
+    
+
+
+    <!-- http://www.cidoc-crm.org/extensions/crmntp/NTP56_does_not_bear_feature_of_type -->
+
+    <ObjectProperty rdf:about="http://www.cidoc-crm.org/extensions/crmntp/NTP56_does_not_bear_feature_of_type">
+        <rdfs:subPropertyOf rdf:resource="http://www.cidoc-crm.org/extensions/crmntp/NTP46_is_not_composed_of_physical_thing_of_type"/>
+        <rdfs:domain rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E19_Physical_Object"/>
+    </ObjectProperty>
+    
+
+
+    <!-- http://www.cidoc-crm.org/extensions/crmntp/NTP59_does_not_have_section_of_type -->
+
+    <ObjectProperty rdf:about="http://www.cidoc-crm.org/extensions/crmntp/NTP59_does_not_have_section_of_type">
+        <rdfs:domain rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E18_Physical_Thing"/>
+    </ObjectProperty>
+    
+
+
+    <!-- http://www.cidoc-crm.org/extensions/crmntp/NTP5_does_not_consist_of_condition_state_of_type -->
+
+    <ObjectProperty rdf:about="http://www.cidoc-crm.org/extensions/crmntp/NTP5_does_not_consist_of_condition_state_of_type">
+        <rdfs:domain rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E3_Condition_State"/>
+    </ObjectProperty>
+    
+
+
+    <!-- http://www.cidoc-crm.org/extensions/crmntp/NTP62_does_not_depict_entity_of_type -->
+
+    <ObjectProperty rdf:about="http://www.cidoc-crm.org/extensions/crmntp/NTP62_does_not_depict_entity_of_type">
+        <rdfs:domain rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E24_Physical_Human-Made_Thing"/>
+    </ObjectProperty>
+    
+
+
+    <!-- http://www.cidoc-crm.org/extensions/crmntp/NTP65_does_not_show_visual_item_of_type -->
+
+    <ObjectProperty rdf:about="http://www.cidoc-crm.org/extensions/crmntp/NTP65_does_not_show_visual_item_of_type">
+        <rdfs:subPropertyOf rdf:resource="http://www.cidoc-crm.org/extensions/crmntp/NTP128_does_not_carry_symbolic_object_of_type"/>
+        <rdfs:domain rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E24_Physical_Human-Made_Thing"/>
+    </ObjectProperty>
+    
+
+
+    <!-- http://www.cidoc-crm.org/extensions/crmntp/NTP67_does_not_refer_to_entity_of_type -->
+
+    <ObjectProperty rdf:about="http://www.cidoc-crm.org/extensions/crmntp/NTP67_does_not_refer_to_entity_of_type">
+        <rdfs:domain rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E89_Propositional_Object"/>
+    </ObjectProperty>
+    
+
+
+    <!-- http://www.cidoc-crm.org/extensions/crmntp/NTP69_does_not_have_association_with_design_or_procedure_of_type -->
+
+    <ObjectProperty rdf:about="http://www.cidoc-crm.org/extensions/crmntp/NTP69_does_not_have_association_with_design_or_procedure_of_type">
+        <rdfs:domain rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E29_Design_or_Procedure"/>
+    </ObjectProperty>
+    
+
+
+    <!-- http://www.cidoc-crm.org/extensions/crmntp/NTP70_does_not_document_entity_of_type -->
+
+    <ObjectProperty rdf:about="http://www.cidoc-crm.org/extensions/crmntp/NTP70_does_not_document_entity_of_type">
+        <rdfs:subPropertyOf rdf:resource="http://www.cidoc-crm.org/extensions/crmntp/NTP67_does_not_refer_to_entity_of_type"/>
+        <rdfs:domain rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E31_Document"/>
+    </ObjectProperty>
+    
+
+
+    <!-- http://www.cidoc-crm.org/extensions/crmntp/NTP71_does_not_list_entity_of_type -->
+
+    <ObjectProperty rdf:about="http://www.cidoc-crm.org/extensions/crmntp/NTP71_does_not_list_entity_of_type">
+        <rdfs:subPropertyOf rdf:resource="http://www.cidoc-crm.org/extensions/crmntp/NTP67_does_not_refer_to_entity_of_type"/>
+        <rdfs:domain rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E32_Authority_Document"/>
+    </ObjectProperty>
+    
+
+
+    <!-- http://www.cidoc-crm.org/extensions/crmntp/NTP73_does_not_have_translation_linguistic_object_of_type -->
+
+    <ObjectProperty rdf:about="http://www.cidoc-crm.org/extensions/crmntp/NTP73_does_not_have_translation_linguistic_object_of_type">
+        <rdfs:domain rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E33_Linguistic_Object"/>
+    </ObjectProperty>
+    
+
+
+    <!-- http://www.cidoc-crm.org/extensions/crmntp/NTP74_does_not_have_current_or_former_residence_of_type -->
+
+    <ObjectProperty rdf:about="http://www.cidoc-crm.org/extensions/crmntp/NTP74_does_not_have_current_or_former_residence_of_type">
+        <rdfs:domain rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E39_Actor"/>
+    </ObjectProperty>
+    
+
+
+    <!-- http://www.cidoc-crm.org/extensions/crmntp/NTP75_does_not_possess_right_of_type -->
+
+    <ObjectProperty rdf:about="http://www.cidoc-crm.org/extensions/crmntp/NTP75_does_not_possess_right_of_type">
+        <rdfs:domain rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E39_Actor"/>
+    </ObjectProperty>
+    
+
+
+    <!-- http://www.cidoc-crm.org/extensions/crmntp/NTP76_does_not_have_contact_point_of_type -->
+
+    <ObjectProperty rdf:about="http://www.cidoc-crm.org/extensions/crmntp/NTP76_does_not_have_contact_point_of_type">
+        <rdfs:domain rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E39_Actor"/>
+    </ObjectProperty>
+    
+
+
+    <!-- http://www.cidoc-crm.org/extensions/crmntp/NTP79_beginning_is_not_qualified_by_note_of_type -->
+
+    <ObjectProperty rdf:about="http://www.cidoc-crm.org/extensions/crmntp/NTP79_beginning_is_not_qualified_by_note_of_type">
+        <rdfs:subPropertyOf rdf:resource="http://www.cidoc-crm.org/extensions/crmntp/NTP3_does_not_have_note_of_type"/>
+        <rdfs:domain rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E52_Time-Span"/>
+    </ObjectProperty>
+    
+
+
+    <!-- http://www.cidoc-crm.org/extensions/crmntp/NTP7_did_not_take_place_at_place_of_type -->
+
+    <ObjectProperty rdf:about="http://www.cidoc-crm.org/extensions/crmntp/NTP7_did_not_take_place_at_place_of_type">
+        <rdfs:domain rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E4_Period"/>
+    </ObjectProperty>
+    
+
+
+    <!-- http://www.cidoc-crm.org/extensions/crmntp/NTP80_end_is_not_qualified_by_note_of_type -->
+
+    <ObjectProperty rdf:about="http://www.cidoc-crm.org/extensions/crmntp/NTP80_end_is_not_qualified_by_note_of_type">
+        <rdfs:subPropertyOf rdf:resource="http://www.cidoc-crm.org/extensions/crmntp/NTP3_does_not_have_note_of_type"/>
+        <rdfs:domain rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E52_Time-Span"/>
+    </ObjectProperty>
+    
+
+
+    <!-- http://www.cidoc-crm.org/extensions/crmntp/NTP89_does_not_fall_within_place_of_type -->
+
+    <ObjectProperty rdf:about="http://www.cidoc-crm.org/extensions/crmntp/NTP89_does_not_fall_within_place_of_type">
+        <rdfs:domain rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E53_Place"/>
+    </ObjectProperty>
+    
+
+
+    <!-- http://www.cidoc-crm.org/extensions/crmntp/NTP8_did_not_take_place_on_or_within_physical_thing_of_type -->
+
+    <ObjectProperty rdf:about="http://www.cidoc-crm.org/extensions/crmntp/NTP8_did_not_take_place_on_or_within_physical_thing_of_type">
+        <rdfs:domain rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E4_Period"/>
+    </ObjectProperty>
+    
+
+
+    <!-- http://www.cidoc-crm.org/extensions/crmntp/NTP92_did_not_bring_into_existence_persistent_item_of_type -->
+
+    <ObjectProperty rdf:about="http://www.cidoc-crm.org/extensions/crmntp/NTP92_did_not_bring_into_existence_persistent_item_of_type">
+        <rdfs:subPropertyOf rdf:resource="http://www.cidoc-crm.org/extensions/crmntp/NTP12_occurred_not_in_the_presence_of_persistent_item_of_type"/>
+        <rdfs:domain rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E63_Beginning_of_Existence"/>
+    </ObjectProperty>
+    
+
+
+    <!-- http://www.cidoc-crm.org/extensions/crmntp/NTP93_did_not_take_out_of_existence_persistent_item_of_type -->
+
+    <ObjectProperty rdf:about="http://www.cidoc-crm.org/extensions/crmntp/NTP93_did_not_take_out_of_existence_persistent_item_of_type">
+        <rdfs:subPropertyOf rdf:resource="http://www.cidoc-crm.org/extensions/crmntp/NTP12_occurred_not_in_the_presence_of_persistent_item_of_type"/>
+        <rdfs:domain rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E64_End_of_Existence"/>
+    </ObjectProperty>
+    
+
+
+    <!-- http://www.cidoc-crm.org/extensions/crmntp/NTP94_has_not_created_conceptual_object_of_type -->
+
+    <ObjectProperty rdf:about="http://www.cidoc-crm.org/extensions/crmntp/NTP94_has_not_created_conceptual_object_of_type">
+        <rdfs:subPropertyOf rdf:resource="http://www.cidoc-crm.org/extensions/crmntp/NTP92_did_not_bring_into_existence_persistent_item_of_type"/>
+        <rdfs:domain rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E65_Creation"/>
+    </ObjectProperty>
+    
+
+
+    <!-- http://www.cidoc-crm.org/extensions/crmntp/NTP95_has_not_formed_group_of_type -->
+
+    <ObjectProperty rdf:about="http://www.cidoc-crm.org/extensions/crmntp/NTP95_has_not_formed_group_of_type">
+        <rdfs:subPropertyOf rdf:resource="http://www.cidoc-crm.org/extensions/crmntp/NTP92_did_not_bring_into_existence_persistent_item_of_type"/>
+        <rdfs:domain rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E66_Formation"/>
+    </ObjectProperty>
+    
+
+
+    <!-- http://www.cidoc-crm.org/extensions/crmntp/NTP96_not_by_mother_of_type -->
+
+    <ObjectProperty rdf:about="http://www.cidoc-crm.org/extensions/crmntp/NTP96_not_by_mother_of_type">
+        <rdfs:subPropertyOf rdf:resource="http://www.cidoc-crm.org/extensions/crmntp/NTP11_did_not_have_participant_of_type"/>
+        <rdfs:domain rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E67_Birth"/>
+    </ObjectProperty>
+    
+
+
+    <!-- http://www.cidoc-crm.org/extensions/crmntp/NTP97_not_from_father_of_type -->
+
+    <ObjectProperty rdf:about="http://www.cidoc-crm.org/extensions/crmntp/NTP97_not_from_father_of_type">
+        <rdfs:domain rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E67_Birth"/>
+    </ObjectProperty>
+    
+
+
+    <!-- http://www.cidoc-crm.org/extensions/crmntp/NTP98_did_not_bring_into_life_person_of_type -->
+
+    <ObjectProperty rdf:about="http://www.cidoc-crm.org/extensions/crmntp/NTP98_did_not_bring_into_life_person_of_type">
+        <rdfs:subPropertyOf rdf:resource="http://www.cidoc-crm.org/extensions/crmntp/NTP92_did_not_bring_into_existence_persistent_item_of_type"/>
+        <rdfs:domain rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E67_Birth"/>
+    </ObjectProperty>
+    
+
+
+    <!-- http://www.cidoc-crm.org/extensions/crmntp/NTP99_did_not_dissolve_group_of_type -->
+
+    <ObjectProperty rdf:about="http://www.cidoc-crm.org/extensions/crmntp/NTP99_did_not_dissolve_group_of_type">
+        <rdfs:subPropertyOf rdf:resource="http://www.cidoc-crm.org/extensions/crmntp/NTP11_did_not_have_participant_of_type"/>
+        <rdfs:subPropertyOf rdf:resource="http://www.cidoc-crm.org/extensions/crmntp/NTP93_did_not_take_out_of_existence_persistent_item_of_type"/>
+        <rdfs:domain rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E68_Dissolution"/>
+    </ObjectProperty>
+    
+
+
+    <!-- http://www.cidoc-crm.org/extensions/crmntp/TP100_was_death_of_person_of_type -->
+
+    <ObjectProperty rdf:about="http://www.cidoc-crm.org/extensions/crmntp/TP100_was_death_of_person_of_type">
+        <rdfs:subPropertyOf rdf:resource="http://www.cidoc-crm.org/extensions/crmntp/TP93_took_out_of_existence_persistent_item_of_type"/>
+        <rdfs:domain rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E69_Death"/>
+    </ObjectProperty>
+    
+
+
+    <!-- http://www.cidoc-crm.org/extensions/crmntp/TP102_has_title_of_type -->
+
+    <ObjectProperty rdf:about="http://www.cidoc-crm.org/extensions/crmntp/TP102_has_title_of_type">
+        <rdfs:subPropertyOf rdf:resource="http://www.cidoc-crm.org/extensions/crmntp/TP1_is_identified_by_appellation_type"/>
+        <rdfs:domain rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E71_Human-Made_Thing"/>
+    </ObjectProperty>
+    
+
+
+    <!-- http://www.cidoc-crm.org/extensions/crmntp/TP104_is_subject_to_right_of_type -->
+
+    <ObjectProperty rdf:about="http://www.cidoc-crm.org/extensions/crmntp/TP104_is_subject_to_right_of_type">
+        <rdfs:domain rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E72_Legal_Object"/>
+    </ObjectProperty>
+    
+
+
+    <!-- http://www.cidoc-crm.org/extensions/crmntp/TP105_right_held_by_actor_of_type -->
+
+    <ObjectProperty rdf:about="http://www.cidoc-crm.org/extensions/crmntp/TP105_right_held_by_actor_of_type">
+        <rdfs:domain rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E72_Legal_Object"/>
+    </ObjectProperty>
+    
+
+
+    <!-- http://www.cidoc-crm.org/extensions/crmntp/TP106_is_composed_of_symbolic_object_of_type -->
+
+    <ObjectProperty rdf:about="http://www.cidoc-crm.org/extensions/crmntp/TP106_is_composed_of_symbolic_object_of_type">
+        <rdfs:domain rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E90_Symbolic_Object"/>
+    </ObjectProperty>
+    
+
+
+    <!-- http://www.cidoc-crm.org/extensions/crmntp/TP107_has_current_or_former_member_of_type -->
+
+    <ObjectProperty rdf:about="http://www.cidoc-crm.org/extensions/crmntp/TP107_has_current_or_former_member_of_type">
+        <rdfs:domain rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E74_Group"/>
+    </ObjectProperty>
+    
+
+
+    <!-- http://www.cidoc-crm.org/extensions/crmntp/TP108_has_produced_physical_human-made_thing_of_type -->
+
+    <ObjectProperty rdf:about="http://www.cidoc-crm.org/extensions/crmntp/TP108_has_produced_physical_human-made_thing_of_type">
+        <rdfs:subPropertyOf rdf:resource="http://www.cidoc-crm.org/extensions/crmntp/TP31_has_modified_physical_thing_of_type"/>
+        <rdfs:subPropertyOf rdf:resource="http://www.cidoc-crm.org/extensions/crmntp/TP92_brought_into_existence_persistent_item_of_type"/>
+        <rdfs:domain rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E12_Production"/>
+    </ObjectProperty>
+    
+
+
+    <!-- http://www.cidoc-crm.org/extensions/crmntp/TP109_has_current_or_former_curator_of_type -->
+
+    <ObjectProperty rdf:about="http://www.cidoc-crm.org/extensions/crmntp/TP109_has_current_or_former_curator_of_type">
+        <rdfs:subPropertyOf rdf:resource="http://www.cidoc-crm.org/extensions/crmntp/TP49_has_former_or_current_keeper_of_type"/>
+        <rdfs:domain rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E78_Curated_Holding"/>
+    </ObjectProperty>
+    
+
+
+    <!-- http://www.cidoc-crm.org/extensions/crmntp/TP110_augmented_physical_human-made_thing_of_type -->
+
+    <ObjectProperty rdf:about="http://www.cidoc-crm.org/extensions/crmntp/TP110_augmented_physical_human-made_thing_of_type">
+        <rdfs:subPropertyOf rdf:resource="http://www.cidoc-crm.org/extensions/crmntp/TP31_has_modified_physical_thing_of_type"/>
+        <rdfs:domain rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E79_Part_Addition"/>
+    </ObjectProperty>
+    
+
+
+    <!-- http://www.cidoc-crm.org/extensions/crmntp/TP111_added_physical_thing_of_type -->
+
+    <ObjectProperty rdf:about="http://www.cidoc-crm.org/extensions/crmntp/TP111_added_physical_thing_of_type">
+        <rdfs:domain rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E79_Part_Addition"/>
+    </ObjectProperty>
+    
+
+
+    <!-- http://www.cidoc-crm.org/extensions/crmntp/TP112_diminished_physical_human-made_thing_of_type -->
+
+    <ObjectProperty rdf:about="http://www.cidoc-crm.org/extensions/crmntp/TP112_diminished_physical_human-made_thing_of_type">
+        <rdfs:subPropertyOf rdf:resource="http://www.cidoc-crm.org/extensions/crmntp/TP31_has_modified_physical_thing_of_type"/>
+        <rdfs:domain rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E80_Part_Removal"/>
+    </ObjectProperty>
+    
+
+
+    <!-- http://www.cidoc-crm.org/extensions/crmntp/TP113_removed_physical_thing_of_type -->
+
+    <ObjectProperty rdf:about="http://www.cidoc-crm.org/extensions/crmntp/TP113_removed_physical_thing_of_type">
+        <rdfs:subPropertyOf rdf:resource="http://www.cidoc-crm.org/extensions/crmntp/TP12_occurred_in_the_presence_of_persistent_item_of_type"/>
+        <rdfs:domain rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E80_Part_Removal"/>
+    </ObjectProperty>
+    
+
+
+    <!-- http://www.cidoc-crm.org/extensions/crmntp/TP11_had_participant_of_type -->
+
+    <ObjectProperty rdf:about="http://www.cidoc-crm.org/extensions/crmntp/TP11_had_participant_of_type">
+        <rdfs:subPropertyOf rdf:resource="http://www.cidoc-crm.org/extensions/crmntp/TP12_occurred_in_the_presence_of_persistent_item_of_type"/>
+        <rdfs:domain rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E5_Event"/>
+    </ObjectProperty>
+    
+
+
+    <!-- http://www.cidoc-crm.org/extensions/crmntp/TP121_overlaps_with_place_of_type -->
+
+    <ObjectProperty rdf:about="http://www.cidoc-crm.org/extensions/crmntp/TP121_overlaps_with_place_of_type">
+        <rdfs:domain rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E53_Place"/>
+    </ObjectProperty>
+    
+
+
+    <!-- http://www.cidoc-crm.org/extensions/crmntp/TP122_borders_with_place_of_type -->
+
+    <ObjectProperty rdf:about="http://www.cidoc-crm.org/extensions/crmntp/TP122_borders_with_place_of_type">
+        <rdfs:domain rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E53_Place"/>
+    </ObjectProperty>
+    
+
+
+    <!-- http://www.cidoc-crm.org/extensions/crmntp/TP123_resulted_in_persistent_item_of_type -->
+
+    <ObjectProperty rdf:about="http://www.cidoc-crm.org/extensions/crmntp/TP123_resulted_in_persistent_item_of_type">
+        <rdfs:subPropertyOf rdf:resource="http://www.cidoc-crm.org/extensions/crmntp/TP92_brought_into_existence_persistent_item_of_type"/>
+        <rdfs:domain rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E81_Transformation"/>
+    </ObjectProperty>
+    
+
+
+    <!-- http://www.cidoc-crm.org/extensions/crmntp/TP124_transformed_persistent_item_of_type -->
+
+    <ObjectProperty rdf:about="http://www.cidoc-crm.org/extensions/crmntp/TP124_transformed_persistent_item_of_type">
+        <rdfs:subPropertyOf rdf:resource="http://www.cidoc-crm.org/extensions/crmntp/TP93_took_out_of_existence_persistent_item_of_type"/>
+        <rdfs:domain rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E81_Transformation"/>
+    </ObjectProperty>
+    
+
+
+    <!-- http://www.cidoc-crm.org/extensions/crmntp/TP128_carries_symbolic_object_of_type -->
+
+    <ObjectProperty rdf:about="http://www.cidoc-crm.org/extensions/crmntp/TP128_carries_symbolic_object_of_type">
+        <rdfs:subPropertyOf rdf:resource="http://www.cidoc-crm.org/extensions/crmntp/TP130_shows_features_of_thing_of_type"/>
+        <rdfs:domain rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E18_Physical_Thing"/>
+    </ObjectProperty>
+    
+
+
+    <!-- http://www.cidoc-crm.org/extensions/crmntp/TP129_is_about_entity_of_type -->
+
+    <ObjectProperty rdf:about="http://www.cidoc-crm.org/extensions/crmntp/TP129_is_about_entity_of_type">
+        <rdfs:subPropertyOf rdf:resource="http://www.cidoc-crm.org/extensions/crmntp/TP67_refers_to_entity_of_type"/>
+        <rdfs:domain rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E89_Propositional_Object"/>
+    </ObjectProperty>
+    
+
+
+    <!-- http://www.cidoc-crm.org/extensions/crmntp/TP12_occurred_in_the_presence_of_persistent_item_of_type -->
+
+    <ObjectProperty rdf:about="http://www.cidoc-crm.org/extensions/crmntp/TP12_occurred_in_the_presence_of_persistent_item_of_type">
+        <rdfs:domain rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E5_Event"/>
+    </ObjectProperty>
+    
+
+
+    <!-- http://www.cidoc-crm.org/extensions/crmntp/TP130_shows_features_of_thing_of_type -->
+
+    <ObjectProperty rdf:about="http://www.cidoc-crm.org/extensions/crmntp/TP130_shows_features_of_thing_of_type">
+        <rdfs:domain rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E70_Thing"/>
+    </ObjectProperty>
+    
+
+
+    <!-- http://www.cidoc-crm.org/extensions/crmntp/TP134_continued_activity_of_type -->
+
+    <ObjectProperty rdf:about="http://www.cidoc-crm.org/extensions/crmntp/TP134_continued_activity_of_type">
+        <rdfs:subPropertyOf rdf:resource="http://www.cidoc-crm.org/extensions/crmntp/TP15_was_influenced_by_entity_of_type"/>
+        <rdfs:domain rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E7_Activity"/>
+    </ObjectProperty>
+    
+
+
+    <!-- http://www.cidoc-crm.org/extensions/crmntp/TP138_represents_entity_of_type -->
+
+    <ObjectProperty rdf:about="http://www.cidoc-crm.org/extensions/crmntp/TP138_represents_entity_of_type">
+        <rdfs:subPropertyOf rdf:resource="http://www.cidoc-crm.org/extensions/crmntp/TP67_refers_to_entity_of_type"/>
+        <rdfs:domain rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E36_Visual_Item"/>
+    </ObjectProperty>
+    
+
+
+    <!-- http://www.cidoc-crm.org/extensions/crmntp/TP139_has_alternative_form_of_type -->
+
+    <ObjectProperty rdf:about="http://www.cidoc-crm.org/extensions/crmntp/TP139_has_alternative_form_of_type">
+        <rdfs:domain rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E41_Appellation"/>
+    </ObjectProperty>
+    
+
+
+    <!-- http://www.cidoc-crm.org/extensions/crmntp/TP13_destroyed_physical_thing_of_type -->
+
+    <ObjectProperty rdf:about="http://www.cidoc-crm.org/extensions/crmntp/TP13_destroyed_physical_thing_of_type">
+        <rdfs:subPropertyOf rdf:resource="http://www.cidoc-crm.org/extensions/crmntp/TP93_took_out_of_existence_persistent_item_of_type"/>
+        <rdfs:domain rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E6_Destruction"/>
+    </ObjectProperty>
+    
+
+
+    <!-- http://www.cidoc-crm.org/extensions/crmntp/TP140_assigned_attribute_to_entity_of_type -->
+
+    <ObjectProperty rdf:about="http://www.cidoc-crm.org/extensions/crmntp/TP140_assigned_attribute_to_entity_of_type">
+        <rdfs:domain rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E13_Attribute_Assignment"/>
+    </ObjectProperty>
+    
+
+
+    <!-- http://www.cidoc-crm.org/extensions/crmntp/TP141_assigned_entity_of_type -->
+
+    <ObjectProperty rdf:about="http://www.cidoc-crm.org/extensions/crmntp/TP141_assigned_entity_of_type">
+        <rdfs:domain rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E13_Attribute_Assignment"/>
+    </ObjectProperty>
+    
+
+
+    <!-- http://www.cidoc-crm.org/extensions/crmntp/TP142_used_constituent_of_type -->
+
+    <ObjectProperty rdf:about="http://www.cidoc-crm.org/extensions/crmntp/TP142_used_constituent_of_type">
+        <rdfs:domain rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E15_Identifier_Assignment"/>
+    </ObjectProperty>
+    
+
+
+    <!-- http://www.cidoc-crm.org/extensions/crmntp/TP143_joined_actor_of_type -->
+
+    <ObjectProperty rdf:about="http://www.cidoc-crm.org/extensions/crmntp/TP143_joined_actor_of_type">
+        <rdfs:subPropertyOf rdf:resource="http://www.cidoc-crm.org/extensions/crmntp/TP11_had_participant_of_type"/>
+        <rdfs:domain rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E85_Joining"/>
+    </ObjectProperty>
+    
+
+
+    <!-- http://www.cidoc-crm.org/extensions/crmntp/TP144_joined_with_group_of_type -->
+
+    <ObjectProperty rdf:about="http://www.cidoc-crm.org/extensions/crmntp/TP144_joined_with_group_of_type">
+        <rdfs:subPropertyOf rdf:resource="http://www.cidoc-crm.org/extensions/crmntp/TP11_had_participant_of_type"/>
+        <rdfs:domain rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E85_Joining"/>
+    </ObjectProperty>
+    
+
+
+    <!-- http://www.cidoc-crm.org/extensions/crmntp/TP145_separated_actor_of_type -->
+
+    <ObjectProperty rdf:about="http://www.cidoc-crm.org/extensions/crmntp/TP145_separated_actor_of_type">
+        <rdfs:subPropertyOf rdf:resource="http://www.cidoc-crm.org/extensions/crmntp/TP11_had_participant_of_type"/>
+        <rdfs:domain rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E86_Leaving"/>
+    </ObjectProperty>
+    
+
+
+    <!-- http://www.cidoc-crm.org/extensions/crmntp/TP146_separated_from_group_of_type -->
+
+    <ObjectProperty rdf:about="http://www.cidoc-crm.org/extensions/crmntp/TP146_separated_from_group_of_type">
+        <rdfs:subPropertyOf rdf:resource="http://www.cidoc-crm.org/extensions/crmntp/TP11_had_participant_of_type"/>
+        <rdfs:domain rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E86_Leaving"/>
+    </ObjectProperty>
+    
+
+
+    <!-- http://www.cidoc-crm.org/extensions/crmntp/TP147_curated_curated_holding_of_type -->
+
+    <ObjectProperty rdf:about="http://www.cidoc-crm.org/extensions/crmntp/TP147_curated_curated_holding_of_type">
+        <rdfs:domain rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E87_Curation_Activity"/>
+    </ObjectProperty>
+    
+
+
+    <!-- http://www.cidoc-crm.org/extensions/crmntp/TP148_has_component_of_type -->
+
+    <ObjectProperty rdf:about="http://www.cidoc-crm.org/extensions/crmntp/TP148_has_component_of_type">
+        <rdfs:domain rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E89_Propositional_Object"/>
+    </ObjectProperty>
+    
+
+
+    <!-- http://www.cidoc-crm.org/extensions/crmntp/TP14_carried_out_by_actor_of_type -->
+
+    <ObjectProperty rdf:about="http://www.cidoc-crm.org/extensions/crmntp/TP14_carried_out_by_actor_of_type">
+        <rdfs:subPropertyOf rdf:resource="http://www.cidoc-crm.org/extensions/crmntp/TP11_had_participant_of_type"/>
+        <rdfs:domain rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E7_Activity"/>
+    </ObjectProperty>
+    
+
+
+    <!-- http://www.cidoc-crm.org/extensions/crmntp/TP151_was_formed_from_group_of_type -->
+
+    <ObjectProperty rdf:about="http://www.cidoc-crm.org/extensions/crmntp/TP151_was_formed_from_group_of_type">
+        <rdfs:subPropertyOf rdf:resource="http://www.cidoc-crm.org/extensions/crmntp/TP11_had_participant_of_type"/>
+        <rdfs:domain rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E66_Formation"/>
+    </ObjectProperty>
+    
+
+
+    <!-- http://www.cidoc-crm.org/extensions/crmntp/TP152_has_parent_of_type -->
+
+    <ObjectProperty rdf:about="http://www.cidoc-crm.org/extensions/crmntp/TP152_has_parent_of_type">
+        <rdfs:domain rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E21_Person"/>
+    </ObjectProperty>
+    
+
+
+    <!-- http://www.cidoc-crm.org/extensions/crmntp/TP157_is_at_rest_relative_to_physical_thing_of_type -->
+
+    <ObjectProperty rdf:about="http://www.cidoc-crm.org/extensions/crmntp/TP157_is_at_rest_relative_to_physical_thing_of_type">
+        <rdfs:domain rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E53_Place"/>
+    </ObjectProperty>
+    
+
+
+    <!-- http://www.cidoc-crm.org/extensions/crmntp/TP15_was_influenced_by_entity_of_type -->
+
+    <ObjectProperty rdf:about="http://www.cidoc-crm.org/extensions/crmntp/TP15_was_influenced_by_entity_of_type">
+        <rdfs:domain rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E7_Activity"/>
+    </ObjectProperty>
+    
+
+
+    <!-- http://www.cidoc-crm.org/extensions/crmntp/TP165_incorporates_symbolic_object_of_type -->
+
+    <ObjectProperty rdf:about="http://www.cidoc-crm.org/extensions/crmntp/TP165_incorporates_symbolic_object_of_type">
+        <rdfs:subPropertyOf rdf:resource="http://www.cidoc-crm.org/extensions/crmntp/TP106_is_composed_of_symbolic_object_of_type"/>
+        <rdfs:domain rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E73_Information_Object"/>
+    </ObjectProperty>
+    
+
+
+    <!-- http://www.cidoc-crm.org/extensions/crmntp/TP179_had_sales_price_of_monetary_amount_of_type -->
+
+    <ObjectProperty rdf:about="http://www.cidoc-crm.org/extensions/crmntp/TP179_had_sales_price_of_monetary_amount_of_type">
+        <rdfs:domain rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E96_Purchase"/>
+    </ObjectProperty>
+    
+
+
+    <!-- http://www.cidoc-crm.org/extensions/crmntp/TP17_was_motivated_by_entity_of_type -->
+
+    <ObjectProperty rdf:about="http://www.cidoc-crm.org/extensions/crmntp/TP17_was_motivated_by_entity_of_type">
+        <rdfs:subPropertyOf rdf:resource="http://www.cidoc-crm.org/extensions/crmntp/TP15_was_influenced_by_entity_of_type"/>
+        <rdfs:domain rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E7_Activity"/>
+    </ObjectProperty>
+    
+
+
+    <!-- http://www.cidoc-crm.org/extensions/crmntp/TP187_has_production_plan_of_type -->
+
+    <ObjectProperty rdf:about="http://www.cidoc-crm.org/extensions/crmntp/TP187_has_production_plan_of_type">
+        <rdfs:domain rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E99_Product_Type"/>
+    </ObjectProperty>
+    
+
+
+    <!-- http://www.cidoc-crm.org/extensions/crmntp/TP188_requires_production_tool_of_type -->
+
+    <ObjectProperty rdf:about="http://www.cidoc-crm.org/extensions/crmntp/TP188_requires_production_tool_of_type">
+        <rdfs:domain rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E99_Product_Type"/>
+    </ObjectProperty>
+    
+
+
+    <!-- http://www.cidoc-crm.org/extensions/crmntp/TP190_has_symbolic_content_of_type -->
+
+    <ObjectProperty rdf:about="http://www.cidoc-crm.org/extensions/crmntp/TP190_has_symbolic_content_of_type">
+        <rdfs:subPropertyOf rdf:resource="http://www.cidoc-crm.org/extensions/crmntp/TP3_has_note_of_type"/>
+        <rdfs:domain rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E90_Symbolic_Object"/>
+    </ObjectProperty>
+    
+
+
+    <!-- http://www.cidoc-crm.org/extensions/crmntp/TP1_is_identified_by_appellation_type -->
+
+    <ObjectProperty rdf:about="http://www.cidoc-crm.org/extensions/crmntp/TP1_is_identified_by_appellation_type">
+        <rdfs:domain rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E1_CRM_Entity"/>
+    </ObjectProperty>
+    
+
+
+    <!-- http://www.cidoc-crm.org/extensions/crmntp/TP20_had_specific_purpose_of_event_of_type -->
+
+    <ObjectProperty rdf:about="http://www.cidoc-crm.org/extensions/crmntp/TP20_had_specific_purpose_of_event_of_type">
+        <rdfs:domain rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E7_Activity"/>
+    </ObjectProperty>
+    
+
+
+    <!-- http://www.cidoc-crm.org/extensions/crmntp/TP22_transferred_title_to_actor_of_type -->
+
+    <ObjectProperty rdf:about="http://www.cidoc-crm.org/extensions/crmntp/TP22_transferred_title_to_actor_of_type">
+        <rdfs:subPropertyOf rdf:resource="http://www.cidoc-crm.org/extensions/crmntp/TP14_carried_out_by_actor_of_type"/>
+        <rdfs:domain rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E8_Acquisition"/>
+    </ObjectProperty>
+    
+
+
+    <!-- http://www.cidoc-crm.org/extensions/crmntp/TP23_transferred_title_from_actor_of_type -->
+
+    <ObjectProperty rdf:about="http://www.cidoc-crm.org/extensions/crmntp/TP23_transferred_title_from_actor_of_type">
+        <rdfs:subPropertyOf rdf:resource="http://www.cidoc-crm.org/extensions/crmntp/TP14_carried_out_by_actor_of_type"/>
+        <rdfs:domain rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E8_Acquisition"/>
+    </ObjectProperty>
+    
+
+
+    <!-- http://www.cidoc-crm.org/extensions/crmntp/TP24_transferred_title_of_physical_thing_of_type -->
+
+    <ObjectProperty rdf:about="http://www.cidoc-crm.org/extensions/crmntp/TP24_transferred_title_of_physical_thing_of_type">
+        <rdfs:domain rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E8_Acquisition"/>
+    </ObjectProperty>
+    
+
+
+    <!-- http://www.cidoc-crm.org/extensions/crmntp/TP25_moved_physical_object_of_type -->
+
+    <ObjectProperty rdf:about="http://www.cidoc-crm.org/extensions/crmntp/TP25_moved_physical_object_of_type">
+        <rdfs:subPropertyOf rdf:resource="http://www.cidoc-crm.org/extensions/crmntp/TP12_occurred_in_the_presence_of_persistent_item_of_type"/>
+        <rdfs:domain rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E9_Move"/>
+    </ObjectProperty>
+    
+
+
+    <!-- http://www.cidoc-crm.org/extensions/crmntp/TP26_moved_to_place_of_type -->
+
+    <ObjectProperty rdf:about="http://www.cidoc-crm.org/extensions/crmntp/TP26_moved_to_place_of_type">
+        <rdfs:domain rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E9_Move"/>
+    </ObjectProperty>
+    
+
+
+    <!-- http://www.cidoc-crm.org/extensions/crmntp/TP27_moved_from_place_of_type -->
+
+    <ObjectProperty rdf:about="http://www.cidoc-crm.org/extensions/crmntp/TP27_moved_from_place_of_type">
+        <rdfs:domain rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E9_Move"/>
+    </ObjectProperty>
+    
+
+
+    <!-- http://www.cidoc-crm.org/extensions/crmntp/TP28_custody_surrendered_by_actor_of_type -->
+
+    <ObjectProperty rdf:about="http://www.cidoc-crm.org/extensions/crmntp/TP28_custody_surrendered_by_actor_of_type">
+        <rdfs:subPropertyOf rdf:resource="http://www.cidoc-crm.org/extensions/crmntp/TP14_carried_out_by_actor_of_type"/>
+        <rdfs:domain rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E10_Transfer_of_Custody"/>
+    </ObjectProperty>
+    
+
+
+    <!-- http://www.cidoc-crm.org/extensions/crmntp/TP29_custody_received_by_actor_of_type -->
+
+    <ObjectProperty rdf:about="http://www.cidoc-crm.org/extensions/crmntp/TP29_custody_received_by_actor_of_type">
+        <rdfs:subPropertyOf rdf:resource="http://www.cidoc-crm.org/extensions/crmntp/TP14_carried_out_by_actor_of_type"/>
+        <rdfs:domain rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E10_Transfer_of_Custody"/>
+    </ObjectProperty>
+    
+
+
+    <!-- http://www.cidoc-crm.org/extensions/crmntp/TP30_transferred_custody_of_physical_thing_of_type -->
+
+    <ObjectProperty rdf:about="http://www.cidoc-crm.org/extensions/crmntp/TP30_transferred_custody_of_physical_thing_of_type">
+        <rdfs:domain rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E10_Transfer_of_Custody"/>
+    </ObjectProperty>
+    
+
+
+    <!-- http://www.cidoc-crm.org/extensions/crmntp/TP31_has_modified_physical_thing_of_type -->
+
+    <ObjectProperty rdf:about="http://www.cidoc-crm.org/extensions/crmntp/TP31_has_modified_physical_thing_of_type">
+        <rdfs:subPropertyOf rdf:resource="http://www.cidoc-crm.org/extensions/crmntp/TP12_occurred_in_the_presence_of_persistent_item_of_type"/>
+        <rdfs:domain rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E11_Modification"/>
+    </ObjectProperty>
+    
+
+
+    <!-- http://www.cidoc-crm.org/extensions/crmntp/TP34_concerned_physical_thing_of_type -->
+
+    <ObjectProperty rdf:about="http://www.cidoc-crm.org/extensions/crmntp/TP34_concerned_physical_thing_of_type">
+        <rdfs:subPropertyOf rdf:resource="http://www.cidoc-crm.org/extensions/crmntp/TP140_assigned_attribute_to_entity_of_type"/>
+        <rdfs:domain rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E14_Condition_Assessment"/>
+    </ObjectProperty>
+    
+
+
+    <!-- http://www.cidoc-crm.org/extensions/crmntp/TP35_has_identified_condition_state_of_type -->
+
+    <ObjectProperty rdf:about="http://www.cidoc-crm.org/extensions/crmntp/TP35_has_identified_condition_state_of_type">
+        <rdfs:subPropertyOf rdf:resource="http://www.cidoc-crm.org/extensions/crmntp/TP141_assigned_entity_of_type"/>
+        <rdfs:domain rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E14_Condition_Assessment"/>
+    </ObjectProperty>
+    
+
+
+    <!-- http://www.cidoc-crm.org/extensions/crmntp/TP37_assigned_identifier_of_type -->
+
+    <ObjectProperty rdf:about="http://www.cidoc-crm.org/extensions/crmntp/TP37_assigned_identifier_of_type">
+        <rdfs:subPropertyOf rdf:resource="http://www.cidoc-crm.org/extensions/crmntp/TP141_assigned_entity_of_type"/>
+        <rdfs:domain rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E15_Identifier_Assignment"/>
+    </ObjectProperty>
+    
+
+
+    <!-- http://www.cidoc-crm.org/extensions/crmntp/TP38_deassigned_identifier_of_type -->
+
+    <ObjectProperty rdf:about="http://www.cidoc-crm.org/extensions/crmntp/TP38_deassigned_identifier_of_type">
+        <rdfs:subPropertyOf rdf:resource="http://www.cidoc-crm.org/extensions/crmntp/TP141_assigned_entity_of_type"/>
+        <rdfs:domain rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E15_Identifier_Assignment"/>
+    </ObjectProperty>
+    
+
+
+    <!-- http://www.cidoc-crm.org/extensions/crmntp/TP39_measured_entity_of_type -->
+
+    <ObjectProperty rdf:about="http://www.cidoc-crm.org/extensions/crmntp/TP39_measured_entity_of_type">
+        <rdfs:subPropertyOf rdf:resource="http://www.cidoc-crm.org/extensions/crmntp/TP140_assigned_attribute_to_entity_of_type"/>
+        <rdfs:domain rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E16_Measurement"/>
+    </ObjectProperty>
+    
+
+
+    <!-- http://www.cidoc-crm.org/extensions/crmntp/TP3_has_note_of_type -->
+
+    <ObjectProperty rdf:about="http://www.cidoc-crm.org/extensions/crmntp/TP3_has_note_of_type">
+        <rdfs:domain rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E1_CRM_Entity"/>
+    </ObjectProperty>
+    
+
+
+    <!-- http://www.cidoc-crm.org/extensions/crmntp/TP40_observed_dimension_of_type -->
+
+    <ObjectProperty rdf:about="http://www.cidoc-crm.org/extensions/crmntp/TP40_observed_dimension_of_type">
+        <rdfs:subPropertyOf rdf:resource="http://www.cidoc-crm.org/extensions/crmntp/TP141_assigned_entity_of_type"/>
+        <rdfs:domain rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E16_Measurement"/>
+    </ObjectProperty>
+    
+
+
+    <!-- http://www.cidoc-crm.org/extensions/crmntp/TP41_classified_entity_of_type -->
+
+    <ObjectProperty rdf:about="http://www.cidoc-crm.org/extensions/crmntp/TP41_classified_entity_of_type">
+        <rdfs:subPropertyOf rdf:resource="http://www.cidoc-crm.org/extensions/crmntp/TP140_assigned_attribute_to_entity_of_type"/>
+        <rdfs:domain rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E17_Type_Assignment"/>
+    </ObjectProperty>
+    
+
+
+    <!-- http://www.cidoc-crm.org/extensions/crmntp/TP43_has_dimension_of_type -->
+
+    <ObjectProperty rdf:about="http://www.cidoc-crm.org/extensions/crmntp/TP43_has_dimension_of_type">
+        <rdfs:domain rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E70_Thing"/>
+    </ObjectProperty>
+    
+
+
+    <!-- http://www.cidoc-crm.org/extensions/crmntp/TP44_has_condition_of_type -->
+
+    <ObjectProperty rdf:about="http://www.cidoc-crm.org/extensions/crmntp/TP44_has_condition_of_type">
+        <rdfs:domain rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E18_Physical_Thing"/>
+    </ObjectProperty>
+    
+
+
+    <!-- http://www.cidoc-crm.org/extensions/crmntp/TP46_is_composed_of_physical_thing_of_type -->
+
+    <ObjectProperty rdf:about="http://www.cidoc-crm.org/extensions/crmntp/TP46_is_composed_of_physical_thing_of_type">
+        <rdfs:domain rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E18_Physical_Thing"/>
+    </ObjectProperty>
+    
+
+
+    <!-- http://www.cidoc-crm.org/extensions/crmntp/TP48_has_preferred_identifier_of_type -->
+
+    <ObjectProperty rdf:about="http://www.cidoc-crm.org/extensions/crmntp/TP48_has_preferred_identifier_of_type">
+        <rdfs:subPropertyOf rdf:resource="http://www.cidoc-crm.org/extensions/crmntp/TP1_is_identified_by_appellation_type"/>
+        <rdfs:domain rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E1_CRM_Entity"/>
+    </ObjectProperty>
+    
+
+
+    <!-- http://www.cidoc-crm.org/extensions/crmntp/TP49_has_former_or_current_keeper_of_type -->
+
+    <ObjectProperty rdf:about="http://www.cidoc-crm.org/extensions/crmntp/TP49_has_former_or_current_keeper_of_type">
+        <rdfs:domain rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E18_Physical_Thing"/>
+    </ObjectProperty>
+    
+
+
+    <!-- http://www.cidoc-crm.org/extensions/crmntp/TP4_has_time-span_of_type -->
+
+    <ObjectProperty rdf:about="http://www.cidoc-crm.org/extensions/crmntp/TP4_has_time-span_of_type">
+        <rdfs:domain rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E2_Temporal_Entity"/>
+    </ObjectProperty>
+    
+
+
+    <!-- http://www.cidoc-crm.org/extensions/crmntp/TP50_has_current_keeper_of_type -->
+
+    <ObjectProperty rdf:about="http://www.cidoc-crm.org/extensions/crmntp/TP50_has_current_keeper_of_type">
+        <rdfs:subPropertyOf rdf:resource="http://www.cidoc-crm.org/extensions/crmntp/TP49_has_former_or_current_keeper_of_type"/>
+        <rdfs:domain rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E18_Physical_Thing"/>
+    </ObjectProperty>
+    
+
+
+    <!-- http://www.cidoc-crm.org/extensions/crmntp/TP51_has_former_or_current_owner_of_type -->
+
+    <ObjectProperty rdf:about="http://www.cidoc-crm.org/extensions/crmntp/TP51_has_former_or_current_owner_of_type">
+        <rdfs:domain rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E18_Physical_Thing"/>
+    </ObjectProperty>
+    
+
+
+    <!-- http://www.cidoc-crm.org/extensions/crmntp/TP52_has_current_owner_of_type -->
+
+    <ObjectProperty rdf:about="http://www.cidoc-crm.org/extensions/crmntp/TP52_has_current_owner_of_type">
+        <rdfs:subPropertyOf rdf:resource="http://www.cidoc-crm.org/extensions/crmntp/TP105_right_held_by_actor_of_type"/>
+        <rdfs:subPropertyOf rdf:resource="http://www.cidoc-crm.org/extensions/crmntp/TP51_has_former_or_current_owner_of_type"/>
+        <rdfs:domain rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E18_Physical_Thing"/>
+    </ObjectProperty>
+    
+
+
+    <!-- http://www.cidoc-crm.org/extensions/crmntp/TP53_has_former_or_current_location_of_type -->
+
+    <ObjectProperty rdf:about="http://www.cidoc-crm.org/extensions/crmntp/TP53_has_former_or_current_location_of_type">
+        <rdfs:domain rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E18_Physical_Thing"/>
+    </ObjectProperty>
+    
+
+
+    <!-- http://www.cidoc-crm.org/extensions/crmntp/TP54_has_current_permanent_location_of_type -->
+
+    <ObjectProperty rdf:about="http://www.cidoc-crm.org/extensions/crmntp/TP54_has_current_permanent_location_of_type">
+        <rdfs:domain rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E19_Physical_Object"/>
+    </ObjectProperty>
+    
+
+
+    <!-- http://www.cidoc-crm.org/extensions/crmntp/TP55_has_current_location_of_type -->
+
+    <ObjectProperty rdf:about="http://www.cidoc-crm.org/extensions/crmntp/TP55_has_current_location_of_type">
+        <rdfs:subPropertyOf rdf:resource="http://www.cidoc-crm.org/extensions/crmntp/TP53_has_former_or_current_location_of_type"/>
+        <rdfs:domain rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E19_Physical_Object"/>
+    </ObjectProperty>
+    
+
+
+    <!-- http://www.cidoc-crm.org/extensions/crmntp/TP56_bears_feature_of_type -->
+
+    <ObjectProperty rdf:about="http://www.cidoc-crm.org/extensions/crmntp/TP56_bears_feature_of_type">
+        <rdfs:subPropertyOf rdf:resource="http://www.cidoc-crm.org/extensions/crmntp/TP46_is_composed_of_physical_thing_of_type"/>
+        <rdfs:domain rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E19_Physical_Object"/>
+    </ObjectProperty>
+    
+
+
+    <!-- http://www.cidoc-crm.org/extensions/crmntp/TP59_has_section_of_type -->
+
+    <ObjectProperty rdf:about="http://www.cidoc-crm.org/extensions/crmntp/TP59_has_section_of_type">
+        <rdfs:domain rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E18_Physical_Thing"/>
+    </ObjectProperty>
+    
+
+
+    <!-- http://www.cidoc-crm.org/extensions/crmntp/TP5_consists_of_condition_state_of_type -->
+
+    <ObjectProperty rdf:about="http://www.cidoc-crm.org/extensions/crmntp/TP5_consists_of_condition_state_of_type">
+        <rdfs:domain rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E3_Condition_State"/>
+    </ObjectProperty>
+    
+
+
+    <!-- http://www.cidoc-crm.org/extensions/crmntp/TP62_depicts_entity_of_type -->
+
+    <ObjectProperty rdf:about="http://www.cidoc-crm.org/extensions/crmntp/TP62_depicts_entity_of_type">
+        <rdfs:domain rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E24_Physical_Human-Made_Thing"/>
+    </ObjectProperty>
+    
+
+
+    <!-- http://www.cidoc-crm.org/extensions/crmntp/TP65_shows_visual_item_of_type -->
+
+    <ObjectProperty rdf:about="http://www.cidoc-crm.org/extensions/crmntp/TP65_shows_visual_item_of_type">
+        <rdfs:subPropertyOf rdf:resource="http://www.cidoc-crm.org/extensions/crmntp/TP128_carries_symbolic_object_of_type"/>
+        <rdfs:domain rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E24_Physical_Human-Made_Thing"/>
+    </ObjectProperty>
+    
+
+
+    <!-- http://www.cidoc-crm.org/extensions/crmntp/TP67_refers_to_entity_of_type -->
+
+    <ObjectProperty rdf:about="http://www.cidoc-crm.org/extensions/crmntp/TP67_refers_to_entity_of_type">
+        <rdfs:domain rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E89_Propositional_Object"/>
+    </ObjectProperty>
+    
+
+
+    <!-- http://www.cidoc-crm.org/extensions/crmntp/TP69_has_association_with_design_or_procedure_of_type -->
+
+    <ObjectProperty rdf:about="http://www.cidoc-crm.org/extensions/crmntp/TP69_has_association_with_design_or_procedure_of_type">
+        <rdfs:domain rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E29_Design_or_Procedure"/>
+    </ObjectProperty>
+    
+
+
+    <!-- http://www.cidoc-crm.org/extensions/crmntp/TP70_documents_entity_of_type -->
+
+    <ObjectProperty rdf:about="http://www.cidoc-crm.org/extensions/crmntp/TP70_documents_entity_of_type">
+        <rdfs:subPropertyOf rdf:resource="http://www.cidoc-crm.org/extensions/crmntp/TP67_refers_to_entity_of_type"/>
+        <rdfs:domain rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E31_Document"/>
+    </ObjectProperty>
+    
+
+
+    <!-- http://www.cidoc-crm.org/extensions/crmntp/TP71_lists_entity_of_type -->
+
+    <ObjectProperty rdf:about="http://www.cidoc-crm.org/extensions/crmntp/TP71_lists_entity_of_type">
+        <rdfs:subPropertyOf rdf:resource="http://www.cidoc-crm.org/extensions/crmntp/TP67_refers_to_entity_of_type"/>
+        <rdfs:domain rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E32_Authority_Document"/>
+    </ObjectProperty>
+    
+
+
+    <!-- http://www.cidoc-crm.org/extensions/crmntp/TP73_has_translation_linguistic_object_of_type -->
+
+    <ObjectProperty rdf:about="http://www.cidoc-crm.org/extensions/crmntp/TP73_has_translation_linguistic_object_of_type">
+        <rdfs:domain rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E33_Linguistic_Object"/>
+    </ObjectProperty>
+    
+
+
+    <!-- http://www.cidoc-crm.org/extensions/crmntp/TP74_has_current_of_former_residence_of_type -->
+
+    <ObjectProperty rdf:about="http://www.cidoc-crm.org/extensions/crmntp/TP74_has_current_of_former_residence_of_type">
+        <rdfs:domain rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E39_Actor"/>
+    </ObjectProperty>
+    
+
+
+    <!-- http://www.cidoc-crm.org/extensions/crmntp/TP75_possesses_right_of_type -->
+
+    <ObjectProperty rdf:about="http://www.cidoc-crm.org/extensions/crmntp/TP75_possesses_right_of_type">
+        <rdfs:domain rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E39_Actor"/>
+    </ObjectProperty>
+    
+
+
+    <!-- http://www.cidoc-crm.org/extensions/crmntp/TP76_has_contact_point_of_type -->
+
+    <ObjectProperty rdf:about="http://www.cidoc-crm.org/extensions/crmntp/TP76_has_contact_point_of_type">
+        <rdfs:domain rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E39_Actor"/>
+    </ObjectProperty>
+    
+
+
+    <!-- http://www.cidoc-crm.org/extensions/crmntp/TP79_beginning_is_qualified_by_note_of_type -->
+
+    <ObjectProperty rdf:about="http://www.cidoc-crm.org/extensions/crmntp/TP79_beginning_is_qualified_by_note_of_type">
+        <rdfs:subPropertyOf rdf:resource="http://www.cidoc-crm.org/extensions/crmntp/TP3_has_note_of_type"/>
+        <rdfs:domain rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E52_Time-Span"/>
+    </ObjectProperty>
+    
+
+
+    <!-- http://www.cidoc-crm.org/extensions/crmntp/TP7_took_place_at_place_of_type -->
+
+    <ObjectProperty rdf:about="http://www.cidoc-crm.org/extensions/crmntp/TP7_took_place_at_place_of_type">
+        <rdfs:domain rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E4_Period"/>
+    </ObjectProperty>
+    
+
+
+    <!-- http://www.cidoc-crm.org/extensions/crmntp/TP80_end_is_qualified_by_note_of_type -->
+
+    <ObjectProperty rdf:about="http://www.cidoc-crm.org/extensions/crmntp/TP80_end_is_qualified_by_note_of_type">
+        <rdfs:subPropertyOf rdf:resource="http://www.cidoc-crm.org/extensions/crmntp/TP3_has_note_of_type"/>
+        <rdfs:domain rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E52_Time-Span"/>
+    </ObjectProperty>
+    
+
+
+    <!-- http://www.cidoc-crm.org/extensions/crmntp/TP89_falls_within_place_of_type -->
+
+    <ObjectProperty rdf:about="http://www.cidoc-crm.org/extensions/crmntp/TP89_falls_within_place_of_type">
+        <rdfs:domain rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E53_Place"/>
+    </ObjectProperty>
+    
+
+
+    <!-- http://www.cidoc-crm.org/extensions/crmntp/TP8_took_place_on_or_within_physical_thing_of_type -->
+
+    <ObjectProperty rdf:about="http://www.cidoc-crm.org/extensions/crmntp/TP8_took_place_on_or_within_physical_thing_of_type">
+        <rdfs:domain rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E4_Period"/>
+    </ObjectProperty>
+    
+
+
+    <!-- http://www.cidoc-crm.org/extensions/crmntp/TP92_brought_into_existence_persistent_item_of_type -->
+
+    <ObjectProperty rdf:about="http://www.cidoc-crm.org/extensions/crmntp/TP92_brought_into_existence_persistent_item_of_type">
+        <rdfs:subPropertyOf rdf:resource="http://www.cidoc-crm.org/extensions/crmntp/TP12_occurred_in_the_presence_of_persistent_item_of_type"/>
+        <rdfs:domain rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E63_Beginning_of_Existence"/>
+    </ObjectProperty>
+    
+
+
+    <!-- http://www.cidoc-crm.org/extensions/crmntp/TP93_took_out_of_existence_persistent_item_of_type -->
+
+    <ObjectProperty rdf:about="http://www.cidoc-crm.org/extensions/crmntp/TP93_took_out_of_existence_persistent_item_of_type">
+        <rdfs:subPropertyOf rdf:resource="http://www.cidoc-crm.org/extensions/crmntp/TP12_occurred_in_the_presence_of_persistent_item_of_type"/>
+        <rdfs:domain rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E64_End_of_Existence"/>
+    </ObjectProperty>
+    
+
+
+    <!-- http://www.cidoc-crm.org/extensions/crmntp/TP94_has_created_conceptual_object_of_type -->
+
+    <ObjectProperty rdf:about="http://www.cidoc-crm.org/extensions/crmntp/TP94_has_created_conceptual_object_of_type">
+        <rdfs:subPropertyOf rdf:resource="http://www.cidoc-crm.org/extensions/crmntp/TP92_brought_into_existence_persistent_item_of_type"/>
+        <rdfs:domain rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E65_Creation"/>
+    </ObjectProperty>
+    
+
+
+    <!-- http://www.cidoc-crm.org/extensions/crmntp/TP95_has_formed_group_of_type -->
+
+    <ObjectProperty rdf:about="http://www.cidoc-crm.org/extensions/crmntp/TP95_has_formed_group_of_type">
+        <rdfs:subPropertyOf rdf:resource="http://www.cidoc-crm.org/extensions/crmntp/TP92_brought_into_existence_persistent_item_of_type"/>
+        <rdfs:domain rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E66_Formation"/>
+    </ObjectProperty>
+    
+
+
+    <!-- http://www.cidoc-crm.org/extensions/crmntp/TP96_by_mother_of_type -->
+
+    <ObjectProperty rdf:about="http://www.cidoc-crm.org/extensions/crmntp/TP96_by_mother_of_type">
+        <rdfs:subPropertyOf rdf:resource="http://www.cidoc-crm.org/extensions/crmntp/TP11_had_participant_of_type"/>
+        <rdfs:domain rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E67_Birth"/>
+    </ObjectProperty>
+    
+
+
+    <!-- http://www.cidoc-crm.org/extensions/crmntp/TP97_from_father_of_type -->
+
+    <ObjectProperty rdf:about="http://www.cidoc-crm.org/extensions/crmntp/TP97_from_father_of_type">
+        <rdfs:domain rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E67_Birth"/>
+    </ObjectProperty>
+    
+
+
+    <!-- http://www.cidoc-crm.org/extensions/crmntp/TP98_brought_into_life_person_of_type -->
+
+    <ObjectProperty rdf:about="http://www.cidoc-crm.org/extensions/crmntp/TP98_brought_into_life_person_of_type">
+        <rdfs:subPropertyOf rdf:resource="http://www.cidoc-crm.org/extensions/crmntp/TP92_brought_into_existence_persistent_item_of_type"/>
+        <rdfs:domain rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E67_Birth"/>
+    </ObjectProperty>
+    
+
+
+    <!-- http://www.cidoc-crm.org/extensions/crmntp/TP99_dissolved_group_of_type -->
+
+    <ObjectProperty rdf:about="http://www.cidoc-crm.org/extensions/crmntp/TP99_dissolved_group_of_type">
+        <rdfs:subPropertyOf rdf:resource="http://www.cidoc-crm.org/extensions/crmntp/TP11_had_participant_of_type"/>
+        <rdfs:subPropertyOf rdf:resource="http://www.cidoc-crm.org/extensions/crmntp/TP93_took_out_of_existence_persistent_item_of_type"/>
+        <rdfs:domain rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E68_Dissolution"/>
+    </ObjectProperty>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Classes
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- http://www.cidoc-crm.org/cidoc-crm/E10_Transfer_of_Custody -->
+
+    <Class rdf:about="http://www.cidoc-crm.org/cidoc-crm/E10_Transfer_of_Custody"/>
+    
+
+
+    <!-- http://www.cidoc-crm.org/cidoc-crm/E11_Modification -->
+
+    <Class rdf:about="http://www.cidoc-crm.org/cidoc-crm/E11_Modification"/>
+    
+
+
+    <!-- http://www.cidoc-crm.org/cidoc-crm/E12_Production -->
+
+    <Class rdf:about="http://www.cidoc-crm.org/cidoc-crm/E12_Production"/>
+    
+
+
+    <!-- http://www.cidoc-crm.org/cidoc-crm/E13_Attribute_Assignment -->
+
+    <Class rdf:about="http://www.cidoc-crm.org/cidoc-crm/E13_Attribute_Assignment"/>
+    
+
+
+    <!-- http://www.cidoc-crm.org/cidoc-crm/E14_Condition_Assessment -->
+
+    <Class rdf:about="http://www.cidoc-crm.org/cidoc-crm/E14_Condition_Assessment"/>
+    
+
+
+    <!-- http://www.cidoc-crm.org/cidoc-crm/E15_Identifier_Assignment -->
+
+    <Class rdf:about="http://www.cidoc-crm.org/cidoc-crm/E15_Identifier_Assignment"/>
+    
+
+
+    <!-- http://www.cidoc-crm.org/cidoc-crm/E16_Measurement -->
+
+    <Class rdf:about="http://www.cidoc-crm.org/cidoc-crm/E16_Measurement"/>
+    
+
+
+    <!-- http://www.cidoc-crm.org/cidoc-crm/E17_Type_Assignment -->
+
+    <Class rdf:about="http://www.cidoc-crm.org/cidoc-crm/E17_Type_Assignment"/>
+    
+
+
+    <!-- http://www.cidoc-crm.org/cidoc-crm/E18_Physical_Thing -->
+
+    <Class rdf:about="http://www.cidoc-crm.org/cidoc-crm/E18_Physical_Thing"/>
+    
+
+
+    <!-- http://www.cidoc-crm.org/cidoc-crm/E19_Physical_Object -->
+
+    <Class rdf:about="http://www.cidoc-crm.org/cidoc-crm/E19_Physical_Object"/>
+    
+
+
+    <!-- http://www.cidoc-crm.org/cidoc-crm/E1_CRM_Entity -->
+
+    <Class rdf:about="http://www.cidoc-crm.org/cidoc-crm/E1_CRM_Entity"/>
+    
+
+
+    <!-- http://www.cidoc-crm.org/cidoc-crm/E21_Person -->
+
+    <Class rdf:about="http://www.cidoc-crm.org/cidoc-crm/E21_Person"/>
+    
+
+
+    <!-- http://www.cidoc-crm.org/cidoc-crm/E24_Physical_Human-Made_Thing -->
+
+    <Class rdf:about="http://www.cidoc-crm.org/cidoc-crm/E24_Physical_Human-Made_Thing"/>
+    
+
+
+    <!-- http://www.cidoc-crm.org/cidoc-crm/E29_Design_or_Procedure -->
+
+    <Class rdf:about="http://www.cidoc-crm.org/cidoc-crm/E29_Design_or_Procedure"/>
+    
+
+
+    <!-- http://www.cidoc-crm.org/cidoc-crm/E2_Temporal_Entity -->
+
+    <Class rdf:about="http://www.cidoc-crm.org/cidoc-crm/E2_Temporal_Entity"/>
+    
+
+
+    <!-- http://www.cidoc-crm.org/cidoc-crm/E31_Document -->
+
+    <Class rdf:about="http://www.cidoc-crm.org/cidoc-crm/E31_Document"/>
+    
+
+
+    <!-- http://www.cidoc-crm.org/cidoc-crm/E32_Authority_Document -->
+
+    <Class rdf:about="http://www.cidoc-crm.org/cidoc-crm/E32_Authority_Document"/>
+    
+
+
+    <!-- http://www.cidoc-crm.org/cidoc-crm/E33_Linguistic_Object -->
+
+    <Class rdf:about="http://www.cidoc-crm.org/cidoc-crm/E33_Linguistic_Object"/>
+    
+
+
+    <!-- http://www.cidoc-crm.org/cidoc-crm/E36_Visual_Item -->
+
+    <Class rdf:about="http://www.cidoc-crm.org/cidoc-crm/E36_Visual_Item"/>
+    
+
+
+    <!-- http://www.cidoc-crm.org/cidoc-crm/E39_Actor -->
+
+    <Class rdf:about="http://www.cidoc-crm.org/cidoc-crm/E39_Actor"/>
+    
+
+
+    <!-- http://www.cidoc-crm.org/cidoc-crm/E3_Condition_State -->
+
+    <Class rdf:about="http://www.cidoc-crm.org/cidoc-crm/E3_Condition_State"/>
+    
+
+
+    <!-- http://www.cidoc-crm.org/cidoc-crm/E41_Appellation -->
+
+    <Class rdf:about="http://www.cidoc-crm.org/cidoc-crm/E41_Appellation"/>
+    
+
+
+    <!-- http://www.cidoc-crm.org/cidoc-crm/E4_Period -->
+
+    <Class rdf:about="http://www.cidoc-crm.org/cidoc-crm/E4_Period"/>
+    
+
+
+    <!-- http://www.cidoc-crm.org/cidoc-crm/E52_Time-Span -->
+
+    <Class rdf:about="http://www.cidoc-crm.org/cidoc-crm/E52_Time-Span"/>
+    
+
+
+    <!-- http://www.cidoc-crm.org/cidoc-crm/E53_Place -->
+
+    <Class rdf:about="http://www.cidoc-crm.org/cidoc-crm/E53_Place"/>
+    
+
+
+    <!-- http://www.cidoc-crm.org/cidoc-crm/E55_Type -->
+
+    <Class rdf:about="http://www.cidoc-crm.org/cidoc-crm/E55_Type"/>
+    
+
+
+    <!-- http://www.cidoc-crm.org/cidoc-crm/E5_Event -->
+
+    <Class rdf:about="http://www.cidoc-crm.org/cidoc-crm/E5_Event"/>
+    
+
+
+    <!-- http://www.cidoc-crm.org/cidoc-crm/E63_Beginning_of_Existence -->
+
+    <Class rdf:about="http://www.cidoc-crm.org/cidoc-crm/E63_Beginning_of_Existence"/>
+    
+
+
+    <!-- http://www.cidoc-crm.org/cidoc-crm/E64_End_of_Existence -->
+
+    <Class rdf:about="http://www.cidoc-crm.org/cidoc-crm/E64_End_of_Existence"/>
+    
+
+
+    <!-- http://www.cidoc-crm.org/cidoc-crm/E65_Creation -->
+
+    <Class rdf:about="http://www.cidoc-crm.org/cidoc-crm/E65_Creation"/>
+    
+
+
+    <!-- http://www.cidoc-crm.org/cidoc-crm/E66_Formation -->
+
+    <Class rdf:about="http://www.cidoc-crm.org/cidoc-crm/E66_Formation"/>
+    
+
+
+    <!-- http://www.cidoc-crm.org/cidoc-crm/E67_Birth -->
+
+    <Class rdf:about="http://www.cidoc-crm.org/cidoc-crm/E67_Birth"/>
+    
+
+
+    <!-- http://www.cidoc-crm.org/cidoc-crm/E68_Dissolution -->
+
+    <Class rdf:about="http://www.cidoc-crm.org/cidoc-crm/E68_Dissolution"/>
+    
+
+
+    <!-- http://www.cidoc-crm.org/cidoc-crm/E69_Death -->
+
+    <Class rdf:about="http://www.cidoc-crm.org/cidoc-crm/E69_Death"/>
+    
+
+
+    <!-- http://www.cidoc-crm.org/cidoc-crm/E6_Destruction -->
+
+    <Class rdf:about="http://www.cidoc-crm.org/cidoc-crm/E6_Destruction"/>
+    
+
+
+    <!-- http://www.cidoc-crm.org/cidoc-crm/E70_Thing -->
+
+    <Class rdf:about="http://www.cidoc-crm.org/cidoc-crm/E70_Thing"/>
+    
+
+
+    <!-- http://www.cidoc-crm.org/cidoc-crm/E71_Human-Made_Thing -->
+
+    <Class rdf:about="http://www.cidoc-crm.org/cidoc-crm/E71_Human-Made_Thing"/>
+    
+
+
+    <!-- http://www.cidoc-crm.org/cidoc-crm/E72_Legal_Object -->
+
+    <Class rdf:about="http://www.cidoc-crm.org/cidoc-crm/E72_Legal_Object"/>
+    
+
+
+    <!-- http://www.cidoc-crm.org/cidoc-crm/E73_Information_Object -->
+
+    <Class rdf:about="http://www.cidoc-crm.org/cidoc-crm/E73_Information_Object"/>
+    
+
+
+    <!-- http://www.cidoc-crm.org/cidoc-crm/E74_Group -->
+
+    <Class rdf:about="http://www.cidoc-crm.org/cidoc-crm/E74_Group"/>
+    
+
+
+    <!-- http://www.cidoc-crm.org/cidoc-crm/E78_Curated_Holding -->
+
+    <Class rdf:about="http://www.cidoc-crm.org/cidoc-crm/E78_Curated_Holding"/>
+    
+
+
+    <!-- http://www.cidoc-crm.org/cidoc-crm/E79_Part_Addition -->
+
+    <Class rdf:about="http://www.cidoc-crm.org/cidoc-crm/E79_Part_Addition"/>
+    
+
+
+    <!-- http://www.cidoc-crm.org/cidoc-crm/E7_Activity -->
+
+    <Class rdf:about="http://www.cidoc-crm.org/cidoc-crm/E7_Activity"/>
+    
+
+
+    <!-- http://www.cidoc-crm.org/cidoc-crm/E80_Part_Removal -->
+
+    <Class rdf:about="http://www.cidoc-crm.org/cidoc-crm/E80_Part_Removal"/>
+    
+
+
+    <!-- http://www.cidoc-crm.org/cidoc-crm/E81_Transformation -->
+
+    <Class rdf:about="http://www.cidoc-crm.org/cidoc-crm/E81_Transformation"/>
+    
+
+
+    <!-- http://www.cidoc-crm.org/cidoc-crm/E85_Joining -->
+
+    <Class rdf:about="http://www.cidoc-crm.org/cidoc-crm/E85_Joining"/>
+    
+
+
+    <!-- http://www.cidoc-crm.org/cidoc-crm/E86_Leaving -->
+
+    <Class rdf:about="http://www.cidoc-crm.org/cidoc-crm/E86_Leaving"/>
+    
+
+
+    <!-- http://www.cidoc-crm.org/cidoc-crm/E87_Curation_Activity -->
+
+    <Class rdf:about="http://www.cidoc-crm.org/cidoc-crm/E87_Curation_Activity"/>
+    
+
+
+    <!-- http://www.cidoc-crm.org/cidoc-crm/E89_Propositional_Object -->
+
+    <Class rdf:about="http://www.cidoc-crm.org/cidoc-crm/E89_Propositional_Object"/>
+    
+
+
+    <!-- http://www.cidoc-crm.org/cidoc-crm/E8_Acquisition -->
+
+    <Class rdf:about="http://www.cidoc-crm.org/cidoc-crm/E8_Acquisition"/>
+    
+
+
+    <!-- http://www.cidoc-crm.org/cidoc-crm/E90_Symbolic_Object -->
+
+    <Class rdf:about="http://www.cidoc-crm.org/cidoc-crm/E90_Symbolic_Object"/>
+    
+
+
+    <!-- http://www.cidoc-crm.org/cidoc-crm/E96_Purchase -->
+
+    <Class rdf:about="http://www.cidoc-crm.org/cidoc-crm/E96_Purchase"/>
+    
+
+
+    <!-- http://www.cidoc-crm.org/cidoc-crm/E99_Product_Type -->
+
+    <Class rdf:about="http://www.cidoc-crm.org/cidoc-crm/E99_Product_Type"/>
+    
+
+
+    <!-- http://www.cidoc-crm.org/cidoc-crm/E9_Move -->
+
+    <Class rdf:about="http://www.cidoc-crm.org/cidoc-crm/E9_Move"/>
+</rdf:RDF>
+
+
+
+<!-- Generated by the OWL API (version 4.5.9.2019-02-01T07:24:44Z) https://github.com/owlcs/owlapi -->
+

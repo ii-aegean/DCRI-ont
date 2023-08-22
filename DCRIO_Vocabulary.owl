@@ -3203,35 +3203,6 @@ A secondary objective of the vocabulary is the development of a vocabulary for t
     
 
 
-    <!-- http://w3id.org/dcri-ont/vocabulary/concept_00266 -->
-
-    <owl:NamedIndividual rdf:about="http://w3id.org/dcri-ont/vocabulary/concept_00266">
-        <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
-        <skos:inScheme rdf:resource="http://w3id.org/dcri-ont/vocabulary/conceptscheme"/>
-        <skos:narrower rdf:resource="http://w3id.org/dcri-ont/vocabulary/concept_00267"/>
-        <skos:topConceptOf rdf:resource="http://w3id.org/dcri-ont/vocabulary/conceptscheme"/>
-        <rdfs:label xml:lang="en">Requirement assessment type (vocabulary top concept)</rdfs:label>
-        <rdfs:label xml:lang="el">Τύπος αξιολόγησης απαίτησης</rdfs:label>
-        <skos:prefLabel xml:lang="en">Requirement assessment type (vocabulary top concept)</skos:prefLabel>
-        <skos:prefLabel xml:lang="el">Τύπος αξιολόγησης απαίτησης</skos:prefLabel>
-    </owl:NamedIndividual>
-    
-
-
-    <!-- http://w3id.org/dcri-ont/vocabulary/concept_00267 -->
-
-    <owl:NamedIndividual rdf:about="http://w3id.org/dcri-ont/vocabulary/concept_00267">
-        <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
-        <skos:broader rdf:resource="http://w3id.org/dcri-ont/vocabulary/concept_00266"/>
-        <skos:inScheme rdf:resource="http://w3id.org/dcri-ont/vocabulary/conceptscheme"/>
-        <rdfs:label xml:lang="en">Not satisfied requirement</rdfs:label>
-        <rdfs:label xml:lang="el">Απαίτηση που δεν ικανοποιείται</rdfs:label>
-        <skos:prefLabel xml:lang="en">Not satisfied requirement</skos:prefLabel>
-        <skos:prefLabel xml:lang="el">Απαίτηση που δεν ικανοποιείται</skos:prefLabel>
-    </owl:NamedIndividual>
-    
-
-
     <!-- http://w3id.org/dcri-ont/vocabulary/conceptscheme -->
 
     <owl:NamedIndividual rdf:about="http://w3id.org/dcri-ont/vocabulary/conceptscheme">
@@ -3245,7 +3216,6 @@ A secondary objective of the vocabulary is the development of a vocabulary for t
         <skos:hasTopConcept rdf:resource="http://w3id.org/dcri-ont/vocabulary/concept_00228"/>
         <skos:hasTopConcept rdf:resource="http://w3id.org/dcri-ont/vocabulary/concept_00251"/>
         <skos:hasTopConcept rdf:resource="http://w3id.org/dcri-ont/vocabulary/concept_00263"/>
-        <skos:hasTopConcept rdf:resource="http://w3id.org/dcri-ont/vocabulary/concept_00266"/>
         <terms:title xml:lang="en">DCRIO Vocabulary</terms:title>
         <terms:title xml:lang="el">DCRIO Λεξιλόγιο</terms:title>
         <rdfs:label xml:lang="en">DCRIO Vocabulary</rdfs:label>

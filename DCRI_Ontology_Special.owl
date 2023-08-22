@@ -1506,7 +1506,6 @@ The ontology indirectly imports SKOS, CIDOC CRM, CRMsci and selected object prop
         <dcri-ont:hasRequirement rdf:resource="http://w3id.org/dcri-ont/special/dmr_cleaning_superficial_deposit_005"/>
         <dcri-ont:hasRequirement rdf:resource="http://w3id.org/dcri-ont/special/dmr_cleaning_superficial_deposit_008"/>
         <dcri-ont:hasRequirement rdf:resource="http://w3id.org/dcri-ont/special/dmr_cleaning_superficial_deposit_009"/>
-        <dcri-ont:hasRequirement rdf:resource="http://w3id.org/dcri-ont/special/dmr_cleaning_superficial_deposit_017"/>
         <dcri-ont:hasRequirement rdf:resource="http://w3id.org/dcri-ont/special/dmr_cleaning_superficial_deposit_018"/>
         <dcri-ont:hasRequirement rdf:resource="http://w3id.org/dcri-ont/special/dmr_cleaning_superficial_deposit_019"/>
         <dcri-ont:hasRequirement rdf:resource="http://w3id.org/dcri-ont/special/dmr_cleaning_superficial_deposit_020"/>
@@ -1533,8 +1532,8 @@ The ontology indirectly imports SKOS, CIDOC CRM, CRMsci and selected object prop
         <dcri-ont:hasRequirement rdf:resource="http://w3id.org/dcri-ont/special/dmr_cleaning_superficial_deposit_005"/>
         <dcri-ont:hasRequirement rdf:resource="http://w3id.org/dcri-ont/special/dmr_cleaning_superficial_deposit_008"/>
         <dcri-ont:hasRequirement rdf:resource="http://w3id.org/dcri-ont/special/dmr_cleaning_superficial_deposit_009"/>
+        <dcri-ont:hasRequirement rdf:resource="http://w3id.org/dcri-ont/special/dmr_cleaning_superficial_deposit_011"/>
         <dcri-ont:hasRequirement rdf:resource="http://w3id.org/dcri-ont/special/dmr_cleaning_superficial_deposit_012"/>
-        <dcri-ont:hasRequirement rdf:resource="http://w3id.org/dcri-ont/special/dmr_cleaning_superficial_deposit_017"/>
         <dcri-ont:hasRequirement rdf:resource="http://w3id.org/dcri-ont/special/dmr_cleaning_superficial_deposit_018"/>
         <dcri-ont:hasRequirement rdf:resource="http://w3id.org/dcri-ont/special/dmr_cleaning_superficial_deposit_019"/>
         <dcri-ont:hasRequirement rdf:resource="http://w3id.org/dcri-ont/special/dmr_cleaning_superficial_deposit_020"/>
@@ -1677,6 +1676,7 @@ The ontology indirectly imports SKOS, CIDOC CRM, CRMsci and selected object prop
         <dcri-ont:hasRequirement rdf:resource="http://w3id.org/dcri-ont/special/dmr_cleaning_superficial_deposit_011"/>
         <dcri-ont:hasRequirement rdf:resource="http://w3id.org/dcri-ont/special/dmr_cleaning_superficial_deposit_012"/>
         <dcri-ont:hasRequirement rdf:resource="http://w3id.org/dcri-ont/special/dmr_cleaning_superficial_deposit_013"/>
+        <dcri-ont:hasRequirement rdf:resource="http://w3id.org/dcri-ont/special/dmr_cleaning_superficial_deposit_018"/>
         <dcri-ont:hasRequirement rdf:resource="http://w3id.org/dcri-ont/special/dmr_cleaning_superficial_deposit_024"/>
         <dcri-ont:hasRequirement rdf:resource="http://w3id.org/dcri-ont/special/dmr_cleaning_superficial_deposit_029"/>
         <dcri-ont:hasRequirement rdf:resource="http://w3id.org/dcri-ont/special/dmr_cleaning_superficial_deposit_032"/>
@@ -1725,7 +1725,6 @@ The ontology indirectly imports SKOS, CIDOC CRM, CRMsci and selected object prop
         <dcri-ont:hasRequirement rdf:resource="http://w3id.org/dcri-ont/special/dmr_cleaning_superficial_deposit_009"/>
         <dcri-ont:hasRequirement rdf:resource="http://w3id.org/dcri-ont/special/dmr_cleaning_superficial_deposit_010"/>
         <dcri-ont:hasRequirement rdf:resource="http://w3id.org/dcri-ont/special/dmr_cleaning_superficial_deposit_013"/>
-        <dcri-ont:hasRequirement rdf:resource="http://w3id.org/dcri-ont/special/dmr_cleaning_superficial_deposit_017"/>
         <dcri-ont:hasRequirement rdf:resource="http://w3id.org/dcri-ont/special/dmr_cleaning_superficial_deposit_018"/>
         <dcri-ont:hasRequirement rdf:resource="http://w3id.org/dcri-ont/special/dmr_cleaning_superficial_deposit_019"/>
         <dcri-ont:hasRequirement rdf:resource="http://w3id.org/dcri-ont/special/dmr_cleaning_superficial_deposit_020"/>
@@ -1760,7 +1759,6 @@ The ontology indirectly imports SKOS, CIDOC CRM, CRMsci and selected object prop
         <dcri-ont:hasRequirement rdf:resource="http://w3id.org/dcri-ont/special/dmr_cleaning_superficial_deposit_011"/>
         <dcri-ont:hasRequirement rdf:resource="http://w3id.org/dcri-ont/special/dmr_cleaning_superficial_deposit_012"/>
         <dcri-ont:hasRequirement rdf:resource="http://w3id.org/dcri-ont/special/dmr_cleaning_superficial_deposit_013"/>
-        <dcri-ont:hasRequirement rdf:resource="http://w3id.org/dcri-ont/special/dmr_cleaning_superficial_deposit_017"/>
         <dcri-ont:hasRequirement rdf:resource="http://w3id.org/dcri-ont/special/dmr_cleaning_superficial_deposit_018"/>
         <dcri-ont:hasRequirement rdf:resource="http://w3id.org/dcri-ont/special/dmr_cleaning_superficial_deposit_019"/>
         <dcri-ont:hasRequirement rdf:resource="http://w3id.org/dcri-ont/special/dmr_cleaning_superficial_deposit_020"/>
@@ -1832,7 +1830,6 @@ The ontology indirectly imports SKOS, CIDOC CRM, CRMsci and selected object prop
         <dcri-ont:hasRequirement rdf:resource="http://w3id.org/dcri-ont/special/dmr_cleaning_superficial_deposit_005"/>
         <dcri-ont:hasRequirement rdf:resource="http://w3id.org/dcri-ont/special/dmr_cleaning_superficial_deposit_008"/>
         <dcri-ont:hasRequirement rdf:resource="http://w3id.org/dcri-ont/special/dmr_cleaning_superficial_deposit_009"/>
-        <dcri-ont:hasRequirement rdf:resource="http://w3id.org/dcri-ont/special/dmr_cleaning_superficial_deposit_017"/>
         <dcri-ont:hasRequirement rdf:resource="http://w3id.org/dcri-ont/special/dmr_cleaning_superficial_deposit_018"/>
         <dcri-ont:hasRequirement rdf:resource="http://w3id.org/dcri-ont/special/dmr_cleaning_superficial_deposit_019"/>
         <dcri-ont:hasRequirement rdf:resource="http://w3id.org/dcri-ont/special/dmr_cleaning_superficial_deposit_020"/>
@@ -1864,7 +1861,6 @@ The ontology indirectly imports SKOS, CIDOC CRM, CRMsci and selected object prop
         <dcri-ont:hasRequirement rdf:resource="http://w3id.org/dcri-ont/special/dmr_cleaning_superficial_deposit_011"/>
         <dcri-ont:hasRequirement rdf:resource="http://w3id.org/dcri-ont/special/dmr_cleaning_superficial_deposit_012"/>
         <dcri-ont:hasRequirement rdf:resource="http://w3id.org/dcri-ont/special/dmr_cleaning_superficial_deposit_013"/>
-        <dcri-ont:hasRequirement rdf:resource="http://w3id.org/dcri-ont/special/dmr_cleaning_superficial_deposit_017"/>
         <dcri-ont:hasRequirement rdf:resource="http://w3id.org/dcri-ont/special/dmr_cleaning_superficial_deposit_018"/>
         <dcri-ont:hasRequirement rdf:resource="http://w3id.org/dcri-ont/special/dmr_cleaning_superficial_deposit_024"/>
         <dcri-ont:hasRequirement rdf:resource="http://w3id.org/dcri-ont/special/dmr_cleaning_superficial_deposit_029"/>
@@ -1894,7 +1890,6 @@ The ontology indirectly imports SKOS, CIDOC CRM, CRMsci and selected object prop
         <dcri-ont:hasRequirement rdf:resource="http://w3id.org/dcri-ont/special/dmr_cleaning_superficial_deposit_008"/>
         <dcri-ont:hasRequirement rdf:resource="http://w3id.org/dcri-ont/special/dmr_cleaning_superficial_deposit_009"/>
         <dcri-ont:hasRequirement rdf:resource="http://w3id.org/dcri-ont/special/dmr_cleaning_superficial_deposit_014"/>
-        <dcri-ont:hasRequirement rdf:resource="http://w3id.org/dcri-ont/special/dmr_cleaning_superficial_deposit_017"/>
         <dcri-ont:hasRequirement rdf:resource="http://w3id.org/dcri-ont/special/dmr_cleaning_superficial_deposit_018"/>
         <dcri-ont:hasRequirement rdf:resource="http://w3id.org/dcri-ont/special/dmr_cleaning_superficial_deposit_024"/>
         <dcri-ont:hasRequirement rdf:resource="http://w3id.org/dcri-ont/special/dmr_cleaning_superficial_deposit_026"/>
@@ -1931,7 +1926,6 @@ The ontology indirectly imports SKOS, CIDOC CRM, CRMsci and selected object prop
         <dcri-ont:hasRequirement rdf:resource="http://w3id.org/dcri-ont/special/dmr_cleaning_superficial_deposit_008"/>
         <dcri-ont:hasRequirement rdf:resource="http://w3id.org/dcri-ont/special/dmr_cleaning_superficial_deposit_009"/>
         <dcri-ont:hasRequirement rdf:resource="http://w3id.org/dcri-ont/special/dmr_cleaning_superficial_deposit_014"/>
-        <dcri-ont:hasRequirement rdf:resource="http://w3id.org/dcri-ont/special/dmr_cleaning_superficial_deposit_017"/>
         <dcri-ont:hasRequirement rdf:resource="http://w3id.org/dcri-ont/special/dmr_cleaning_superficial_deposit_018"/>
         <dcri-ont:hasRequirement rdf:resource="http://w3id.org/dcri-ont/special/dmr_cleaning_superficial_deposit_024"/>
         <dcri-ont:hasRequirement rdf:resource="http://w3id.org/dcri-ont/special/dmr_cleaning_superficial_deposit_028"/>
@@ -1967,7 +1961,6 @@ The ontology indirectly imports SKOS, CIDOC CRM, CRMsci and selected object prop
         <dcri-ont:hasRequirement rdf:resource="http://w3id.org/dcri-ont/special/dmr_cleaning_superficial_deposit_008"/>
         <dcri-ont:hasRequirement rdf:resource="http://w3id.org/dcri-ont/special/dmr_cleaning_superficial_deposit_009"/>
         <dcri-ont:hasRequirement rdf:resource="http://w3id.org/dcri-ont/special/dmr_cleaning_superficial_deposit_014"/>
-        <dcri-ont:hasRequirement rdf:resource="http://w3id.org/dcri-ont/special/dmr_cleaning_superficial_deposit_017"/>
         <dcri-ont:hasRequirement rdf:resource="http://w3id.org/dcri-ont/special/dmr_cleaning_superficial_deposit_018"/>
         <dcri-ont:hasRequirement rdf:resource="http://w3id.org/dcri-ont/special/dmr_cleaning_superficial_deposit_024"/>
         <dcri-ont:hasRequirement rdf:resource="http://w3id.org/dcri-ont/special/dmr_cleaning_superficial_deposit_026"/>
@@ -2001,7 +1994,6 @@ The ontology indirectly imports SKOS, CIDOC CRM, CRMsci and selected object prop
         <dcri-ont:hasRequirement rdf:resource="http://w3id.org/dcri-ont/special/dmr_cleaning_superficial_deposit_008"/>
         <dcri-ont:hasRequirement rdf:resource="http://w3id.org/dcri-ont/special/dmr_cleaning_superficial_deposit_009"/>
         <dcri-ont:hasRequirement rdf:resource="http://w3id.org/dcri-ont/special/dmr_cleaning_superficial_deposit_012"/>
-        <dcri-ont:hasRequirement rdf:resource="http://w3id.org/dcri-ont/special/dmr_cleaning_superficial_deposit_017"/>
         <dcri-ont:hasRequirement rdf:resource="http://w3id.org/dcri-ont/special/dmr_cleaning_superficial_deposit_018"/>
         <dcri-ont:hasRequirement rdf:resource="http://w3id.org/dcri-ont/special/dmr_cleaning_superficial_deposit_019"/>
         <dcri-ont:hasRequirement rdf:resource="http://w3id.org/dcri-ont/special/dmr_cleaning_superficial_deposit_020"/>
@@ -2073,7 +2065,6 @@ The ontology indirectly imports SKOS, CIDOC CRM, CRMsci and selected object prop
         <dcri-ont:hasRequirement rdf:resource="http://w3id.org/dcri-ont/special/dmr_cleaning_superficial_deposit_011"/>
         <dcri-ont:hasRequirement rdf:resource="http://w3id.org/dcri-ont/special/dmr_cleaning_superficial_deposit_012"/>
         <dcri-ont:hasRequirement rdf:resource="http://w3id.org/dcri-ont/special/dmr_cleaning_superficial_deposit_013"/>
-        <dcri-ont:hasRequirement rdf:resource="http://w3id.org/dcri-ont/special/dmr_cleaning_superficial_deposit_017"/>
         <dcri-ont:hasRequirement rdf:resource="http://w3id.org/dcri-ont/special/dmr_cleaning_superficial_deposit_018"/>
         <dcri-ont:hasRequirement rdf:resource="http://w3id.org/dcri-ont/special/dmr_cleaning_superficial_deposit_024"/>
         <dcri-ont:hasRequirement rdf:resource="http://w3id.org/dcri-ont/special/dmr_cleaning_superficial_deposit_029"/>
@@ -2094,12 +2085,12 @@ The ontology indirectly imports SKOS, CIDOC CRM, CRMsci and selected object prop
 
     <owl:NamedIndividual rdf:about="http://w3id.org/dcri-ont/special/dmo_cleaning_superficial_deposit_024">
         <rdf:type rdf:resource="http://w3id.org/dcri-ont/ConservationAndRestorationInterventionDecision-makingOption"/>
+        <dcri-ont:hasRequirement rdf:resource="http://w3id.org/dcri-ont/special/dmr_cleaning_superficial_deposit_003"/>
         <dcri-ont:hasRequirement rdf:resource="http://w3id.org/dcri-ont/special/dmr_cleaning_superficial_deposit_010"/>
         <dcri-ont:hasRequirement rdf:resource="http://w3id.org/dcri-ont/special/dmr_cleaning_superficial_deposit_011"/>
         <dcri-ont:hasRequirement rdf:resource="http://w3id.org/dcri-ont/special/dmr_cleaning_superficial_deposit_012"/>
         <dcri-ont:hasRequirement rdf:resource="http://w3id.org/dcri-ont/special/dmr_cleaning_superficial_deposit_013"/>
         <dcri-ont:hasRequirement rdf:resource="http://w3id.org/dcri-ont/special/dmr_cleaning_superficial_deposit_015"/>
-        <dcri-ont:hasRequirement rdf:resource="http://w3id.org/dcri-ont/special/dmr_cleaning_superficial_deposit_017"/>
         <dcri-ont:hasRequirement rdf:resource="http://w3id.org/dcri-ont/special/dmr_cleaning_superficial_deposit_018"/>
         <dcri-ont:hasRequirement rdf:resource="http://w3id.org/dcri-ont/special/dmr_cleaning_superficial_deposit_029"/>
         <dcri-ont:hasRequirement rdf:resource="http://w3id.org/dcri-ont/special/dmr_cleaning_superficial_deposit_030"/>
@@ -2149,7 +2140,6 @@ The ontology indirectly imports SKOS, CIDOC CRM, CRMsci and selected object prop
         <dcri-ont:hasRequirement rdf:resource="http://w3id.org/dcri-ont/special/dmr_cleaning_superficial_deposit_011"/>
         <dcri-ont:hasRequirement rdf:resource="http://w3id.org/dcri-ont/special/dmr_cleaning_superficial_deposit_012"/>
         <dcri-ont:hasRequirement rdf:resource="http://w3id.org/dcri-ont/special/dmr_cleaning_superficial_deposit_013"/>
-        <dcri-ont:hasRequirement rdf:resource="http://w3id.org/dcri-ont/special/dmr_cleaning_superficial_deposit_017"/>
         <dcri-ont:hasRequirement rdf:resource="http://w3id.org/dcri-ont/special/dmr_cleaning_superficial_deposit_018"/>
         <dcri-ont:hasRequirement rdf:resource="http://w3id.org/dcri-ont/special/dmr_cleaning_superficial_deposit_021"/>
         <dcri-ont:hasRequirement rdf:resource="http://w3id.org/dcri-ont/special/dmr_cleaning_superficial_deposit_029"/>
@@ -2244,7 +2234,6 @@ The ontology indirectly imports SKOS, CIDOC CRM, CRMsci and selected object prop
         <dcri-ont:hasRequirement rdf:resource="http://w3id.org/dcri-ont/special/dmr_cleaning_superficial_deposit_008"/>
         <dcri-ont:hasRequirement rdf:resource="http://w3id.org/dcri-ont/special/dmr_cleaning_superficial_deposit_009"/>
         <dcri-ont:hasRequirement rdf:resource="http://w3id.org/dcri-ont/special/dmr_cleaning_superficial_deposit_014"/>
-        <dcri-ont:hasRequirement rdf:resource="http://w3id.org/dcri-ont/special/dmr_cleaning_superficial_deposit_017"/>
         <dcri-ont:hasRequirement rdf:resource="http://w3id.org/dcri-ont/special/dmr_cleaning_superficial_deposit_018"/>
         <dcri-ont:hasRequirement rdf:resource="http://w3id.org/dcri-ont/special/dmr_cleaning_superficial_deposit_021"/>
         <dcri-ont:hasRequirement rdf:resource="http://w3id.org/dcri-ont/special/dmr_cleaning_superficial_deposit_028"/>
@@ -2616,20 +2605,6 @@ The ontology indirectly imports SKOS, CIDOC CRM, CRMsci and selected object prop
         <rdfs:label xml:lang="el">απαίτηση για το αντικείμενο συντήρησης απουσίας καθρεφτίσματος</rdfs:label>
         <skos:prefLabel xml:lang="en">requirement for conservation object about silver mirroring absence</skos:prefLabel>
         <skos:prefLabel xml:lang="el">απαίτηση για το αντικείμενο συντήρησης απουσίας καθρεφτίσματος</skos:prefLabel>
-    </owl:NamedIndividual>
-    
-
-
-    <!-- http://w3id.org/dcri-ont/special/dmr_cleaning_superficial_deposit_017 -->
-
-    <owl:NamedIndividual rdf:about="http://w3id.org/dcri-ont/special/dmr_cleaning_superficial_deposit_017">
-        <rdf:type rdf:resource="http://w3id.org/dcri-ont/ConservationAndRestorationInterventionDecision-makingIntrinsicRequirementAboutConservationObject"/>
-        <dcri-ont:isAboutCertainType rdf:resource="http://w3id.org/dcri-ont/vocabulary/concept_00218"/>
-        <dcri-ont:requiresAbsenceOf rdf:resource="http://w3id.org/dcri-ont/vocabulary/concept_00189"/>
-        <rdfs:label xml:lang="en">requirement for conservation object about emulsion absence</rdfs:label>
-        <rdfs:label xml:lang="el">απαίτηση για το αντικείμενο συντήρησης απουσίας γαλακτώματος</rdfs:label>
-        <skos:prefLabel xml:lang="en">requirement for conservation object about emulsion absence</skos:prefLabel>
-        <skos:prefLabel xml:lang="el">απαίτηση για το αντικείμενο συντήρησης απουσίας γαλακτώματος</skos:prefLabel>
     </owl:NamedIndividual>
     
 
@@ -6110,22 +6085,6 @@ The ontology indirectly imports SKOS, CIDOC CRM, CRMsci and selected object prop
 
     <rdf:Description rdf:about="http://w3id.org/dcri-ont/vocabulary/concept_00263">
         <rdf:type rdf:resource="http://w3id.org/dcri-ont/ActorType"/>
-    </rdf:Description>
-    
-
-
-    <!-- http://w3id.org/dcri-ont/vocabulary/concept_00266 -->
-
-    <rdf:Description rdf:about="http://w3id.org/dcri-ont/vocabulary/concept_00266">
-        <rdf:type rdf:resource="http://w3id.org/dcri-ont/ConservationAndRestorationInterventionDecision-makingRequirementAssessmentType"/>
-    </rdf:Description>
-    
-
-
-    <!-- http://w3id.org/dcri-ont/vocabulary/concept_00267 -->
-
-    <rdf:Description rdf:about="http://w3id.org/dcri-ont/vocabulary/concept_00267">
-        <rdf:type rdf:resource="http://w3id.org/dcri-ont/ConservationAndRestorationInterventionDecision-makingRequirementAssessmentType"/>
     </rdf:Description>
     
 

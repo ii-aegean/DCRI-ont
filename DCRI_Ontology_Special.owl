@@ -2274,9 +2274,33 @@ The ontology indirectly imports SKOS, CIDOC CRM, CRMsci and selected object prop
         <dcri-ont:involvesChoosing rdf:resource="http://w3id.org/dcri-ont/special/ip_cleaning_superficial_deposit_034"/>
         <dcri-ont:isSolutionOf rdf:resource="http://w3id.org/dcri-ont/special/dmi_cleaning_superficial_deposit"/>
         <rdfs:label xml:lang="en">option of mechanical cleaning of superficial deposits with dust bulb and dusting brush aroung friability areas</rdfs:label>
-        <rdfs:label xml:lang="el">επιλογή μηχανικού καθαρισμού επιφανειακών επικαθίσεων με πουάρ και πινέλο ξεσκονίσματος γύρω από περιοχές απολεπίσεων</rdfs:label>
+        <rdfs:label xml:lang="el">επιλογή μηχανικού καθαρισμού επιφανειακών επικαθίσεων με πουάρ και πινέλο ξεσκονίσματος γύρω από περιοχές ευθρυπτότητας</rdfs:label>
         <skos:prefLabel xml:lang="en">option of mechanical cleaning of superficial deposits with dust bulb and dusting brush aroung friability areas</skos:prefLabel>
-        <skos:prefLabel xml:lang="el">επιλογή μηχανικού καθαρισμού επιφανειακών επικαθίσεων με πουάρ και πινέλο ξεσκονίσματος γύρω από περιοχές απολεπίσεων</skos:prefLabel>
+        <skos:prefLabel xml:lang="el">επιλογή μηχανικού καθαρισμού επιφανειακών επικαθίσεων με πουάρ και πινέλο ξεσκονίσματος γύρω από περιοχές ευθρυπτότητας</skos:prefLabel>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://w3id.org/dcri-ont/special/dmo_cleaning_superficial_deposit_035 -->
+
+    <owl:NamedIndividual rdf:about="http://w3id.org/dcri-ont/special/dmo_cleaning_superficial_deposit_035">
+        <rdf:type rdf:resource="http://w3id.org/dcri-ont/ConservationAndRestorationInterventionDecision-makingOption"/>
+        <dcri-ont:hasRequirement rdf:resource="http://w3id.org/dcri-ont/special/dmr_cleaning_superficial_deposit_010"/>
+        <dcri-ont:hasRequirement rdf:resource="http://w3id.org/dcri-ont/special/dmr_cleaning_superficial_deposit_011"/>
+        <dcri-ont:hasRequirement rdf:resource="http://w3id.org/dcri-ont/special/dmr_cleaning_superficial_deposit_012"/>
+        <dcri-ont:hasRequirement rdf:resource="http://w3id.org/dcri-ont/special/dmr_cleaning_superficial_deposit_013"/>
+        <dcri-ont:hasRequirement rdf:resource="http://w3id.org/dcri-ont/special/dmr_cleaning_superficial_deposit_018"/>
+        <dcri-ont:hasRequirement rdf:resource="http://w3id.org/dcri-ont/special/dmr_cleaning_superficial_deposit_021"/>
+        <dcri-ont:hasRequirement rdf:resource="http://w3id.org/dcri-ont/special/dmr_cleaning_superficial_deposit_029"/>
+        <dcri-ont:hasRequirement rdf:resource="http://w3id.org/dcri-ont/special/dmr_cleaning_superficial_deposit_030"/>
+        <dcri-ont:hasRequirement rdf:resource="http://w3id.org/dcri-ont/special/dmr_cleaning_superficial_deposit_031"/>
+        <dcri-ont:hasRequirement rdf:resource="http://w3id.org/dcri-ont/special/dmr_cleaning_superficial_deposit_033"/>
+        <dcri-ont:involvesChoosing rdf:resource="http://w3id.org/dcri-ont/special/ip_cleaning_superficial_deposit_035"/>
+        <dcri-ont:isSolutionOf rdf:resource="http://w3id.org/dcri-ont/special/dmi_cleaning_superficial_deposit"/>
+        <rdfs:label xml:lang="en">option of mechanical cleaning of superficial deposits with dust bulb and dusting brush aroung flaking areas</rdfs:label>
+        <rdfs:label xml:lang="el">επιλογή μηχανικού καθαρισμού επιφανειακών επικαθίσεων με πουάρ και πινέλο ξεσκονίσματος γύρω από περιοχές απολέπισης</rdfs:label>
+        <skos:prefLabel xml:lang="en">option of mechanical cleaning of superficial deposits with dust bulb and dusting brush aroung flaking areas</skos:prefLabel>
+        <skos:prefLabel xml:lang="el">επιλογή μηχανικού καθαρισμού επιφανειακών επικαθίσεων με πουάρ και πινέλο ξεσκονίσματος γύρω από περιοχές απολέπισης</skos:prefLabel>
     </owl:NamedIndividual>
     
 
@@ -3692,9 +3716,27 @@ The ontology indirectly imports SKOS, CIDOC CRM, CRMsci and selected object prop
         <hasApplicationExtentQualitativeValue rdf:resource="http://w3id.org/dcri-ont/special/qv_00012"/>
         <hasPerformanceSpeedQualitativeValue rdf:resource="http://w3id.org/dcri-ont/special/qv_00032"/>
         <rdfs:label xml:lang="en">mechanical cleaning of superficial deposits with dust bulb and dusting brush around friability areas</rdfs:label>
-        <rdfs:label xml:lang="el">μηχανικός καθαρισμός επιφανειακών επικαθίσεων με πουάρ και πινέλο ξεσκονίσματος γύρω από περιοχές απολεπίσεων</rdfs:label>
+        <rdfs:label xml:lang="el">μηχανικός καθαρισμός επιφανειακών επικαθίσεων με πουάρ και πινέλο ξεσκονίσματος γύρω από περιοχές ευθρυπτότητας</rdfs:label>
         <skos:prefLabel xml:lang="en">mechanical cleaning of superficial deposits with dust bulb and dusting brush around friability areas</skos:prefLabel>
-        <skos:prefLabel xml:lang="el">μηχανικός καθαρισμός επιφανειακών επικαθίσεων με πουάρ και πινέλο ξεσκονίσματος γύρω από περιοχές απολεπίσεων</skos:prefLabel>
+        <skos:prefLabel xml:lang="el">μηχανικός καθαρισμός επιφανειακών επικαθίσεων με πουάρ και πινέλο ξεσκονίσματος γύρω από περιοχές ευθρυπτότητας</skos:prefLabel>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://w3id.org/dcri-ont/special/ip_cleaning_superficial_deposit_035 -->
+
+    <owl:NamedIndividual rdf:about="http://w3id.org/dcri-ont/special/ip_cleaning_superficial_deposit_035">
+        <rdf:type rdf:resource="http://w3id.org/dcri-ont/RemedialConservationAndRestorationInterventionPlan"/>
+        <dcri-ont:hasPlanType rdf:resource="http://w3id.org/dcri-ont/vocabulary/concept_00021"/>
+        <dcri-ont:specifiesConservationAndRestorationInterventionSupply rdf:resource="http://w3id.org/dcri-ont/special/is_equipment_001"/>
+        <dcri-ont:specifiesConservationAndRestorationInterventionSupply rdf:resource="http://w3id.org/dcri-ont/special/is_equipment_006"/>
+        <hasApplicationDistanceQualitativeValue rdf:resource="http://w3id.org/dcri-ont/special/qv_00011"/>
+        <hasApplicationExtentQualitativeValue rdf:resource="http://w3id.org/dcri-ont/special/qv_00012"/>
+        <hasPerformanceSpeedQualitativeValue rdf:resource="http://w3id.org/dcri-ont/special/qv_00032"/>
+        <rdfs:label xml:lang="en">mechanical cleaning of superficial deposits with dust bulb and dusting brush around flaking areas</rdfs:label>
+        <rdfs:label xml:lang="en">μηχανικός καθαρισμός επιφανειακών επικαθίσεων με πουάρ και πινέλο ξεσκονίσματος γύρω από περιοχές απολέπισης</rdfs:label>
+        <skos:prefLabel xml:lang="en">mechanical cleaning of superficial deposits with dust bulb and dusting brush around flaking areas</skos:prefLabel>
+        <skos:prefLabel xml:lang="en">μηχανικός καθαρισμός επιφανειακών επικαθίσεων με πουάρ και πινέλο ξεσκονίσματος γύρω από περιοχές απολέπισης</skos:prefLabel>
     </owl:NamedIndividual>
     
 

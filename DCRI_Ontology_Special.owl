@@ -2213,6 +2213,7 @@ The ontology indirectly imports SKOS, CIDOC CRM, CRMsci and selected object prop
         <dcri-ont:hasRequirement rdf:resource="http://w3id.org/dcri-ont/special/dmr_cleaning_superficial_deposit_030"/>
         <dcri-ont:hasRequirement rdf:resource="http://w3id.org/dcri-ont/special/dmr_cleaning_superficial_deposit_031"/>
         <dcri-ont:hasRequirement rdf:resource="http://w3id.org/dcri-ont/special/dmr_cleaning_superficial_deposit_033"/>
+        <dcri-ont:hasRequirement rdf:resource="http://w3id.org/dcri-ont/special/dmr_cleaning_superficial_deposit_043"/>
         <dcri-ont:involvesChoosing rdf:resource="http://w3id.org/dcri-ont/special/ip_cleaning_superficial_deposit_032"/>
         <dcri-ont:isSolutionOf rdf:resource="http://w3id.org/dcri-ont/special/dmi_cleaning_superficial_deposit"/>
         <rdfs:label xml:lang="en">option of mechanical cleaning of superficial deposits with museum vacuum cleaner (blowing/suction) and dusting brush around flaking areas</rdfs:label>

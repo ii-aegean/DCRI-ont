@@ -22,7 +22,6 @@
         <owl:imports rdf:resource="http://w3id.org/dcri-ont"/>
         <owl:imports rdf:resource="http://w3id.org/dcri-ont/vocabulary/"/>
         <terms:creator xml:lang="en">Efthymia Moraitou</terms:creator>
-        <terms:description xml:lang="en"></terms:description>
         <terms:description xml:lang="en">DCRIO Special Instances specialises Decision of Conservation and Restoration Intervention Ontology with classes, properties and individuals about specific categories of interventions options. At this version the model contains special classes, properties and individuals related to intervention options of i) cleaning superficial deposits and ii) consolidation of flaking of gouache artworks.
 
 The ontology directly imports Decision of Conservation and Restoration Intervention Ontology and DCRIO Vocabulary.
@@ -72,6 +71,12 @@ The ontology indirectly imports SKOS, CIDOC CRM, CRMsci and selected object prop
     <!-- http://swrl.stanford.edu/ontologies/3.3/swrla.owl#isRuleEnabled -->
 
     <owl:AnnotationProperty rdf:about="http://swrl.stanford.edu/ontologies/3.3/swrla.owl#isRuleEnabled"/>
+    
+
+
+    <!-- http://w3id.org/dcri-ont/hasDocumentType -->
+
+    <owl:AnnotationProperty rdf:about="http://w3id.org/dcri-ont/hasDocumentType"/>
     
 
 
@@ -236,20 +241,6 @@ The ontology indirectly imports SKOS, CIDOC CRM, CRMsci and selected object prop
     
 
 
-    <!-- http://w3id.org/dcri-ont/special/hasPerformanceSpaceQualitativeValue -->
-
-    <owl:ObjectProperty rdf:about="http://w3id.org/dcri-ont/special/hasPerformanceSpaceQualitativeValue">
-        <rdfs:subPropertyOf rdf:resource="http://w3id.org/dcri-ont/hasQualitativeValue"/>
-        <owl:inverseOf rdf:resource="http://w3id.org/dcri-ont/special/isPerformanceSpaceQualitativeValueOf"/>
-        <rdfs:range rdf:resource="http://w3id.org/dcri-ont/special/PerformanceSpaceQualitativeValue"/>
-        <rdfs:label xml:lang="en">has performance space qualitative value</rdfs:label>
-        <rdfs:label xml:lang="el">έχει ποιοτική τιμή χώρου εκτέλεσης</rdfs:label>
-        <skos:prefLabel xml:lang="en">has performance space qualitative value</skos:prefLabel>
-        <skos:prefLabel xml:lang="el">έχει ποιοτική τιμή χώρου εκτέλεσης</skos:prefLabel>
-    </owl:ObjectProperty>
-    
-
-
     <!-- http://w3id.org/dcri-ont/special/hasPerformanceSpeedQualitativeValue -->
 
     <owl:ObjectProperty rdf:about="http://w3id.org/dcri-ont/special/hasPerformanceSpeedQualitativeValue">
@@ -315,20 +306,6 @@ The ontology indirectly imports SKOS, CIDOC CRM, CRMsci and selected object prop
         <rdfs:label xml:lang="el">έχει ποιοτική τιμή μεγέθους</rdfs:label>
         <skos:prefLabel xml:lang="en">has size qualitative value</skos:prefLabel>
         <skos:prefLabel xml:lang="el">έχει ποιοτική τιμή μεγέθους</skos:prefLabel>
-    </owl:ObjectProperty>
-    
-
-
-    <!-- http://w3id.org/dcri-ont/special/hasSolubilityInSolventQualitativeValue -->
-
-    <owl:ObjectProperty rdf:about="http://w3id.org/dcri-ont/special/hasSolubilityInSolventQualitativeValue">
-        <rdfs:subPropertyOf rdf:resource="http://w3id.org/dcri-ont/hasQualitativeValue"/>
-        <owl:inverseOf rdf:resource="http://w3id.org/dcri-ont/special/isSolubilityInSolventQualitativeValueOf"/>
-        <rdfs:range rdf:resource="http://w3id.org/dcri-ont/special/SolubilityInSolventQualitativeValue"/>
-        <rdfs:label xml:lang="en">has solubility in solvent qualitative value</rdfs:label>
-        <rdfs:label xml:lang="el">έχει ποιοτική τιμή διαλυτότητας σε διαλύτη</rdfs:label>
-        <skos:prefLabel xml:lang="en">has solubility in solvent qualitative value</skos:prefLabel>
-        <skos:prefLabel xml:lang="el">έχει ποιοτική τιμή διαλυτότητας σε διαλύτη</skos:prefLabel>
     </owl:ObjectProperty>
     
 
@@ -411,19 +388,6 @@ The ontology indirectly imports SKOS, CIDOC CRM, CRMsci and selected object prop
     
 
 
-    <!-- http://w3id.org/dcri-ont/special/isPerformanceSpaceQualitativeValueOf -->
-
-    <owl:ObjectProperty rdf:about="http://w3id.org/dcri-ont/special/isPerformanceSpaceQualitativeValueOf">
-        <rdfs:subPropertyOf rdf:resource="http://w3id.org/dcri-ont/isQualitativeValueOf"/>
-        <rdfs:domain rdf:resource="http://w3id.org/dcri-ont/special/PerformanceSpaceQualitativeValue"/>
-        <rdfs:label xml:lang="en">is performance space qualitative value of</rdfs:label>
-        <rdfs:label xml:lang="el">είναι ποιοτική τιμή χώρου εκτέλεσης</rdfs:label>
-        <skos:prefLabel xml:lang="en">is performance space qualitative value of</skos:prefLabel>
-        <skos:prefLabel xml:lang="el">είναι ποιοτική τιμή χώρου εκτέλεσης</skos:prefLabel>
-    </owl:ObjectProperty>
-    
-
-
     <!-- http://w3id.org/dcri-ont/special/isPerformanceSpeedQualitativeValueOf -->
 
     <owl:ObjectProperty rdf:about="http://w3id.org/dcri-ont/special/isPerformanceSpeedQualitativeValueOf">
@@ -485,19 +449,6 @@ The ontology indirectly imports SKOS, CIDOC CRM, CRMsci and selected object prop
         <rdfs:label xml:lang="el">είναι ποιοτική τιμή μεγέθους</rdfs:label>
         <skos:prefLabel xml:lang="en">is size qualitative value of</skos:prefLabel>
         <skos:prefLabel xml:lang="el">είναι ποιοτική τιμή μεγέθους</skos:prefLabel>
-    </owl:ObjectProperty>
-    
-
-
-    <!-- http://w3id.org/dcri-ont/special/isSolubilityInSolventQualitativeValueOf -->
-
-    <owl:ObjectProperty rdf:about="http://w3id.org/dcri-ont/special/isSolubilityInSolventQualitativeValueOf">
-        <rdfs:subPropertyOf rdf:resource="http://w3id.org/dcri-ont/isQualitativeValueOf"/>
-        <rdfs:domain rdf:resource="http://w3id.org/dcri-ont/special/SolubilityInSolventQualitativeValue"/>
-        <rdfs:label xml:lang="en">is solubility in solvent qualitative value of</rdfs:label>
-        <rdfs:label xml:lang="el">είναι ποιοτική τιμή διαλυτότητας σε διαλύτη</rdfs:label>
-        <skos:prefLabel xml:lang="en">is solubility in solvent qualitative value of</skos:prefLabel>
-        <skos:prefLabel xml:lang="el">είναι ποιοτική τιμή διαλυτότητας σε διαλύτη</skos:prefLabel>
     </owl:ObjectProperty>
     
 
@@ -596,6 +547,54 @@ The ontology indirectly imports SKOS, CIDOC CRM, CRMsci and selected object prop
     
 
 
+    <!-- http://w3id.org/dcri-ont/special/hasMaximumRelativeHumidityQuantitativeValue -->
+
+    <owl:DatatypeProperty rdf:about="http://w3id.org/dcri-ont/special/hasMaximumRelativeHumidityQuantitativeValue">
+        <rdfs:subPropertyOf rdf:resource="http://w3id.org/dcri-ont/special/hasRelativeHumidityQuantitativeValue"/>
+        <rdfs:label xml:lang="en">has maximum relative humidity quantitative value</rdfs:label>
+        <rdfs:label xml:lang="el">έχει μέγιστη ποσοτική τιμή σχετικής υγρασίας</rdfs:label>
+        <skos:prefLabel xml:lang="en">has maximum relative humidity quantitative value</skos:prefLabel>
+        <skos:prefLabel xml:lang="el">έχει μέγιστη ποσοτική τιμή σχετικής υγρασίας</skos:prefLabel>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://w3id.org/dcri-ont/special/hasMaximumTemperatureQuantitativeValue -->
+
+    <owl:DatatypeProperty rdf:about="http://w3id.org/dcri-ont/special/hasMaximumTemperatureQuantitativeValue">
+        <rdfs:subPropertyOf rdf:resource="http://w3id.org/dcri-ont/special/hasTemperatureQuantitativeValue"/>
+        <rdfs:label xml:lang="en">has maximum temperature quantitative value</rdfs:label>
+        <rdfs:label xml:lang="el">έχει μέγιστη ποσοτική τιμή θερμοκρασίας</rdfs:label>
+        <skos:prefLabel xml:lang="en">has maximum temperature quantitative value</skos:prefLabel>
+        <skos:prefLabel xml:lang="el">έχει μέγιστη ποσοτική τιμή θερμοκρασίας</skos:prefLabel>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://w3id.org/dcri-ont/special/hasMinimumRelativeHumidityQuantitativeValue -->
+
+    <owl:DatatypeProperty rdf:about="http://w3id.org/dcri-ont/special/hasMinimumRelativeHumidityQuantitativeValue">
+        <rdfs:subPropertyOf rdf:resource="http://w3id.org/dcri-ont/special/hasRelativeHumidityQuantitativeValue"/>
+        <rdfs:label xml:lang="en">has minimum relative humidity quantitative value</rdfs:label>
+        <rdfs:label xml:lang="el">έχει ελάχιστη ποσοτική τιμή σχετικής υγρασίας</rdfs:label>
+        <skos:prefLabel xml:lang="en">has minimum relative humidity quantitative value</skos:prefLabel>
+        <skos:prefLabel xml:lang="el">έχει ελάχιστη ποσοτική τιμή σχετικής υγρασίας</skos:prefLabel>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://w3id.org/dcri-ont/special/hasMinimumTemperatureQuantitativeValue -->
+
+    <owl:DatatypeProperty rdf:about="http://w3id.org/dcri-ont/special/hasMinimumTemperatureQuantitativeValue">
+        <rdfs:subPropertyOf rdf:resource="http://w3id.org/dcri-ont/special/hasTemperatureQuantitativeValue"/>
+        <rdfs:label xml:lang="en">has minimun temperature quantitative value</rdfs:label>
+        <rdfs:label xml:lang="el">έχει ελάχιστη ποσοτική τιμή θερμοκρασίας</rdfs:label>
+        <skos:prefLabel xml:lang="en">has minimun temperature quantitative value</skos:prefLabel>
+        <skos:prefLabel xml:lang="el">έχει ελάχιστη ποσοτική τιμή θερμοκρασίας</skos:prefLabel>
+    </owl:DatatypeProperty>
+    
+
+
     <!-- http://w3id.org/dcri-ont/special/hasRelativeHumidityQuantitativeValue -->
 
     <owl:DatatypeProperty rdf:about="http://w3id.org/dcri-ont/special/hasRelativeHumidityQuantitativeValue">
@@ -686,6 +685,12 @@ The ontology indirectly imports SKOS, CIDOC CRM, CRMsci and selected object prop
     
 
 
+    <!-- http://w3id.org/dcri-ont/ConditionStateType -->
+
+    <owl:Class rdf:about="http://w3id.org/dcri-ont/ConditionStateType"/>
+    
+
+
     <!-- http://w3id.org/dcri-ont/ConservationAndRestorationInterventionDecision-makingIssue -->
 
     <owl:Class rdf:about="http://w3id.org/dcri-ont/ConservationAndRestorationInterventionDecision-makingIssue"/>
@@ -701,6 +706,12 @@ The ontology indirectly imports SKOS, CIDOC CRM, CRMsci and selected object prop
     <!-- http://w3id.org/dcri-ont/ConservationAndRestorationInterventionSupply -->
 
     <owl:Class rdf:about="http://w3id.org/dcri-ont/ConservationAndRestorationInterventionSupply"/>
+    
+
+
+    <!-- http://w3id.org/dcri-ont/DocumentType -->
+
+    <owl:Class rdf:about="http://w3id.org/dcri-ont/DocumentType"/>
     
 
 
@@ -937,29 +948,6 @@ The ontology indirectly imports SKOS, CIDOC CRM, CRMsci and selected object prop
     
 
 
-    <!-- http://w3id.org/dcri-ont/special/PerformanceSpaceQualitativeValue -->
-
-    <owl:Class rdf:about="http://w3id.org/dcri-ont/special/PerformanceSpaceQualitativeValue">
-        <owl:equivalentClass>
-            <owl:Class>
-                <owl:intersectionOf rdf:parseType="Collection">
-                    <rdf:Description rdf:about="http://w3id.org/dcri-ont/QualitativeValue"/>
-                    <owl:Restriction>
-                        <owl:onProperty rdf:resource="http://w3id.org/dcri-ont/refersToPropertyType"/>
-                        <owl:hasValue rdf:resource="http://w3id.org/dcri-ont/vocabulary/concept_00040"/>
-                    </owl:Restriction>
-                </owl:intersectionOf>
-            </owl:Class>
-        </owl:equivalentClass>
-        <rdfs:subClassOf rdf:resource="http://w3id.org/dcri-ont/QualitativeValue"/>
-        <rdfs:label xml:lang="en">Performance Space Qualitative Value</rdfs:label>
-        <rdfs:label xml:lang="el">Ποιοτική Τιμή Χώρου Εκτέλεσης</rdfs:label>
-        <skos:prefLabel xml:lang="en">Performance Space Qualitative Value</skos:prefLabel>
-        <skos:prefLabel xml:lang="el">Ποιοτική Τιμή Χώρου Εκτέλεσης</skos:prefLabel>
-    </owl:Class>
-    
-
-
     <!-- http://w3id.org/dcri-ont/special/PerformanceSpeedQualitativeValue -->
 
     <owl:Class rdf:about="http://w3id.org/dcri-ont/special/PerformanceSpeedQualitativeValue">
@@ -1026,38 +1014,6 @@ The ontology indirectly imports SKOS, CIDOC CRM, CRMsci and selected object prop
         <rdfs:label xml:lang="el">Ποιοτική Τιμή Έκτασης Φυσικού Χαρακτηριστικού</rdfs:label>
         <skos:prefLabel xml:lang="en">Physical Feature Extent Qualitative Value</skos:prefLabel>
         <skos:prefLabel xml:lang="el">Ποιοτική Τιμή Έκτασης Φυσικού Χαρακτηριστικού</skos:prefLabel>
-    </owl:Class>
-    
-
-
-    <!-- http://w3id.org/dcri-ont/special/PolymerismDegreeQualitativeValue -->
-
-    <owl:Class rdf:about="http://w3id.org/dcri-ont/special/PolymerismDegreeQualitativeValue">
-        <owl:equivalentClass>
-            <owl:Class>
-                <owl:intersectionOf rdf:parseType="Collection">
-                    <rdf:Description rdf:about="http://w3id.org/dcri-ont/QualitativeValue"/>
-                    <owl:Restriction>
-                        <owl:onProperty rdf:resource="http://w3id.org/dcri-ont/refersToPropertyType"/>
-                        <owl:hasValue rdf:resource="http://w3id.org/dcri-ont/vocabulary/concept_00204"/>
-                    </owl:Restriction>
-                </owl:intersectionOf>
-            </owl:Class>
-        </owl:equivalentClass>
-        <owl:equivalentClass>
-            <owl:Class>
-                <owl:oneOf rdf:parseType="Collection">
-                    <rdf:Description rdf:about="http://w3id.org/dcri-ont/special/qv_00058"/>
-                    <rdf:Description rdf:about="http://w3id.org/dcri-ont/special/qv_00059"/>
-                    <rdf:Description rdf:about="http://w3id.org/dcri-ont/special/qv_00060"/>
-                </owl:oneOf>
-            </owl:Class>
-        </owl:equivalentClass>
-        <rdfs:subClassOf rdf:resource="http://w3id.org/dcri-ont/QualitativeValue"/>
-        <rdfs:label xml:lang="en">Polymerism degree qualitative value</rdfs:label>
-        <rdfs:label xml:lang="el">Ποιοτική τιμή βαθμού πολυμερισμού</rdfs:label>
-        <skos:prefLabel xml:lang="en">Polymerism degree qualitative value</skos:prefLabel>
-        <skos:prefLabel xml:lang="el">Ποιοτική τιμή βαθμού πολυμερισμού</skos:prefLabel>
     </owl:Class>
     
 
@@ -1170,43 +1126,6 @@ The ontology indirectly imports SKOS, CIDOC CRM, CRMsci and selected object prop
     
 
 
-    <!-- http://w3id.org/dcri-ont/special/SolubilityInSolventQualitativeValue -->
-
-    <owl:Class rdf:about="http://w3id.org/dcri-ont/special/SolubilityInSolventQualitativeValue">
-        <owl:equivalentClass>
-            <owl:Class>
-                <owl:intersectionOf rdf:parseType="Collection">
-                    <rdf:Description rdf:about="http://w3id.org/dcri-ont/QualitativeValue"/>
-                    <owl:Restriction>
-                        <owl:onProperty rdf:resource="http://w3id.org/dcri-ont/refersToPropertyType"/>
-                        <owl:hasValue rdf:resource="http://w3id.org/dcri-ont/vocabulary/concept_00046"/>
-                    </owl:Restriction>
-                </owl:intersectionOf>
-            </owl:Class>
-        </owl:equivalentClass>
-        <owl:equivalentClass>
-            <owl:Class>
-                <owl:oneOf rdf:parseType="Collection">
-                    <rdf:Description rdf:about="http://w3id.org/dcri-ont/special/qv_00001"/>
-                    <rdf:Description rdf:about="http://w3id.org/dcri-ont/special/qv_00002"/>
-                </owl:oneOf>
-            </owl:Class>
-        </owl:equivalentClass>
-        <rdfs:subClassOf rdf:resource="http://w3id.org/dcri-ont/QualitativeValue"/>
-        <rdfs:subClassOf>
-            <owl:Restriction>
-                <owl:onProperty rdf:resource="http://w3id.org/dcri-ont/special/isSolubilityInSolventQualitativeValueOf"/>
-                <owl:allValuesFrom rdf:resource="http://www.cidoc-crm.org/cidoc-crm/CRMsci/S15_Observable_Entity"/>
-            </owl:Restriction>
-        </rdfs:subClassOf>
-        <rdfs:label xml:lang="en">Solubility in Solvent Qualitative Value</rdfs:label>
-        <rdfs:label xml:lang="el">Ποιοτική Τιμή Διαλυτότητας σε Διαλύτη</rdfs:label>
-        <skos:prefLabel xml:lang="en">Solubility in Solvent Qualitative Value</skos:prefLabel>
-        <skos:prefLabel xml:lang="el">Ποιοτική Τιμή Διαλυτότητας σε Διαλύτη</skos:prefLabel>
-    </owl:Class>
-    
-
-
     <!-- http://www.cidoc-crm.org/cidoc-crm/E22_Man-Made_Object -->
 
     <owl:Class rdf:about="http://www.cidoc-crm.org/cidoc-crm/E22_Man-Made_Object"/>
@@ -1257,6 +1176,28 @@ The ontology indirectly imports SKOS, CIDOC CRM, CRMsci and selected object prop
     ///////////////////////////////////////////////////////////////////////////////////////
      -->
 
+    
+
+
+    <!-- http://w3id.org/dcri-ont/special/ca_klucel-g -->
+
+    <owl:NamedIndividual rdf:about="http://w3id.org/dcri-ont/special/ca_klucel-g">
+        <rdf:type rdf:resource="http://w3id.org/dcri-ont/CommercialAppellation"/>
+        <dcri-ont:isCommercialAppellationOf rdf:resource="http://w3id.org/dcri-ont/vocabulary/concept_00254"/>
+        <rdfs:label xml:lang="en">Klucel G</rdfs:label>
+        <skos:prefLabel xml:lang="en">Klucel G</skos:prefLabel>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://w3id.org/dcri-ont/special/ca_paraloid-b72 -->
+
+    <owl:NamedIndividual rdf:about="http://w3id.org/dcri-ont/special/ca_paraloid-b72">
+        <rdf:type rdf:resource="http://w3id.org/dcri-ont/CommercialAppellation"/>
+        <dcri-ont:isCommercialAppellationOf rdf:resource="http://w3id.org/dcri-ont/vocabulary/concept_00169"/>
+        <rdfs:label xml:lang="en">Paraloid B72</rdfs:label>
+        <skos:prefLabel xml:lang="en">Paraloid B72</skos:prefLabel>
+    </owl:NamedIndividual>
     
 
 
@@ -1448,8 +1389,10 @@ The ontology indirectly imports SKOS, CIDOC CRM, CRMsci and selected object prop
     <owl:NamedIndividual rdf:about="http://w3id.org/dcri-ont/special/dmo_cleaning_superficial_deposit_001">
         <rdf:type rdf:resource="http://w3id.org/dcri-ont/ConservationAndRestorationInterventionDecision-makingOption"/>
         <dcri-ont:hasRequirement rdf:resource="http://w3id.org/dcri-ont/special/dmr_cleaning_superficial_deposit_002"/>
-        <dcri-ont:hasRequirement rdf:resource="http://w3id.org/dcri-ont/special/dmr_cleaning_superficial_deposit_005"/>
         <dcri-ont:hasRequirement rdf:resource="http://w3id.org/dcri-ont/special/dmr_cleaning_superficial_deposit_009"/>
+        <dcri-ont:hasRequirement rdf:resource="http://w3id.org/dcri-ont/special/dmr_cleaning_superficial_deposit_010"/>
+        <dcri-ont:hasRequirement rdf:resource="http://w3id.org/dcri-ont/special/dmr_cleaning_superficial_deposit_011"/>
+        <dcri-ont:hasRequirement rdf:resource="http://w3id.org/dcri-ont/special/dmr_cleaning_superficial_deposit_013"/>
         <dcri-ont:hasRequirement rdf:resource="http://w3id.org/dcri-ont/special/dmr_cleaning_superficial_deposit_018"/>
         <dcri-ont:hasRequirement rdf:resource="http://w3id.org/dcri-ont/special/dmr_cleaning_superficial_deposit_019"/>
         <dcri-ont:hasRequirement rdf:resource="http://w3id.org/dcri-ont/special/dmr_cleaning_superficial_deposit_020"/>
@@ -1457,7 +1400,6 @@ The ontology indirectly imports SKOS, CIDOC CRM, CRMsci and selected object prop
         <dcri-ont:hasRequirement rdf:resource="http://w3id.org/dcri-ont/special/dmr_cleaning_superficial_deposit_032"/>
         <dcri-ont:hasRequirement rdf:resource="http://w3id.org/dcri-ont/special/dmr_cleaning_superficial_deposit_040"/>
         <dcri-ont:hasRequirement rdf:resource="http://w3id.org/dcri-ont/special/dmr_cleaning_superficial_deposit_041"/>
-        <dcri-ont:hasRequirement rdf:resource="http://w3id.org/dcri-ont/special/dmr_cleaning_superficial_deposit_046"/>
         <dcri-ont:involvesChoosing rdf:resource="http://w3id.org/dcri-ont/special/ip_cleaning_superficial_deposit_009"/>
         <dcri-ont:isSolutionOf rdf:resource="http://w3id.org/dcri-ont/special/dmi_cleaning_superficial_deposit"/>
         <rdfs:label xml:lang="en">option of mechanical cleaning of superficial deposits with air blow gun</rdfs:label>
@@ -1473,7 +1415,6 @@ The ontology indirectly imports SKOS, CIDOC CRM, CRMsci and selected object prop
     <owl:NamedIndividual rdf:about="http://w3id.org/dcri-ont/special/dmo_cleaning_superficial_deposit_002">
         <rdf:type rdf:resource="http://w3id.org/dcri-ont/ConservationAndRestorationInterventionDecision-makingOption"/>
         <dcri-ont:hasRequirement rdf:resource="http://w3id.org/dcri-ont/special/dmr_cleaning_superficial_deposit_002"/>
-        <dcri-ont:hasRequirement rdf:resource="http://w3id.org/dcri-ont/special/dmr_cleaning_superficial_deposit_005"/>
         <dcri-ont:hasRequirement rdf:resource="http://w3id.org/dcri-ont/special/dmr_cleaning_superficial_deposit_009"/>
         <dcri-ont:hasRequirement rdf:resource="http://w3id.org/dcri-ont/special/dmr_cleaning_superficial_deposit_010"/>
         <dcri-ont:hasRequirement rdf:resource="http://w3id.org/dcri-ont/special/dmr_cleaning_superficial_deposit_011"/>
@@ -1487,7 +1428,6 @@ The ontology indirectly imports SKOS, CIDOC CRM, CRMsci and selected object prop
         <dcri-ont:hasRequirement rdf:resource="http://w3id.org/dcri-ont/special/dmr_cleaning_superficial_deposit_032"/>
         <dcri-ont:hasRequirement rdf:resource="http://w3id.org/dcri-ont/special/dmr_cleaning_superficial_deposit_040"/>
         <dcri-ont:hasRequirement rdf:resource="http://w3id.org/dcri-ont/special/dmr_cleaning_superficial_deposit_041"/>
-        <dcri-ont:hasRequirement rdf:resource="http://w3id.org/dcri-ont/special/dmr_cleaning_superficial_deposit_046"/>
         <dcri-ont:involvesChoosing rdf:resource="http://w3id.org/dcri-ont/special/ip_cleaning_superficial_deposit_010"/>
         <dcri-ont:isSolutionOf rdf:resource="http://w3id.org/dcri-ont/special/dmi_cleaning_superficial_deposit"/>
         <rdfs:label xml:lang="en">option of mechanical cleaning of superficial deposits with air blow gun and dusting brush</rdfs:label>
@@ -1503,9 +1443,10 @@ The ontology indirectly imports SKOS, CIDOC CRM, CRMsci and selected object prop
     <owl:NamedIndividual rdf:about="http://w3id.org/dcri-ont/special/dmo_cleaning_superficial_deposit_003">
         <rdf:type rdf:resource="http://w3id.org/dcri-ont/ConservationAndRestorationInterventionDecision-makingOption"/>
         <dcri-ont:hasRequirement rdf:resource="http://w3id.org/dcri-ont/special/dmr_cleaning_superficial_deposit_002"/>
-        <dcri-ont:hasRequirement rdf:resource="http://w3id.org/dcri-ont/special/dmr_cleaning_superficial_deposit_005"/>
-        <dcri-ont:hasRequirement rdf:resource="http://w3id.org/dcri-ont/special/dmr_cleaning_superficial_deposit_008"/>
         <dcri-ont:hasRequirement rdf:resource="http://w3id.org/dcri-ont/special/dmr_cleaning_superficial_deposit_009"/>
+        <dcri-ont:hasRequirement rdf:resource="http://w3id.org/dcri-ont/special/dmr_cleaning_superficial_deposit_010"/>
+        <dcri-ont:hasRequirement rdf:resource="http://w3id.org/dcri-ont/special/dmr_cleaning_superficial_deposit_011"/>
+        <dcri-ont:hasRequirement rdf:resource="http://w3id.org/dcri-ont/special/dmr_cleaning_superficial_deposit_013"/>
         <dcri-ont:hasRequirement rdf:resource="http://w3id.org/dcri-ont/special/dmr_cleaning_superficial_deposit_018"/>
         <dcri-ont:hasRequirement rdf:resource="http://w3id.org/dcri-ont/special/dmr_cleaning_superficial_deposit_019"/>
         <dcri-ont:hasRequirement rdf:resource="http://w3id.org/dcri-ont/special/dmr_cleaning_superficial_deposit_020"/>
@@ -1513,7 +1454,6 @@ The ontology indirectly imports SKOS, CIDOC CRM, CRMsci and selected object prop
         <dcri-ont:hasRequirement rdf:resource="http://w3id.org/dcri-ont/special/dmr_cleaning_superficial_deposit_032"/>
         <dcri-ont:hasRequirement rdf:resource="http://w3id.org/dcri-ont/special/dmr_cleaning_superficial_deposit_040"/>
         <dcri-ont:hasRequirement rdf:resource="http://w3id.org/dcri-ont/special/dmr_cleaning_superficial_deposit_041"/>
-        <dcri-ont:hasRequirement rdf:resource="http://w3id.org/dcri-ont/special/dmr_cleaning_superficial_deposit_046"/>
         <dcri-ont:involvesChoosing rdf:resource="http://w3id.org/dcri-ont/special/ip_cleaning_superficial_deposit_003"/>
         <dcri-ont:isSolutionOf rdf:resource="http://w3id.org/dcri-ont/special/dmi_cleaning_superficial_deposit"/>
         <rdfs:label xml:lang="en">option of mechanical cleaning of superficial deposits with battery air blower</rdfs:label>
@@ -1529,11 +1469,10 @@ The ontology indirectly imports SKOS, CIDOC CRM, CRMsci and selected object prop
     <owl:NamedIndividual rdf:about="http://w3id.org/dcri-ont/special/dmo_cleaning_superficial_deposit_004">
         <rdf:type rdf:resource="http://w3id.org/dcri-ont/ConservationAndRestorationInterventionDecision-makingOption"/>
         <dcri-ont:hasRequirement rdf:resource="http://w3id.org/dcri-ont/special/dmr_cleaning_superficial_deposit_002"/>
-        <dcri-ont:hasRequirement rdf:resource="http://w3id.org/dcri-ont/special/dmr_cleaning_superficial_deposit_005"/>
-        <dcri-ont:hasRequirement rdf:resource="http://w3id.org/dcri-ont/special/dmr_cleaning_superficial_deposit_008"/>
         <dcri-ont:hasRequirement rdf:resource="http://w3id.org/dcri-ont/special/dmr_cleaning_superficial_deposit_009"/>
+        <dcri-ont:hasRequirement rdf:resource="http://w3id.org/dcri-ont/special/dmr_cleaning_superficial_deposit_010"/>
         <dcri-ont:hasRequirement rdf:resource="http://w3id.org/dcri-ont/special/dmr_cleaning_superficial_deposit_011"/>
-        <dcri-ont:hasRequirement rdf:resource="http://w3id.org/dcri-ont/special/dmr_cleaning_superficial_deposit_012"/>
+        <dcri-ont:hasRequirement rdf:resource="http://w3id.org/dcri-ont/special/dmr_cleaning_superficial_deposit_013"/>
         <dcri-ont:hasRequirement rdf:resource="http://w3id.org/dcri-ont/special/dmr_cleaning_superficial_deposit_018"/>
         <dcri-ont:hasRequirement rdf:resource="http://w3id.org/dcri-ont/special/dmr_cleaning_superficial_deposit_019"/>
         <dcri-ont:hasRequirement rdf:resource="http://w3id.org/dcri-ont/special/dmr_cleaning_superficial_deposit_020"/>
@@ -1542,7 +1481,6 @@ The ontology indirectly imports SKOS, CIDOC CRM, CRMsci and selected object prop
         <dcri-ont:hasRequirement rdf:resource="http://w3id.org/dcri-ont/special/dmr_cleaning_superficial_deposit_032"/>
         <dcri-ont:hasRequirement rdf:resource="http://w3id.org/dcri-ont/special/dmr_cleaning_superficial_deposit_040"/>
         <dcri-ont:hasRequirement rdf:resource="http://w3id.org/dcri-ont/special/dmr_cleaning_superficial_deposit_041"/>
-        <dcri-ont:hasRequirement rdf:resource="http://w3id.org/dcri-ont/special/dmr_cleaning_superficial_deposit_046"/>
         <dcri-ont:involvesChoosing rdf:resource="http://w3id.org/dcri-ont/special/ip_cleaning_superficial_deposit_004"/>
         <dcri-ont:isSolutionOf rdf:resource="http://w3id.org/dcri-ont/special/dmi_cleaning_superficial_deposit"/>
         <rdfs:label xml:lang="en">option of mechanical cleaning of superficial deposits with battery air blower and dusting brush</rdfs:label>
@@ -1558,8 +1496,10 @@ The ontology indirectly imports SKOS, CIDOC CRM, CRMsci and selected object prop
     <owl:NamedIndividual rdf:about="http://w3id.org/dcri-ont/special/dmo_cleaning_superficial_deposit_005">
         <rdf:type rdf:resource="http://w3id.org/dcri-ont/ConservationAndRestorationInterventionDecision-makingOption"/>
         <dcri-ont:hasRequirement rdf:resource="http://w3id.org/dcri-ont/special/dmr_cleaning_superficial_deposit_002"/>
-        <dcri-ont:hasRequirement rdf:resource="http://w3id.org/dcri-ont/special/dmr_cleaning_superficial_deposit_005"/>
         <dcri-ont:hasRequirement rdf:resource="http://w3id.org/dcri-ont/special/dmr_cleaning_superficial_deposit_009"/>
+        <dcri-ont:hasRequirement rdf:resource="http://w3id.org/dcri-ont/special/dmr_cleaning_superficial_deposit_010"/>
+        <dcri-ont:hasRequirement rdf:resource="http://w3id.org/dcri-ont/special/dmr_cleaning_superficial_deposit_011"/>
+        <dcri-ont:hasRequirement rdf:resource="http://w3id.org/dcri-ont/special/dmr_cleaning_superficial_deposit_013"/>
         <dcri-ont:hasRequirement rdf:resource="http://w3id.org/dcri-ont/special/dmr_cleaning_superficial_deposit_018"/>
         <dcri-ont:hasRequirement rdf:resource="http://w3id.org/dcri-ont/special/dmr_cleaning_superficial_deposit_019"/>
         <dcri-ont:hasRequirement rdf:resource="http://w3id.org/dcri-ont/special/dmr_cleaning_superficial_deposit_020"/>
@@ -1567,7 +1507,6 @@ The ontology indirectly imports SKOS, CIDOC CRM, CRMsci and selected object prop
         <dcri-ont:hasRequirement rdf:resource="http://w3id.org/dcri-ont/special/dmr_cleaning_superficial_deposit_032"/>
         <dcri-ont:hasRequirement rdf:resource="http://w3id.org/dcri-ont/special/dmr_cleaning_superficial_deposit_040"/>
         <dcri-ont:hasRequirement rdf:resource="http://w3id.org/dcri-ont/special/dmr_cleaning_superficial_deposit_041"/>
-        <dcri-ont:hasRequirement rdf:resource="http://w3id.org/dcri-ont/special/dmr_cleaning_superficial_deposit_046"/>
         <dcri-ont:involvesChoosing rdf:resource="http://w3id.org/dcri-ont/special/ip_cleaning_superficial_deposit_005"/>
         <dcri-ont:isSolutionOf rdf:resource="http://w3id.org/dcri-ont/special/dmi_cleaning_superficial_deposit"/>
         <rdfs:label xml:lang="en">option of mechanical cleaning of superficial deposits with battery vacuum cleaner</rdfs:label>
@@ -1583,7 +1522,6 @@ The ontology indirectly imports SKOS, CIDOC CRM, CRMsci and selected object prop
     <owl:NamedIndividual rdf:about="http://w3id.org/dcri-ont/special/dmo_cleaning_superficial_deposit_006">
         <rdf:type rdf:resource="http://w3id.org/dcri-ont/ConservationAndRestorationInterventionDecision-makingOption"/>
         <dcri-ont:hasRequirement rdf:resource="http://w3id.org/dcri-ont/special/dmr_cleaning_superficial_deposit_002"/>
-        <dcri-ont:hasRequirement rdf:resource="http://w3id.org/dcri-ont/special/dmr_cleaning_superficial_deposit_005"/>
         <dcri-ont:hasRequirement rdf:resource="http://w3id.org/dcri-ont/special/dmr_cleaning_superficial_deposit_009"/>
         <dcri-ont:hasRequirement rdf:resource="http://w3id.org/dcri-ont/special/dmr_cleaning_superficial_deposit_010"/>
         <dcri-ont:hasRequirement rdf:resource="http://w3id.org/dcri-ont/special/dmr_cleaning_superficial_deposit_011"/>
@@ -1597,7 +1535,6 @@ The ontology indirectly imports SKOS, CIDOC CRM, CRMsci and selected object prop
         <dcri-ont:hasRequirement rdf:resource="http://w3id.org/dcri-ont/special/dmr_cleaning_superficial_deposit_032"/>
         <dcri-ont:hasRequirement rdf:resource="http://w3id.org/dcri-ont/special/dmr_cleaning_superficial_deposit_040"/>
         <dcri-ont:hasRequirement rdf:resource="http://w3id.org/dcri-ont/special/dmr_cleaning_superficial_deposit_041"/>
-        <dcri-ont:hasRequirement rdf:resource="http://w3id.org/dcri-ont/special/dmr_cleaning_superficial_deposit_046"/>
         <dcri-ont:involvesChoosing rdf:resource="http://w3id.org/dcri-ont/special/ip_cleaning_superficial_deposit_006"/>
         <dcri-ont:isSolutionOf rdf:resource="http://w3id.org/dcri-ont/special/dmi_cleaning_superficial_deposit"/>
         <rdfs:label xml:lang="en">option of mechanical cleaning of superficial deposits with battery vacuum cleaner and dusting brush</rdfs:label>
@@ -1649,6 +1586,7 @@ The ontology indirectly imports SKOS, CIDOC CRM, CRMsci and selected object prop
 
     <owl:NamedIndividual rdf:about="http://w3id.org/dcri-ont/special/dmo_cleaning_superficial_deposit_009">
         <rdf:type rdf:resource="http://w3id.org/dcri-ont/ConservationAndRestorationInterventionDecision-makingOption"/>
+        <dcri-ont:hasRequirement rdf:resource="http://w3id.org/dcri-ont/special/dmr_cleaning_superficial_deposit_001"/>
         <dcri-ont:hasRequirement rdf:resource="http://w3id.org/dcri-ont/special/dmr_cleaning_superficial_deposit_002"/>
         <dcri-ont:hasRequirement rdf:resource="http://w3id.org/dcri-ont/special/dmr_cleaning_superficial_deposit_003"/>
         <dcri-ont:hasRequirement rdf:resource="http://w3id.org/dcri-ont/special/dmr_cleaning_superficial_deposit_008"/>
@@ -1676,7 +1614,6 @@ The ontology indirectly imports SKOS, CIDOC CRM, CRMsci and selected object prop
         <dcri-ont:hasRequirement rdf:resource="http://w3id.org/dcri-ont/special/dmr_cleaning_superficial_deposit_011"/>
         <dcri-ont:hasRequirement rdf:resource="http://w3id.org/dcri-ont/special/dmr_cleaning_superficial_deposit_012"/>
         <dcri-ont:hasRequirement rdf:resource="http://w3id.org/dcri-ont/special/dmr_cleaning_superficial_deposit_013"/>
-        <dcri-ont:hasRequirement rdf:resource="http://w3id.org/dcri-ont/special/dmr_cleaning_superficial_deposit_018"/>
         <dcri-ont:hasRequirement rdf:resource="http://w3id.org/dcri-ont/special/dmr_cleaning_superficial_deposit_024"/>
         <dcri-ont:hasRequirement rdf:resource="http://w3id.org/dcri-ont/special/dmr_cleaning_superficial_deposit_029"/>
         <dcri-ont:hasRequirement rdf:resource="http://w3id.org/dcri-ont/special/dmr_cleaning_superficial_deposit_032"/>
@@ -1993,7 +1930,6 @@ The ontology indirectly imports SKOS, CIDOC CRM, CRMsci and selected object prop
         <dcri-ont:hasRequirement rdf:resource="http://w3id.org/dcri-ont/special/dmr_cleaning_superficial_deposit_005"/>
         <dcri-ont:hasRequirement rdf:resource="http://w3id.org/dcri-ont/special/dmr_cleaning_superficial_deposit_008"/>
         <dcri-ont:hasRequirement rdf:resource="http://w3id.org/dcri-ont/special/dmr_cleaning_superficial_deposit_009"/>
-        <dcri-ont:hasRequirement rdf:resource="http://w3id.org/dcri-ont/special/dmr_cleaning_superficial_deposit_012"/>
         <dcri-ont:hasRequirement rdf:resource="http://w3id.org/dcri-ont/special/dmr_cleaning_superficial_deposit_018"/>
         <dcri-ont:hasRequirement rdf:resource="http://w3id.org/dcri-ont/special/dmr_cleaning_superficial_deposit_019"/>
         <dcri-ont:hasRequirement rdf:resource="http://w3id.org/dcri-ont/special/dmr_cleaning_superficial_deposit_020"/>
@@ -2030,7 +1966,6 @@ The ontology indirectly imports SKOS, CIDOC CRM, CRMsci and selected object prop
         <dcri-ont:hasRequirement rdf:resource="http://w3id.org/dcri-ont/special/dmr_cleaning_superficial_deposit_011"/>
         <dcri-ont:hasRequirement rdf:resource="http://w3id.org/dcri-ont/special/dmr_cleaning_superficial_deposit_012"/>
         <dcri-ont:hasRequirement rdf:resource="http://w3id.org/dcri-ont/special/dmr_cleaning_superficial_deposit_013"/>
-        <dcri-ont:hasRequirement rdf:resource="http://w3id.org/dcri-ont/special/dmr_cleaning_superficial_deposit_016"/>
         <dcri-ont:hasRequirement rdf:resource="http://w3id.org/dcri-ont/special/dmr_cleaning_superficial_deposit_018"/>
         <dcri-ont:hasRequirement rdf:resource="http://w3id.org/dcri-ont/special/dmr_cleaning_superficial_deposit_024"/>
         <dcri-ont:hasRequirement rdf:resource="http://w3id.org/dcri-ont/special/dmr_cleaning_superficial_deposit_025"/>
@@ -2299,9 +2234,9 @@ The ontology indirectly imports SKOS, CIDOC CRM, CRMsci and selected object prop
         <dcri-ont:involvesChoosing rdf:resource="http://w3id.org/dcri-ont/special/ip_cleaning_superficial_deposit_035"/>
         <dcri-ont:isSolutionOf rdf:resource="http://w3id.org/dcri-ont/special/dmi_cleaning_superficial_deposit"/>
         <rdfs:label xml:lang="en">option of mechanical cleaning of superficial deposits with dust bulb and dusting brush aroung flaking areas</rdfs:label>
-        <rdfs:label xml:lang="el">επιλογή μηχανικού καθαρισμού επιφανειακών επικαθίσεων με πουάρ και πινέλο ξεσκονίσματος γύρω από περιοχές απολέπισης</rdfs:label>
+        <rdfs:label xml:lang="el">επιλογή μηχανικού καθαρισμού επιφανειακών επικαθίσεων με πουάρ και πινέλο ξεσκονίσματος γύρω από περιοχές απολεπίσεων</rdfs:label>
         <skos:prefLabel xml:lang="en">option of mechanical cleaning of superficial deposits with dust bulb and dusting brush aroung flaking areas</skos:prefLabel>
-        <skos:prefLabel xml:lang="el">επιλογή μηχανικού καθαρισμού επιφανειακών επικαθίσεων με πουάρ και πινέλο ξεσκονίσματος γύρω από περιοχές απολέπισης</skos:prefLabel>
+        <skos:prefLabel xml:lang="el">επιλογή μηχανικού καθαρισμού επιφανειακών επικαθίσεων με πουάρ και πινέλο ξεσκονίσματος γύρω από περιοχές απολεπίσεων</skos:prefLabel>
     </owl:NamedIndividual>
     
 
@@ -2630,6 +2565,20 @@ The ontology indirectly imports SKOS, CIDOC CRM, CRMsci and selected object prop
         <rdfs:label xml:lang="el">απαίτηση για το αντικείμενο συντήρησης απουσίας καθρεφτίσματος</rdfs:label>
         <skos:prefLabel xml:lang="en">requirement for conservation object about silver mirroring absence</skos:prefLabel>
         <skos:prefLabel xml:lang="el">απαίτηση για το αντικείμενο συντήρησης απουσίας καθρεφτίσματος</skos:prefLabel>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://w3id.org/dcri-ont/special/dmr_cleaning_superficial_deposit_017 -->
+
+    <owl:NamedIndividual rdf:about="http://w3id.org/dcri-ont/special/dmr_cleaning_superficial_deposit_017">
+        <rdf:type rdf:resource="http://w3id.org/dcri-ont/ConservationAndRestorationInterventionDecision-makingIntrinsicRequirementAboutConservationObject"/>
+        <dcri-ont:isAboutCertainType rdf:resource="http://w3id.org/dcri-ont/vocabulary/concept_00218"/>
+        <dcri-ont:requiresAbsenceOf rdf:resource="http://w3id.org/dcri-ont/vocabulary/concept_00189"/>
+        <rdfs:label xml:lang="en">requirement for conservation object about emulsion absence</rdfs:label>
+        <rdfs:label xml:lang="el">απαίτηση για το αντικείμενο συντήρησης απουσίας γαλακτώματος</rdfs:label>
+        <skos:prefLabel xml:lang="en">requirement for conservation object about emulsion absence</skos:prefLabel>
+        <skos:prefLabel xml:lang="el">απαίτηση για το αντικείμενο συντήρησης απουσίας γαλακτώματος</skos:prefLabel>
     </owl:NamedIndividual>
     
 
@@ -3184,6 +3133,107 @@ The ontology indirectly imports SKOS, CIDOC CRM, CRMsci and selected object prop
     
 
 
+    <!-- http://w3id.org/dcri-ont/special/doc_consolidation_of_flaking_painting_001 -->
+
+    <owl:NamedIndividual rdf:about="http://w3id.org/dcri-ont/special/doc_consolidation_of_flaking_painting_001">
+        <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E31_Document"/>
+        <cidoc-crm:P102_has_title rdf:resource="http://w3id.org/dcri-ont/special/doc_title_consolidation_of_flaking_painting_001"/>
+        <cidoc-crm:P70_documents rdf:resource="http://w3id.org/dcri-ont/special/ip_consolidation_of_flaking_painting_001"/>
+        <cidoc-crm:P70_documents rdf:resource="http://w3id.org/dcri-ont/special/ip_consolidation_of_flaking_painting_003"/>
+        <cidoc-crm:P70_documents rdf:resource="http://w3id.org/dcri-ont/special/ip_consolidation_of_flaking_painting_006"/>
+        <cidoc-crm:P3_has_note>https://www.conservation-wiki.com/wiki/BPG_Consolidation,_Fixing,_and_Facing</cidoc-crm:P3_has_note>
+        <dcri-ont:hasDocumentType rdf:resource="http://w3id.org/dcri-ont/vocabulary/concept_00275"/>
+        <rdfs:label xml:lang="en">AIC wiki, BPG Consolidation-Fixing-Facing</rdfs:label>
+        <skos:prefLabel xml:lang="en">AIC wiki, BPG Consolidation-Fixing-Facing</skos:prefLabel>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://w3id.org/dcri-ont/special/doc_consolidation_of_flaking_painting_002 -->
+
+    <owl:NamedIndividual rdf:about="http://w3id.org/dcri-ont/special/doc_consolidation_of_flaking_painting_002">
+        <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E31_Document"/>
+        <cidoc-crm:P102_has_title rdf:resource="http://w3id.org/dcri-ont/special/doc_title_consolidation_of_flaking_painting_002"/>
+        <cidoc-crm:P70_documents rdf:resource="http://w3id.org/dcri-ont/special/ip_consolidation_of_flaking_painting_001"/>
+        <cidoc-crm:P3_has_note>chrome-extension://efaidnbmnnnibpcajpcglclefindmkaj/https://www.dcr.fct.unl.pt/sites/www.dcr.fct.unl.pt/files/borges_2018.pdf</cidoc-crm:P3_has_note>
+        <dcri-ont:hasDocumentType rdf:resource="http://w3id.org/dcri-ont/vocabulary/concept_00274"/>
+        <rdfs:label xml:lang="en">Elsevier, Adhesives used in paper conservation: Chemical stability and fungal bioreceptivity</rdfs:label>
+        <skos:prefLabel xml:lang="en">Elsevier, Adhesives used in paper conservation: Chemical stability and fungal bioreceptivity</skos:prefLabel>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://w3id.org/dcri-ont/special/doc_consolidation_of_flaking_painting_003 -->
+
+    <owl:NamedIndividual rdf:about="http://w3id.org/dcri-ont/special/doc_consolidation_of_flaking_painting_003">
+        <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E31_Document"/>
+        <cidoc-crm:P102_has_title rdf:resource="http://w3id.org/dcri-ont/special/doc_title_consolidation_of_flaking_painting_003"/>
+        <cidoc-crm:P70_documents rdf:resource="http://w3id.org/dcri-ont/special/ip_consolidation_of_flaking_painting_003"/>
+        <cidoc-crm:P70_documents rdf:resource="http://w3id.org/dcri-ont/special/ip_consolidation_of_flaking_painting_005"/>
+        <cidoc-crm:P70_documents rdf:resource="http://w3id.org/dcri-ont/special/ip_consolidation_of_flaking_painting_006"/>
+        <cidoc-crm:P3_has_note>https://www.tandfonline.com/doi/abs/10.1080/03094227.1998.9638607</cidoc-crm:P3_has_note>
+        <dcri-ont:hasDocumentType rdf:resource="http://w3id.org/dcri-ont/vocabulary/concept_00274"/>
+        <rdfs:label xml:lang="en">The paper conservator, The conservation of Mrs. Marton, an eighteenth-century pastel and gouache portrait by Daniel Gardner</rdfs:label>
+        <skos:prefLabel xml:lang="en">The paper conservator, The conservation of Mrs. Marton, an eighteenth-century pastel and gouache portrait by Daniel Gardner</skos:prefLabel>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://w3id.org/dcri-ont/special/doc_consolidation_of_flaking_painting_004 -->
+
+    <owl:NamedIndividual rdf:about="http://w3id.org/dcri-ont/special/doc_consolidation_of_flaking_painting_004">
+        <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E31_Document"/>
+        <cidoc-crm:P102_has_title rdf:resource="http://w3id.org/dcri-ont/special/doc_title_consolidation_of_flaking_painting_004"/>
+        <cidoc-crm:P70_documents rdf:resource="http://w3id.org/dcri-ont/special/ip_consolidation_of_flaking_painting_002"/>
+        <cidoc-crm:P70_documents rdf:resource="http://w3id.org/dcri-ont/special/ip_consolidation_of_flaking_painting_004"/>
+        <cidoc-crm:P3_has_note>https://cool.culturalheritage.org/coolaic/sg/bpg/annual/v14/bp14-03.html</cidoc-crm:P3_has_note>
+        <dcri-ont:hasDocumentType rdf:resource="http://w3id.org/dcri-ont/vocabulary/concept_00275"/>
+        <rdfs:label xml:lang="en">AIC, BPG Annual, The Use of the Ultrasonic Mister for the Consolidation of a Flaking Gouache Painting on Paper</rdfs:label>
+        <skos:prefLabel xml:lang="en">AIC, BPG Annual, The Use of the Ultrasonic Mister for the Consolidation of a Flaking Gouache Painting on Paper</skos:prefLabel>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://w3id.org/dcri-ont/special/doc_title_consolidation_of_flaking_painting_001 -->
+
+    <owl:NamedIndividual rdf:about="http://w3id.org/dcri-ont/special/doc_title_consolidation_of_flaking_painting_001">
+        <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E35_Title"/>
+        <rdfs:label xml:lang="en">BPG Consolidation, Fixing, and Facing</rdfs:label>
+        <skos:prefLabel xml:lang="en">BPG Consolidation, Fixing, and Facing</skos:prefLabel>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://w3id.org/dcri-ont/special/doc_title_consolidation_of_flaking_painting_002 -->
+
+    <owl:NamedIndividual rdf:about="http://w3id.org/dcri-ont/special/doc_title_consolidation_of_flaking_painting_002">
+        <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E35_Title"/>
+        <rdfs:label xml:lang="en">Adhesives used in paper conservation: Chemical stability and fungal bioreceptivity</rdfs:label>
+        <skos:prefLabel xml:lang="en">Adhesives used in paper conservation: Chemical stability and fungal bioreceptivity</skos:prefLabel>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://w3id.org/dcri-ont/special/doc_title_consolidation_of_flaking_painting_003 -->
+
+    <owl:NamedIndividual rdf:about="http://w3id.org/dcri-ont/special/doc_title_consolidation_of_flaking_painting_003">
+        <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E35_Title"/>
+        <rdfs:label xml:lang="en">The conservation of Mrs. Marton, an eighteenth-century pastel and gouache portrait by Daniel Gardner</rdfs:label>
+        <skos:prefLabel xml:lang="en">The conservation of Mrs. Marton, an eighteenth-century pastel and gouache portrait by Daniel Gardner</skos:prefLabel>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://w3id.org/dcri-ont/special/doc_title_consolidation_of_flaking_painting_004 -->
+
+    <owl:NamedIndividual rdf:about="http://w3id.org/dcri-ont/special/doc_title_consolidation_of_flaking_painting_004">
+        <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E35_Title"/>
+        <rdfs:label xml:lang="en">The Use of the Ultrasonic Mister for the Consolidation of a Flaking Gouache Painting on Paper</rdfs:label>
+        <skos:prefLabel xml:lang="en">The Use of the Ultrasonic Mister for the Consolidation of a Flaking Gouache Painting on Paper</skos:prefLabel>
+    </owl:NamedIndividual>
+    
+
+
     <!-- http://w3id.org/dcri-ont/special/ip_cleaning_superficial_deposit_001 -->
 
     <owl:NamedIndividual rdf:about="http://w3id.org/dcri-ont/special/ip_cleaning_superficial_deposit_001">
@@ -3719,7 +3769,7 @@ The ontology indirectly imports SKOS, CIDOC CRM, CRMsci and selected object prop
         <rdfs:label xml:lang="en">mechanical cleaning of superficial deposits with dust bulb and dusting brush around friability areas</rdfs:label>
         <rdfs:label xml:lang="el">μηχανικός καθαρισμός επιφανειακών επικαθίσεων με πουάρ και πινέλο ξεσκονίσματος γύρω από περιοχές ευθρυπτότητας</rdfs:label>
         <skos:prefLabel xml:lang="en">mechanical cleaning of superficial deposits with dust bulb and dusting brush around friability areas</skos:prefLabel>
-        <skos:prefLabel xml:lang="el">μηχανικός καθαρισμός επιφανειακών επικαθίσεων με πουάρ και πινέλο ξεσκονίσματος γύρω από περιοχές ευθρυπτότητας</skos:prefLabel>
+        <skos:prefLabel xml:lang="el">μηχανικός καθαρισμός επιφανειακών επικαθίσεων με πουάρ και πινέλο ξεσκονίσματος γύρω από περιοχές ευρθρυπτότητας</skos:prefLabel>
     </owl:NamedIndividual>
     
 
@@ -3735,9 +3785,9 @@ The ontology indirectly imports SKOS, CIDOC CRM, CRMsci and selected object prop
         <hasApplicationExtentQualitativeValue rdf:resource="http://w3id.org/dcri-ont/special/qv_00012"/>
         <hasPerformanceSpeedQualitativeValue rdf:resource="http://w3id.org/dcri-ont/special/qv_00032"/>
         <rdfs:label xml:lang="en">mechanical cleaning of superficial deposits with dust bulb and dusting brush around flaking areas</rdfs:label>
-        <rdfs:label xml:lang="en">μηχανικός καθαρισμός επιφανειακών επικαθίσεων με πουάρ και πινέλο ξεσκονίσματος γύρω από περιοχές απολέπισης</rdfs:label>
+        <rdfs:label xml:lang="el">μηχανικός καθαρισμός επιφανειακών επικαθίσεων με πουάρ και πινέλο ξεσκονίσματος γύρω από περιοχές απολεπίσεων</rdfs:label>
         <skos:prefLabel xml:lang="en">mechanical cleaning of superficial deposits with dust bulb and dusting brush around flaking areas</skos:prefLabel>
-        <skos:prefLabel xml:lang="en">μηχανικός καθαρισμός επιφανειακών επικαθίσεων με πουάρ και πινέλο ξεσκονίσματος γύρω από περιοχές απολέπισης</skos:prefLabel>
+        <skos:prefLabel xml:lang="el">μηχανικός καθαρισμός επιφανειακών επικαθίσεων με πουάρ και πινέλο ξεσκονίσματος γύρω από περιοχές απολεπίσεων</skos:prefLabel>
     </owl:NamedIndividual>
     
 
@@ -4113,7 +4163,7 @@ The ontology indirectly imports SKOS, CIDOC CRM, CRMsci and selected object prop
 
     <owl:NamedIndividual rdf:about="http://w3id.org/dcri-ont/special/is_material_001">
         <rdf:type rdf:resource="http://w3id.org/dcri-ont/ConservationAndRestorationInterventionSupply"/>
-        <dcri-ont:hasConservationAndRestorationInterventionSupplyType rdf:resource="http://w3id.org/dcri-ont/vocabulary/concept_00158"/>
+        <dcri-ont:hasConservationAndRestorationInterventionSupplyType rdf:resource="http://w3id.org/dcri-ont/vocabulary/concept_00278"/>
         <cidoc-crm:P43_has_dimension rdf:resource="http://w3id.org/dcri-ont/special/d_concentration_material_001"/>
         <cidoc-crm:P45_consists_of rdf:resource="http://w3id.org/dcri-ont/vocabulary/concept_00062"/>
         <cidoc-crm:P45_consists_of rdf:resource="http://w3id.org/dcri-ont/vocabulary/concept_00064"/>
@@ -4129,7 +4179,7 @@ The ontology indirectly imports SKOS, CIDOC CRM, CRMsci and selected object prop
 
     <owl:NamedIndividual rdf:about="http://w3id.org/dcri-ont/special/is_material_002">
         <rdf:type rdf:resource="http://w3id.org/dcri-ont/ConservationAndRestorationInterventionSupply"/>
-        <dcri-ont:hasConservationAndRestorationInterventionSupplyType rdf:resource="http://w3id.org/dcri-ont/vocabulary/concept_00158"/>
+        <dcri-ont:hasConservationAndRestorationInterventionSupplyType rdf:resource="http://w3id.org/dcri-ont/vocabulary/concept_00278"/>
         <cidoc-crm:P43_has_dimension rdf:resource="http://w3id.org/dcri-ont/special/d_concentration_material_002"/>
         <cidoc-crm:P45_consists_of rdf:resource="http://w3id.org/dcri-ont/vocabulary/concept_00062"/>
         <cidoc-crm:P45_consists_of rdf:resource="http://w3id.org/dcri-ont/vocabulary/concept_00063"/>
@@ -4245,30 +4295,6 @@ The ontology indirectly imports SKOS, CIDOC CRM, CRMsci and selected object prop
         <rdfs:label xml:lang="el">klucel G σε ισοπροπανόλη 0.1</rdfs:label>
         <skos:prefLabel xml:lang="en">klucel G in propan-2-ol at 0.1</skos:prefLabel>
         <skos:prefLabel xml:lang="el">klucel G σε ισοπροπανόλη 0.1</skos:prefLabel>
-    </owl:NamedIndividual>
-    
-
-
-    <!-- http://w3id.org/dcri-ont/special/qv_00001 -->
-
-    <owl:NamedIndividual rdf:about="http://w3id.org/dcri-ont/special/qv_00001">
-        <rdf:type rdf:resource="http://w3id.org/dcri-ont/special/SolubilityInSolventQualitativeValue"/>
-        <rdfs:label xml:lang="en">aceton soluble</rdfs:label>
-        <rdfs:label xml:lang="el">διαλυτό σε ακετόνη</rdfs:label>
-        <skos:prefLabel xml:lang="en">aceton soluble</skos:prefLabel>
-        <skos:prefLabel xml:lang="el">διαλυτό σε ακετόνη</skos:prefLabel>
-    </owl:NamedIndividual>
-    
-
-
-    <!-- http://w3id.org/dcri-ont/special/qv_00002 -->
-
-    <owl:NamedIndividual rdf:about="http://w3id.org/dcri-ont/special/qv_00002">
-        <rdf:type rdf:resource="http://w3id.org/dcri-ont/special/SolubilityInSolventQualitativeValue"/>
-        <rdfs:label xml:lang="en">water soluble</rdfs:label>
-        <rdfs:label xml:lang="el">διαλυτό σε νερό</rdfs:label>
-        <skos:prefLabel xml:lang="en">water soluble</skos:prefLabel>
-        <skos:prefLabel xml:lang="el">διαλυτό σε νερό</skos:prefLabel>
     </owl:NamedIndividual>
     
 
@@ -4648,42 +4674,6 @@ The ontology indirectly imports SKOS, CIDOC CRM, CRMsci and selected object prop
     
 
 
-    <!-- http://w3id.org/dcri-ont/special/qv_00058 -->
-
-    <owl:NamedIndividual rdf:about="http://w3id.org/dcri-ont/special/qv_00058">
-        <rdf:type rdf:resource="http://w3id.org/dcri-ont/special/PolymerismDegreeQualitativeValue"/>
-        <rdfs:label xml:lang="en">polymerism high degree</rdfs:label>
-        <rdfs:label xml:lang="el">υψηλός βαθμός πολυμερισμού</rdfs:label>
-        <skos:prefLabel xml:lang="en">polymerism high degree</skos:prefLabel>
-        <skos:prefLabel xml:lang="el">υψηλός βαθμός πολυμερισμού</skos:prefLabel>
-    </owl:NamedIndividual>
-    
-
-
-    <!-- http://w3id.org/dcri-ont/special/qv_00059 -->
-
-    <owl:NamedIndividual rdf:about="http://w3id.org/dcri-ont/special/qv_00059">
-        <rdf:type rdf:resource="http://w3id.org/dcri-ont/special/PolymerismDegreeQualitativeValue"/>
-        <rdfs:label xml:lang="en">polymerism medium degree</rdfs:label>
-        <rdfs:label xml:lang="el">μέτριος βαθμός πολυμερισμού</rdfs:label>
-        <skos:prefLabel xml:lang="en">polymerism medium degree</skos:prefLabel>
-        <skos:prefLabel xml:lang="el">μέτριος βαθμός πολυμερισμού</skos:prefLabel>
-    </owl:NamedIndividual>
-    
-
-
-    <!-- http://w3id.org/dcri-ont/special/qv_00060 -->
-
-    <owl:NamedIndividual rdf:about="http://w3id.org/dcri-ont/special/qv_00060">
-        <rdf:type rdf:resource="http://w3id.org/dcri-ont/special/PolymerismDegreeQualitativeValue"/>
-        <rdfs:label xml:lang="en">polymerism low degree</rdfs:label>
-        <rdfs:label xml:lang="el">χαμηλός βαθμός πολυμερισμού</rdfs:label>
-        <skos:prefLabel xml:lang="en">polymerism low degree</skos:prefLabel>
-        <skos:prefLabel xml:lang="el">χαμηλός βαθμός πολυμερισμού</skos:prefLabel>
-    </owl:NamedIndividual>
-    
-
-
     <!-- http://w3id.org/dcri-ont/special/qv_00061 -->
 
     <owl:NamedIndividual rdf:about="http://w3id.org/dcri-ont/special/qv_00061">
@@ -4855,14 +4845,6 @@ The ontology indirectly imports SKOS, CIDOC CRM, CRMsci and selected object prop
     <!-- http://w3id.org/dcri-ont/vocabulary/concept_00039 -->
 
     <owl:NamedIndividual rdf:about="http://w3id.org/dcri-ont/vocabulary/concept_00039">
-        <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/CRMsci/S9_Property_Type"/>
-    </owl:NamedIndividual>
-    
-
-
-    <!-- http://w3id.org/dcri-ont/vocabulary/concept_00040 -->
-
-    <owl:NamedIndividual rdf:about="http://w3id.org/dcri-ont/vocabulary/concept_00040">
         <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/CRMsci/S9_Property_Type"/>
     </owl:NamedIndividual>
     
@@ -5660,14 +5642,6 @@ The ontology indirectly imports SKOS, CIDOC CRM, CRMsci and selected object prop
     
 
 
-    <!-- http://w3id.org/dcri-ont/vocabulary/concept_00204 -->
-
-    <rdf:Description rdf:about="http://w3id.org/dcri-ont/vocabulary/concept_00204">
-        <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/CRMsci/S9_Property_Type"/>
-    </rdf:Description>
-    
-
-
     <!-- http://w3id.org/dcri-ont/vocabulary/concept_00205 -->
 
     <rdf:Description rdf:about="http://w3id.org/dcri-ont/vocabulary/concept_00205">
@@ -6128,6 +6102,411 @@ The ontology indirectly imports SKOS, CIDOC CRM, CRMsci and selected object prop
 
     <rdf:Description rdf:about="http://w3id.org/dcri-ont/vocabulary/concept_00263">
         <rdf:type rdf:resource="http://w3id.org/dcri-ont/ActorType"/>
+    </rdf:Description>
+    
+
+
+    <!-- http://w3id.org/dcri-ont/vocabulary/concept_00268 -->
+
+    <rdf:Description rdf:about="http://w3id.org/dcri-ont/vocabulary/concept_00268">
+        <rdf:type rdf:resource="http://w3id.org/dcri-ont/PhysicalFeatureType"/>
+    </rdf:Description>
+    
+
+
+    <!-- http://w3id.org/dcri-ont/vocabulary/concept_00269 -->
+
+    <rdf:Description rdf:about="http://w3id.org/dcri-ont/vocabulary/concept_00269">
+        <rdf:type rdf:resource="http://w3id.org/dcri-ont/PhysicalFeatureType"/>
+    </rdf:Description>
+    
+
+
+    <!-- http://w3id.org/dcri-ont/vocabulary/concept_00270 -->
+
+    <rdf:Description rdf:about="http://w3id.org/dcri-ont/vocabulary/concept_00270">
+        <rdf:type rdf:resource="http://w3id.org/dcri-ont/PhysicalFeatureType"/>
+    </rdf:Description>
+    
+
+
+    <!-- http://w3id.org/dcri-ont/vocabulary/concept_00271 -->
+
+    <rdf:Description rdf:about="http://w3id.org/dcri-ont/vocabulary/concept_00271">
+        <rdf:type rdf:resource="http://w3id.org/dcri-ont/PhysicalFeatureType"/>
+    </rdf:Description>
+    
+
+
+    <!-- http://w3id.org/dcri-ont/vocabulary/concept_00272 -->
+
+    <rdf:Description rdf:about="http://w3id.org/dcri-ont/vocabulary/concept_00272">
+        <rdf:type rdf:resource="http://w3id.org/dcri-ont/ActorType"/>
+    </rdf:Description>
+    
+
+
+    <!-- http://w3id.org/dcri-ont/vocabulary/concept_00273 -->
+
+    <rdf:Description rdf:about="http://w3id.org/dcri-ont/vocabulary/concept_00273">
+        <rdf:type rdf:resource="http://w3id.org/dcri-ont/DocumentType"/>
+    </rdf:Description>
+    
+
+
+    <!-- http://w3id.org/dcri-ont/vocabulary/concept_00274 -->
+
+    <rdf:Description rdf:about="http://w3id.org/dcri-ont/vocabulary/concept_00274">
+        <rdf:type rdf:resource="http://w3id.org/dcri-ont/DocumentType"/>
+    </rdf:Description>
+    
+
+
+    <!-- http://w3id.org/dcri-ont/vocabulary/concept_00275 -->
+
+    <rdf:Description rdf:about="http://w3id.org/dcri-ont/vocabulary/concept_00275">
+        <rdf:type rdf:resource="http://w3id.org/dcri-ont/DocumentType"/>
+    </rdf:Description>
+    
+
+
+    <!-- http://w3id.org/dcri-ont/vocabulary/concept_00276 -->
+
+    <rdf:Description rdf:about="http://w3id.org/dcri-ont/vocabulary/concept_00276">
+        <rdf:type rdf:resource="http://w3id.org/dcri-ont/DocumentType"/>
+    </rdf:Description>
+    
+
+
+    <!-- http://w3id.org/dcri-ont/vocabulary/concept_00277 -->
+
+    <rdf:Description rdf:about="http://w3id.org/dcri-ont/vocabulary/concept_00277">
+        <rdf:type rdf:resource="http://w3id.org/dcri-ont/DocumentType"/>
+    </rdf:Description>
+    
+
+
+    <!-- http://w3id.org/dcri-ont/vocabulary/concept_00278 -->
+
+    <rdf:Description rdf:about="http://w3id.org/dcri-ont/vocabulary/concept_00278">
+        <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E57_Material"/>
+    </rdf:Description>
+    
+
+
+    <!-- http://w3id.org/dcri-ont/vocabulary/concept_00279 -->
+
+    <rdf:Description rdf:about="http://w3id.org/dcri-ont/vocabulary/concept_00279">
+        <rdf:type rdf:resource="http://w3id.org/dcri-ont/ConditionStateType"/>
+    </rdf:Description>
+    
+
+
+    <!-- http://w3id.org/dcri-ont/vocabulary/concept_00280 -->
+
+    <rdf:Description rdf:about="http://w3id.org/dcri-ont/vocabulary/concept_00280">
+        <rdf:type rdf:resource="http://w3id.org/dcri-ont/ConditionStateType"/>
+    </rdf:Description>
+    
+
+
+    <!-- http://w3id.org/dcri-ont/vocabulary/concept_00281 -->
+
+    <rdf:Description rdf:about="http://w3id.org/dcri-ont/vocabulary/concept_00281">
+        <rdf:type rdf:resource="http://w3id.org/dcri-ont/ConditionStateType"/>
+    </rdf:Description>
+    
+
+
+    <!-- http://w3id.org/dcri-ont/vocabulary/concept_00283 -->
+
+    <rdf:Description rdf:about="http://w3id.org/dcri-ont/vocabulary/concept_00283">
+        <rdf:type rdf:resource="http://w3id.org/dcri-ont/ConditionStateType"/>
+    </rdf:Description>
+    
+
+
+    <!-- http://w3id.org/dcri-ont/vocabulary/concept_00284 -->
+
+    <rdf:Description rdf:about="http://w3id.org/dcri-ont/vocabulary/concept_00284">
+        <rdf:type rdf:resource="http://w3id.org/dcri-ont/ConditionStateType"/>
+    </rdf:Description>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // General axioms
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    <rdf:Description>
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#AllDifferent"/>
+        <owl:distinctMembers rdf:parseType="Collection">
+            <rdf:Description rdf:about="http://w3id.org/dcri-ont/special/qv_00003"/>
+            <rdf:Description rdf:about="http://w3id.org/dcri-ont/special/qv_00004"/>
+        </owl:distinctMembers>
+    </rdf:Description>
+    <rdf:Description>
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#AllDifferent"/>
+        <owl:distinctMembers rdf:parseType="Collection">
+            <rdf:Description rdf:about="http://w3id.org/dcri-ont/special/qv_00005"/>
+            <rdf:Description rdf:about="http://w3id.org/dcri-ont/special/qv_00006"/>
+        </owl:distinctMembers>
+    </rdf:Description>
+    <rdf:Description>
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#AllDifferent"/>
+        <owl:distinctMembers rdf:parseType="Collection">
+            <rdf:Description rdf:about="http://w3id.org/dcri-ont/special/qv_00005"/>
+            <rdf:Description rdf:about="http://w3id.org/dcri-ont/special/qv_00007"/>
+        </owl:distinctMembers>
+    </rdf:Description>
+    <rdf:Description>
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#AllDifferent"/>
+        <owl:distinctMembers rdf:parseType="Collection">
+            <rdf:Description rdf:about="http://w3id.org/dcri-ont/special/qv_00005"/>
+            <rdf:Description rdf:about="http://w3id.org/dcri-ont/special/qv_00008"/>
+        </owl:distinctMembers>
+    </rdf:Description>
+    <rdf:Description>
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#AllDifferent"/>
+        <owl:distinctMembers rdf:parseType="Collection">
+            <rdf:Description rdf:about="http://w3id.org/dcri-ont/special/qv_00005"/>
+            <rdf:Description rdf:about="http://w3id.org/dcri-ont/special/qv_00009"/>
+        </owl:distinctMembers>
+    </rdf:Description>
+    <rdf:Description>
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#AllDifferent"/>
+        <owl:distinctMembers rdf:parseType="Collection">
+            <rdf:Description rdf:about="http://w3id.org/dcri-ont/special/qv_00006"/>
+            <rdf:Description rdf:about="http://w3id.org/dcri-ont/special/qv_00007"/>
+        </owl:distinctMembers>
+    </rdf:Description>
+    <rdf:Description>
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#AllDifferent"/>
+        <owl:distinctMembers rdf:parseType="Collection">
+            <rdf:Description rdf:about="http://w3id.org/dcri-ont/special/qv_00006"/>
+            <rdf:Description rdf:about="http://w3id.org/dcri-ont/special/qv_00008"/>
+        </owl:distinctMembers>
+    </rdf:Description>
+    <rdf:Description>
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#AllDifferent"/>
+        <owl:distinctMembers rdf:parseType="Collection">
+            <rdf:Description rdf:about="http://w3id.org/dcri-ont/special/qv_00006"/>
+            <rdf:Description rdf:about="http://w3id.org/dcri-ont/special/qv_00009"/>
+        </owl:distinctMembers>
+    </rdf:Description>
+    <rdf:Description>
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#AllDifferent"/>
+        <owl:distinctMembers rdf:parseType="Collection">
+            <rdf:Description rdf:about="http://w3id.org/dcri-ont/special/qv_00007"/>
+            <rdf:Description rdf:about="http://w3id.org/dcri-ont/special/qv_00008"/>
+        </owl:distinctMembers>
+    </rdf:Description>
+    <rdf:Description>
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#AllDifferent"/>
+        <owl:distinctMembers rdf:parseType="Collection">
+            <rdf:Description rdf:about="http://w3id.org/dcri-ont/special/qv_00007"/>
+            <rdf:Description rdf:about="http://w3id.org/dcri-ont/special/qv_00009"/>
+        </owl:distinctMembers>
+    </rdf:Description>
+    <rdf:Description>
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#AllDifferent"/>
+        <owl:distinctMembers rdf:parseType="Collection">
+            <rdf:Description rdf:about="http://w3id.org/dcri-ont/special/qv_00008"/>
+            <rdf:Description rdf:about="http://w3id.org/dcri-ont/special/qv_00009"/>
+        </owl:distinctMembers>
+    </rdf:Description>
+    <rdf:Description>
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#AllDifferent"/>
+        <owl:distinctMembers rdf:parseType="Collection">
+            <rdf:Description rdf:about="http://w3id.org/dcri-ont/special/qv_00010"/>
+            <rdf:Description rdf:about="http://w3id.org/dcri-ont/special/qv_00011"/>
+        </owl:distinctMembers>
+    </rdf:Description>
+    <rdf:Description>
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#AllDifferent"/>
+        <owl:distinctMembers rdf:parseType="Collection">
+            <rdf:Description rdf:about="http://w3id.org/dcri-ont/special/qv_00012"/>
+            <rdf:Description rdf:about="http://w3id.org/dcri-ont/special/qv_00013"/>
+        </owl:distinctMembers>
+    </rdf:Description>
+    <rdf:Description>
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#AllDifferent"/>
+        <owl:distinctMembers rdf:parseType="Collection">
+            <rdf:Description rdf:about="http://w3id.org/dcri-ont/special/qv_00025"/>
+            <rdf:Description rdf:about="http://w3id.org/dcri-ont/special/qv_00026"/>
+        </owl:distinctMembers>
+    </rdf:Description>
+    <rdf:Description>
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#AllDifferent"/>
+        <owl:distinctMembers rdf:parseType="Collection">
+            <rdf:Description rdf:about="http://w3id.org/dcri-ont/special/qv_00025"/>
+            <rdf:Description rdf:about="http://w3id.org/dcri-ont/special/qv_00052"/>
+        </owl:distinctMembers>
+    </rdf:Description>
+    <rdf:Description>
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#AllDifferent"/>
+        <owl:distinctMembers rdf:parseType="Collection">
+            <rdf:Description rdf:about="http://w3id.org/dcri-ont/special/qv_00026"/>
+            <rdf:Description rdf:about="http://w3id.org/dcri-ont/special/qv_00052"/>
+        </owl:distinctMembers>
+    </rdf:Description>
+    <rdf:Description>
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#AllDifferent"/>
+        <owl:distinctMembers rdf:parseType="Collection">
+            <rdf:Description rdf:about="http://w3id.org/dcri-ont/special/qv_00029"/>
+            <rdf:Description rdf:about="http://w3id.org/dcri-ont/special/qv_00030"/>
+        </owl:distinctMembers>
+    </rdf:Description>
+    <rdf:Description>
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#AllDifferent"/>
+        <owl:distinctMembers rdf:parseType="Collection">
+            <rdf:Description rdf:about="http://w3id.org/dcri-ont/special/qv_00029"/>
+            <rdf:Description rdf:about="http://w3id.org/dcri-ont/special/qv_00031"/>
+        </owl:distinctMembers>
+    </rdf:Description>
+    <rdf:Description>
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#AllDifferent"/>
+        <owl:distinctMembers rdf:parseType="Collection">
+            <rdf:Description rdf:about="http://w3id.org/dcri-ont/special/qv_00029"/>
+            <rdf:Description rdf:about="http://w3id.org/dcri-ont/special/qv_00032"/>
+        </owl:distinctMembers>
+    </rdf:Description>
+    <rdf:Description>
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#AllDifferent"/>
+        <owl:distinctMembers rdf:parseType="Collection">
+            <rdf:Description rdf:about="http://w3id.org/dcri-ont/special/qv_00030"/>
+            <rdf:Description rdf:about="http://w3id.org/dcri-ont/special/qv_00031"/>
+        </owl:distinctMembers>
+    </rdf:Description>
+    <rdf:Description>
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#AllDifferent"/>
+        <owl:distinctMembers rdf:parseType="Collection">
+            <rdf:Description rdf:about="http://w3id.org/dcri-ont/special/qv_00030"/>
+            <rdf:Description rdf:about="http://w3id.org/dcri-ont/special/qv_00032"/>
+        </owl:distinctMembers>
+    </rdf:Description>
+    <rdf:Description>
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#AllDifferent"/>
+        <owl:distinctMembers rdf:parseType="Collection">
+            <rdf:Description rdf:about="http://w3id.org/dcri-ont/special/qv_00031"/>
+            <rdf:Description rdf:about="http://w3id.org/dcri-ont/special/qv_00032"/>
+        </owl:distinctMembers>
+    </rdf:Description>
+    <rdf:Description>
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#AllDifferent"/>
+        <owl:distinctMembers rdf:parseType="Collection">
+            <rdf:Description rdf:about="http://w3id.org/dcri-ont/special/qv_00033"/>
+            <rdf:Description rdf:about="http://w3id.org/dcri-ont/special/qv_00034"/>
+        </owl:distinctMembers>
+    </rdf:Description>
+    <rdf:Description>
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#AllDifferent"/>
+        <owl:distinctMembers rdf:parseType="Collection">
+            <rdf:Description rdf:about="http://w3id.org/dcri-ont/special/qv_00035"/>
+            <rdf:Description rdf:about="http://w3id.org/dcri-ont/special/qv_00036"/>
+        </owl:distinctMembers>
+    </rdf:Description>
+    <rdf:Description>
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#AllDifferent"/>
+        <owl:distinctMembers rdf:parseType="Collection">
+            <rdf:Description rdf:about="http://w3id.org/dcri-ont/special/qv_00049"/>
+            <rdf:Description rdf:about="http://w3id.org/dcri-ont/special/qv_00050"/>
+        </owl:distinctMembers>
+    </rdf:Description>
+    <rdf:Description>
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#AllDifferent"/>
+        <owl:distinctMembers rdf:parseType="Collection">
+            <rdf:Description rdf:about="http://w3id.org/dcri-ont/special/qv_00049"/>
+            <rdf:Description rdf:about="http://w3id.org/dcri-ont/special/qv_00051"/>
+        </owl:distinctMembers>
+    </rdf:Description>
+    <rdf:Description>
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#AllDifferent"/>
+        <owl:distinctMembers rdf:parseType="Collection">
+            <rdf:Description rdf:about="http://w3id.org/dcri-ont/special/qv_00050"/>
+            <rdf:Description rdf:about="http://w3id.org/dcri-ont/special/qv_00051"/>
+        </owl:distinctMembers>
+    </rdf:Description>
+    <rdf:Description>
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#AllDifferent"/>
+        <owl:distinctMembers rdf:parseType="Collection">
+            <rdf:Description rdf:about="http://w3id.org/dcri-ont/special/qv_00053"/>
+            <rdf:Description rdf:about="http://w3id.org/dcri-ont/special/qv_00054"/>
+        </owl:distinctMembers>
+    </rdf:Description>
+    <rdf:Description>
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#AllDifferent"/>
+        <owl:distinctMembers rdf:parseType="Collection">
+            <rdf:Description rdf:about="http://w3id.org/dcri-ont/special/qv_00053"/>
+            <rdf:Description rdf:about="http://w3id.org/dcri-ont/special/qv_00055"/>
+        </owl:distinctMembers>
+    </rdf:Description>
+    <rdf:Description>
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#AllDifferent"/>
+        <owl:distinctMembers rdf:parseType="Collection">
+            <rdf:Description rdf:about="http://w3id.org/dcri-ont/special/qv_00053"/>
+            <rdf:Description rdf:about="http://w3id.org/dcri-ont/special/qv_00061"/>
+        </owl:distinctMembers>
+    </rdf:Description>
+    <rdf:Description>
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#AllDifferent"/>
+        <owl:distinctMembers rdf:parseType="Collection">
+            <rdf:Description rdf:about="http://w3id.org/dcri-ont/special/qv_00053"/>
+            <rdf:Description rdf:about="http://w3id.org/dcri-ont/special/qv_00062"/>
+        </owl:distinctMembers>
+    </rdf:Description>
+    <rdf:Description>
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#AllDifferent"/>
+        <owl:distinctMembers rdf:parseType="Collection">
+            <rdf:Description rdf:about="http://w3id.org/dcri-ont/special/qv_00054"/>
+            <rdf:Description rdf:about="http://w3id.org/dcri-ont/special/qv_00055"/>
+        </owl:distinctMembers>
+    </rdf:Description>
+    <rdf:Description>
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#AllDifferent"/>
+        <owl:distinctMembers rdf:parseType="Collection">
+            <rdf:Description rdf:about="http://w3id.org/dcri-ont/special/qv_00054"/>
+            <rdf:Description rdf:about="http://w3id.org/dcri-ont/special/qv_00061"/>
+        </owl:distinctMembers>
+    </rdf:Description>
+    <rdf:Description>
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#AllDifferent"/>
+        <owl:distinctMembers rdf:parseType="Collection">
+            <rdf:Description rdf:about="http://w3id.org/dcri-ont/special/qv_00054"/>
+            <rdf:Description rdf:about="http://w3id.org/dcri-ont/special/qv_00062"/>
+        </owl:distinctMembers>
+    </rdf:Description>
+    <rdf:Description>
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#AllDifferent"/>
+        <owl:distinctMembers rdf:parseType="Collection">
+            <rdf:Description rdf:about="http://w3id.org/dcri-ont/special/qv_00055"/>
+            <rdf:Description rdf:about="http://w3id.org/dcri-ont/special/qv_00061"/>
+        </owl:distinctMembers>
+    </rdf:Description>
+    <rdf:Description>
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#AllDifferent"/>
+        <owl:distinctMembers rdf:parseType="Collection">
+            <rdf:Description rdf:about="http://w3id.org/dcri-ont/special/qv_00055"/>
+            <rdf:Description rdf:about="http://w3id.org/dcri-ont/special/qv_00062"/>
+        </owl:distinctMembers>
+    </rdf:Description>
+    <rdf:Description>
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#AllDifferent"/>
+        <owl:distinctMembers rdf:parseType="Collection">
+            <rdf:Description rdf:about="http://w3id.org/dcri-ont/special/qv_00056"/>
+            <rdf:Description rdf:about="http://w3id.org/dcri-ont/special/qv_00057"/>
+        </owl:distinctMembers>
+    </rdf:Description>
+    <rdf:Description>
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#AllDifferent"/>
+        <owl:distinctMembers rdf:parseType="Collection">
+            <rdf:Description rdf:about="http://w3id.org/dcri-ont/special/qv_00061"/>
+            <rdf:Description rdf:about="http://w3id.org/dcri-ont/special/qv_00062"/>
+        </owl:distinctMembers>
     </rdf:Description>
     
 

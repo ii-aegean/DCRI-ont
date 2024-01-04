@@ -501,24 +501,6 @@ A secondary objective of the vocabulary is the development of a vocabulary for t
     
 
 
-    <!-- http://w3id.org/dcri-ont/vocabulary/concept_00040 -->
-
-    <owl:NamedIndividual rdf:about="http://w3id.org/dcri-ont/vocabulary/concept_00040">
-        <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
-        <skos:broader rdf:resource="http://w3id.org/dcri-ont/vocabulary/concept_00228"/>
-        <skos:inScheme rdf:resource="http://w3id.org/dcri-ont/vocabulary/conceptscheme"/>
-        <rdfs:comment xml:lang="en">It refers to the space in which an intervention procedure can be performed.</rdfs:comment>
-        <rdfs:comment xml:lang="el">Αναφέρεται στον χώρο στον οποίο μπορεί να εκτελεστεί μια διαδικασία επέμβασης.</rdfs:comment>
-        <rdfs:label xml:lang="en">Performance space</rdfs:label>
-        <rdfs:label xml:lang="el">Χώρος εκτέλεσης</rdfs:label>
-        <skos:definition xml:lang="en">It refers to the space in which an intervention procedure can be performed.</skos:definition>
-        <skos:definition xml:lang="el">Αναφέρεται στον χώρο στον οποίο μπορεί να εκτελεστεί μια διαδικασία επέμβασης.</skos:definition>
-        <skos:prefLabel xml:lang="en">Performance space</skos:prefLabel>
-        <skos:prefLabel xml:lang="el">Χώρος εκτέλεσης</skos:prefLabel>
-    </owl:NamedIndividual>
-    
-
-
     <!-- http://w3id.org/dcri-ont/vocabulary/concept_00041 -->
 
     <owl:NamedIndividual rdf:about="http://w3id.org/dcri-ont/vocabulary/concept_00041">
@@ -1554,8 +1536,6 @@ A secondary objective of the vocabulary is the development of a vocabulary for t
         <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
         <skos:broader rdf:resource="http://w3id.org/dcri-ont/vocabulary/concept_00222"/>
         <skos:inScheme rdf:resource="http://w3id.org/dcri-ont/vocabulary/conceptscheme"/>
-        <skos:narrower rdf:resource="http://w3id.org/dcri-ont/vocabulary/concept_00169"/>
-        <skos:narrower rdf:resource="http://w3id.org/dcri-ont/vocabulary/concept_00254"/>
         <rdfs:comment xml:lang="en">Any substance introduced into a deteriorated surface where it strengthens and stabilizes the surface, making it solid, or compact.</rdfs:comment>
         <rdfs:comment xml:lang="el">Οποιαδήποτε ουσία που εισάγεται σε μια διαβρωμένη επιφάνεια η οποία ενδυναμώνει και σταθεροποιεί την επιφάνεια, καθιστώντας την σταθερή ή συμπαγής.</rdfs:comment>
         <rdfs:label xml:lang="en">Consolidant</rdfs:label>
@@ -1704,16 +1684,16 @@ A secondary objective of the vocabulary is the development of a vocabulary for t
 
     <owl:NamedIndividual rdf:about="http://w3id.org/dcri-ont/vocabulary/concept_00169">
         <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
-        <skos:broader rdf:resource="http://w3id.org/dcri-ont/vocabulary/concept_00160"/>
+        <skos:broader rdf:resource="http://w3id.org/dcri-ont/vocabulary/concept_00222"/>
         <skos:inScheme rdf:resource="http://w3id.org/dcri-ont/vocabulary/conceptscheme"/>
-        <rdfs:comment xml:lang="en">Trademarked commercial name for a synthetic thermal plastic resin that does not embrittle or discolor over time, having a liquid density of 8.3 pounds per gallon, a flash point of 60 degrees Fahrenheit, and a viscosity of 3700-6200 cps. It is widely used in conservation treatments.</rdfs:comment>
-        <rdfs:comment xml:lang="el">Εμπορική ονομασία για μια συνθετική θερμοπλαστική ρητίνη που δεν γίνεται εύθραυστη ή αποχρωματίζεται με την πάροδο του χρόνου, με πυκνότητα υγρού 8,3 λίβρες ανά γαλόνι, σημείο ανάφλεξης 60 βαθμούς Φαρενάιτ και ιξώδες 3700-6200 cps. Χρησιμοποιείται ευρέως σε επεμβάσεις συντήρησης σχετικές με συγκόλληση.</rdfs:comment>
-        <rdfs:label xml:lang="el">Paraloid B72</rdfs:label>
-        <rdfs:label xml:lang="en">Paraloid B72</rdfs:label>
-        <skos:definition xml:lang="en">Trademarked commercial name for a synthetic thermal plastic resin that does not embrittle or discolor over time, having a liquid density of 8.3 pounds per gallon, a flash point of 60 degrees Fahrenheit, and a viscosity of 3700-6200 cps. It is widely used in conservation treatments.</skos:definition>
-        <skos:definition xml:lang="el">Εμπορική ονομασία για μια συνθετική θερμοπλαστική ρητίνη που δεν γίνεται εύθραυστη ή αποχρωματίζεται με την πάροδο του χρόνου, με πυκνότητα υγρού 8,3 λίβρες ανά γαλόνι, σημείο ανάφλεξης 60 βαθμούς Φαρενάιτ και ιξώδες 3700-6200 cps. Χρησιμοποιείται ευρέως σε επεμβάσεις συντήρησης σχετικές με συγκόλληση.</skos:definition>
-        <skos:prefLabel xml:lang="el">Paraloid B72</skos:prefLabel>
-        <skos:prefLabel xml:lang="en">Paraloid B72</skos:prefLabel>
+        <rdfs:comment xml:lang="en">Synthetic thermal plastic resin that does not embrittle or discolor over time, having a liquid density of 8.3 pounds per gallon, a flash point of 60 degrees Fahrenheit, and a viscosity of 3700-6200 cps. It is widely used in conservation treatments.</rdfs:comment>
+        <rdfs:comment xml:lang="el">Συνθετική θερμοπλαστική ρητίνη που δεν γίνεται εύθραυστη ή αποχρωματίζεται με την πάροδο του χρόνου, με πυκνότητα υγρού 8,3 λίβρες ανά γαλόνι, σημείο ανάφλεξης 60 βαθμούς Φαρενάιτ και ιξώδες 3700-6200 cps. Χρησιμοποιείται ευρέως σε επεμβάσεις συντήρησης σχετικές με συγκόλληση.</rdfs:comment>
+        <rdfs:label xml:lang="en">Ethyl methycrylate-methyl acrylate copolymer</rdfs:label>
+        <rdfs:label xml:lang="el">Συμπολυμερές μεθυκρυλικού αιθυλεστέρα - ακρυλικού μεθυλεστέρα</rdfs:label>
+        <skos:definition xml:lang="en">Synthetic thermal plastic resin that does not embrittle or discolor over time, having a liquid density of 8.3 pounds per gallon, a flash point of 60 degrees Fahrenheit, and a viscosity of 3700-6200 cps. It is widely used in conservation treatments.</skos:definition>
+        <skos:definition xml:lang="el">Συνθετική θερμοπλαστική ρητίνη που δεν γίνεται εύθραυστη ή αποχρωματίζεται με την πάροδο του χρόνου, με πυκνότητα υγρού 8,3 λίβρες ανά γαλόνι, σημείο ανάφλεξης 60 βαθμούς Φαρενάιτ και ιξώδες 3700-6200 cps. Χρησιμοποιείται ευρέως σε επεμβάσεις συντήρησης σχετικές με συγκόλληση.</skos:definition>
+        <skos:prefLabel xml:lang="en">Ethyl methycrylate-methyl acrylate copolymer</skos:prefLabel>
+        <skos:prefLabel xml:lang="el">Συμπολυμερές μεθυκρυλικού αιθυλεστέρα - ακρυλικού μεθυλεστέρα</skos:prefLabel>
     </owl:NamedIndividual>
     
 
@@ -2267,20 +2247,6 @@ A secondary objective of the vocabulary is the development of a vocabulary for t
     
 
 
-    <!-- http://w3id.org/dcri-ont/vocabulary/concept_00204 -->
-
-    <owl:NamedIndividual rdf:about="http://w3id.org/dcri-ont/vocabulary/concept_00204">
-        <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
-        <skos:broader rdf:resource="http://w3id.org/dcri-ont/vocabulary/concept_00228"/>
-        <skos:inScheme rdf:resource="http://w3id.org/dcri-ont/vocabulary/conceptscheme"/>
-        <rdfs:label xml:lang="en">Polymerism degree</rdfs:label>
-        <rdfs:label xml:lang="el">Βαθμός πολυμερισμού</rdfs:label>
-        <skos:prefLabel xml:lang="en">Polymerism degree</skos:prefLabel>
-        <skos:prefLabel xml:lang="el">Βαθμός πολυμερισμού</skos:prefLabel>
-    </owl:NamedIndividual>
-    
-
-
     <!-- http://w3id.org/dcri-ont/vocabulary/concept_00205 -->
 
     <owl:NamedIndividual rdf:about="http://w3id.org/dcri-ont/vocabulary/concept_00205">
@@ -2536,6 +2502,7 @@ A secondary objective of the vocabulary is the development of a vocabulary for t
         <skos:narrower rdf:resource="http://w3id.org/dcri-ont/vocabulary/concept_00159"/>
         <skos:narrower rdf:resource="http://w3id.org/dcri-ont/vocabulary/concept_00160"/>
         <skos:narrower rdf:resource="http://w3id.org/dcri-ont/vocabulary/concept_00167"/>
+        <skos:narrower rdf:resource="http://w3id.org/dcri-ont/vocabulary/concept_00169"/>
         <skos:narrower rdf:resource="http://w3id.org/dcri-ont/vocabulary/concept_00170"/>
         <skos:narrower rdf:resource="http://w3id.org/dcri-ont/vocabulary/concept_00179"/>
         <skos:narrower rdf:resource="http://w3id.org/dcri-ont/vocabulary/concept_00189"/>
@@ -2546,7 +2513,8 @@ A secondary objective of the vocabulary is the development of a vocabulary for t
         <skos:narrower rdf:resource="http://w3id.org/dcri-ont/vocabulary/concept_00199"/>
         <skos:narrower rdf:resource="http://w3id.org/dcri-ont/vocabulary/concept_00241"/>
         <skos:narrower rdf:resource="http://w3id.org/dcri-ont/vocabulary/concept_00242"/>
-        <skos:narrower rdf:resource="http://w3id.org/dcri-ont/vocabulary/concept_00257"/>
+        <skos:narrower rdf:resource="http://w3id.org/dcri-ont/vocabulary/concept_00254"/>
+        <skos:narrower rdf:resource="http://w3id.org/dcri-ont/vocabulary/concept_00278"/>
         <skos:topConceptOf rdf:resource="http://w3id.org/dcri-ont/vocabulary/conceptscheme"/>
         <rdfs:label xml:lang="en">Material (vocabulary top concept)</rdfs:label>
         <rdfs:label xml:lang="el">Υλικό</rdfs:label>
@@ -2669,11 +2637,15 @@ A secondary objective of the vocabulary is the development of a vocabulary for t
         <skos:narrower rdf:resource="http://w3id.org/dcri-ont/vocabulary/concept_00248"/>
         <skos:narrower rdf:resource="http://w3id.org/dcri-ont/vocabulary/concept_00249"/>
         <skos:narrower rdf:resource="http://w3id.org/dcri-ont/vocabulary/concept_00250"/>
+        <skos:narrower rdf:resource="http://w3id.org/dcri-ont/vocabulary/concept_00268"/>
+        <skos:narrower rdf:resource="http://w3id.org/dcri-ont/vocabulary/concept_00269"/>
+        <skos:narrower rdf:resource="http://w3id.org/dcri-ont/vocabulary/concept_00270"/>
+        <skos:narrower rdf:resource="http://w3id.org/dcri-ont/vocabulary/concept_00271"/>
         <skos:topConceptOf rdf:resource="http://w3id.org/dcri-ont/vocabulary/conceptscheme"/>
         <rdfs:label xml:lang="en">Physical feature (vocabulary top concept)</rdfs:label>
-        <rdfs:label xml:lang="el">Φυσικό χαρακτηριστικό</rdfs:label>
+        <rdfs:label xml:lang="el">Υλικό μόρφωμα</rdfs:label>
         <skos:prefLabel xml:lang="en">Physical feature (vocabulary top concept)</skos:prefLabel>
-        <skos:prefLabel xml:lang="el">Φυσικό χαρακτηριστικό</skos:prefLabel>
+        <skos:prefLabel xml:lang="el">Υλικό μόρφωμα</skos:prefLabel>
     </owl:NamedIndividual>
     
 
@@ -2690,7 +2662,6 @@ A secondary objective of the vocabulary is the development of a vocabulary for t
         <skos:narrower rdf:resource="http://w3id.org/dcri-ont/vocabulary/concept_00030"/>
         <skos:narrower rdf:resource="http://w3id.org/dcri-ont/vocabulary/concept_00033"/>
         <skos:narrower rdf:resource="http://w3id.org/dcri-ont/vocabulary/concept_00039"/>
-        <skos:narrower rdf:resource="http://w3id.org/dcri-ont/vocabulary/concept_00040"/>
         <skos:narrower rdf:resource="http://w3id.org/dcri-ont/vocabulary/concept_00041"/>
         <skos:narrower rdf:resource="http://w3id.org/dcri-ont/vocabulary/concept_00042"/>
         <skos:narrower rdf:resource="http://w3id.org/dcri-ont/vocabulary/concept_00046"/>
@@ -2700,7 +2671,6 @@ A secondary objective of the vocabulary is the development of a vocabulary for t
         <skos:narrower rdf:resource="http://w3id.org/dcri-ont/vocabulary/concept_00173"/>
         <skos:narrower rdf:resource="http://w3id.org/dcri-ont/vocabulary/concept_00197"/>
         <skos:narrower rdf:resource="http://w3id.org/dcri-ont/vocabulary/concept_00200"/>
-        <skos:narrower rdf:resource="http://w3id.org/dcri-ont/vocabulary/concept_00204"/>
         <skos:topConceptOf rdf:resource="http://w3id.org/dcri-ont/vocabulary/conceptscheme"/>
         <rdfs:label xml:lang="en">Property (vocabulary top concept)</rdfs:label>
         <rdfs:label xml:lang="el">Ιδιότητα</rdfs:label>
@@ -3066,10 +3036,12 @@ A secondary objective of the vocabulary is the development of a vocabulary for t
 
     <owl:NamedIndividual rdf:about="http://w3id.org/dcri-ont/vocabulary/concept_00254">
         <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
-        <skos:broader rdf:resource="http://w3id.org/dcri-ont/vocabulary/concept_00160"/>
+        <skos:broader rdf:resource="http://w3id.org/dcri-ont/vocabulary/concept_00222"/>
         <skos:inScheme rdf:resource="http://w3id.org/dcri-ont/vocabulary/conceptscheme"/>
-        <rdfs:label xml:lang="en">Klucel G</rdfs:label>
-        <skos:prefLabel xml:lang="en">Klucel G</skos:prefLabel>
+        <rdfs:label xml:lang="en">Hydroxypropylcellulose</rdfs:label>
+        <rdfs:label xml:lang="el">Υδροξυπροπυλοκυτταρίνη</rdfs:label>
+        <skos:prefLabel xml:lang="en">Hydroxypropylcellulose</skos:prefLabel>
+        <skos:prefLabel xml:lang="el">Υδροξυπροπυλοκυτταρίνη</skos:prefLabel>
     </owl:NamedIndividual>
     
 
@@ -3106,7 +3078,7 @@ A secondary objective of the vocabulary is the development of a vocabulary for t
 
     <owl:NamedIndividual rdf:about="http://w3id.org/dcri-ont/vocabulary/concept_00257">
         <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
-        <skos:broader rdf:resource="http://w3id.org/dcri-ont/vocabulary/concept_00222"/>
+        <skos:broader rdf:resource="http://w3id.org/dcri-ont/vocabulary/concept_00278"/>
         <skos:inScheme rdf:resource="http://w3id.org/dcri-ont/vocabulary/conceptscheme"/>
         <rdfs:label xml:lang="en">Wet cleaning solution</rdfs:label>
         <rdfs:label xml:lang="el">Διάλυμα υγρού καθαρισμού</rdfs:label>
@@ -3194,11 +3166,258 @@ A secondary objective of the vocabulary is the development of a vocabulary for t
         <skos:narrower rdf:resource="http://w3id.org/dcri-ont/vocabulary/concept_00260"/>
         <skos:narrower rdf:resource="http://w3id.org/dcri-ont/vocabulary/concept_00261"/>
         <skos:narrower rdf:resource="http://w3id.org/dcri-ont/vocabulary/concept_00262"/>
+        <skos:narrower rdf:resource="http://w3id.org/dcri-ont/vocabulary/concept_00272"/>
         <skos:topConceptOf rdf:resource="http://w3id.org/dcri-ont/vocabulary/conceptscheme"/>
         <rdfs:label xml:lang="en">Actor type (vocabulary top concept)</rdfs:label>
         <rdfs:label xml:lang="el">Τύπος δράστη</rdfs:label>
         <skos:prefLabel xml:lang="en">Actor type (vocabulary top concept)</skos:prefLabel>
         <skos:prefLabel xml:lang="el">Τύπος δράστη</skos:prefLabel>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://w3id.org/dcri-ont/vocabulary/concept_00268 -->
+
+    <owl:NamedIndividual rdf:about="http://w3id.org/dcri-ont/vocabulary/concept_00268">
+        <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+        <skos:broader rdf:resource="http://w3id.org/dcri-ont/vocabulary/concept_00227"/>
+        <skos:inScheme rdf:resource="http://w3id.org/dcri-ont/vocabulary/conceptscheme"/>
+        <rdfs:label xml:lang="en">Deformation</rdfs:label>
+        <rdfs:label xml:lang="el">Παραμόρφωση</rdfs:label>
+        <skos:prefLabel xml:lang="en">Deformation</skos:prefLabel>
+        <skos:prefLabel xml:lang="el">Παραμόρφωση</skos:prefLabel>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://w3id.org/dcri-ont/vocabulary/concept_00269 -->
+
+    <owl:NamedIndividual rdf:about="http://w3id.org/dcri-ont/vocabulary/concept_00269">
+        <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+        <skos:broader rdf:resource="http://w3id.org/dcri-ont/vocabulary/concept_00227"/>
+        <skos:inScheme rdf:resource="http://w3id.org/dcri-ont/vocabulary/conceptscheme"/>
+        <rdfs:label xml:lang="en">Tear</rdfs:label>
+        <rdfs:label xml:lang="el">Σχίσιμο</rdfs:label>
+        <skos:prefLabel xml:lang="en">Tear</skos:prefLabel>
+        <skos:prefLabel xml:lang="el">Σχίσιμο</skos:prefLabel>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://w3id.org/dcri-ont/vocabulary/concept_00270 -->
+
+    <owl:NamedIndividual rdf:about="http://w3id.org/dcri-ont/vocabulary/concept_00270">
+        <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+        <skos:broader rdf:resource="http://w3id.org/dcri-ont/vocabulary/concept_00227"/>
+        <skos:inScheme rdf:resource="http://w3id.org/dcri-ont/vocabulary/conceptscheme"/>
+        <rdfs:label xml:lang="en">Folding</rdfs:label>
+        <rdfs:label xml:lang="el">Τσακίσεις</rdfs:label>
+        <skos:prefLabel xml:lang="en">Folding</skos:prefLabel>
+        <skos:prefLabel xml:lang="el">Τσακίσεις</skos:prefLabel>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://w3id.org/dcri-ont/vocabulary/concept_00271 -->
+
+    <owl:NamedIndividual rdf:about="http://w3id.org/dcri-ont/vocabulary/concept_00271">
+        <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+        <skos:broader rdf:resource="http://w3id.org/dcri-ont/vocabulary/concept_00227"/>
+        <skos:inScheme rdf:resource="http://w3id.org/dcri-ont/vocabulary/conceptscheme"/>
+        <rdfs:label xml:lang="en">Foxing</rdfs:label>
+        <skos:prefLabel xml:lang="en">Foxing</skos:prefLabel>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://w3id.org/dcri-ont/vocabulary/concept_00272 -->
+
+    <owl:NamedIndividual rdf:about="http://w3id.org/dcri-ont/vocabulary/concept_00272">
+        <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+        <skos:broader rdf:resource="http://w3id.org/dcri-ont/vocabulary/concept_00263"/>
+        <skos:inScheme rdf:resource="http://w3id.org/dcri-ont/vocabulary/conceptscheme"/>
+        <rdfs:label xml:lang="en">Author</rdfs:label>
+        <rdfs:label xml:lang="el">Συγγραφέας</rdfs:label>
+        <skos:prefLabel xml:lang="en">Author</skos:prefLabel>
+        <skos:prefLabel xml:lang="el">Συγγραφέας</skos:prefLabel>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://w3id.org/dcri-ont/vocabulary/concept_00273 -->
+
+    <owl:NamedIndividual rdf:about="http://w3id.org/dcri-ont/vocabulary/concept_00273">
+        <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+        <skos:inScheme rdf:resource="http://w3id.org/dcri-ont/vocabulary/conceptscheme"/>
+        <skos:narrower rdf:resource="http://w3id.org/dcri-ont/vocabulary/concept_00274"/>
+        <skos:narrower rdf:resource="http://w3id.org/dcri-ont/vocabulary/concept_00275"/>
+        <skos:narrower rdf:resource="http://w3id.org/dcri-ont/vocabulary/concept_00276"/>
+        <skos:narrower rdf:resource="http://w3id.org/dcri-ont/vocabulary/concept_00277"/>
+        <skos:topConceptOf rdf:resource="http://w3id.org/dcri-ont/vocabulary/conceptscheme"/>
+        <rdfs:label xml:lang="en">Document (vocabulary top concept)</rdfs:label>
+        <rdfs:label xml:lang="el">Τεκμήριο</rdfs:label>
+        <skos:prefLabel xml:lang="en">Document (vocabulary top concept)</skos:prefLabel>
+        <skos:prefLabel xml:lang="el">Τεκμήριο</skos:prefLabel>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://w3id.org/dcri-ont/vocabulary/concept_00274 -->
+
+    <owl:NamedIndividual rdf:about="http://w3id.org/dcri-ont/vocabulary/concept_00274">
+        <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+        <skos:broader rdf:resource="http://w3id.org/dcri-ont/vocabulary/concept_00273"/>
+        <skos:inScheme rdf:resource="http://w3id.org/dcri-ont/vocabulary/conceptscheme"/>
+        <rdfs:label xml:lang="en">Article</rdfs:label>
+        <rdfs:label xml:lang="el">Άρθρο</rdfs:label>
+        <skos:prefLabel xml:lang="en">Article</skos:prefLabel>
+        <skos:prefLabel xml:lang="el">Άρθρο</skos:prefLabel>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://w3id.org/dcri-ont/vocabulary/concept_00275 -->
+
+    <owl:NamedIndividual rdf:about="http://w3id.org/dcri-ont/vocabulary/concept_00275">
+        <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+        <skos:broader rdf:resource="http://w3id.org/dcri-ont/vocabulary/concept_00273"/>
+        <skos:inScheme rdf:resource="http://w3id.org/dcri-ont/vocabulary/conceptscheme"/>
+        <rdfs:label xml:lang="en">Website</rdfs:label>
+        <rdfs:label xml:lang="el">Ιστοσελίδα</rdfs:label>
+        <skos:prefLabel xml:lang="en">Website</skos:prefLabel>
+        <skos:prefLabel xml:lang="el">Ιστοσελίδα</skos:prefLabel>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://w3id.org/dcri-ont/vocabulary/concept_00276 -->
+
+    <owl:NamedIndividual rdf:about="http://w3id.org/dcri-ont/vocabulary/concept_00276">
+        <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+        <skos:broader rdf:resource="http://w3id.org/dcri-ont/vocabulary/concept_00273"/>
+        <skos:inScheme rdf:resource="http://w3id.org/dcri-ont/vocabulary/conceptscheme"/>
+        <rdfs:label xml:lang="en">Conservation report</rdfs:label>
+        <rdfs:label xml:lang="el">Δελτίο συντήρησης</rdfs:label>
+        <skos:prefLabel xml:lang="en">Conservation report</skos:prefLabel>
+        <skos:prefLabel xml:lang="el">Δελτίο συντήρησης</skos:prefLabel>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://w3id.org/dcri-ont/vocabulary/concept_00277 -->
+
+    <owl:NamedIndividual rdf:about="http://w3id.org/dcri-ont/vocabulary/concept_00277">
+        <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+        <skos:broader rdf:resource="http://w3id.org/dcri-ont/vocabulary/concept_00273"/>
+        <skos:inScheme rdf:resource="http://w3id.org/dcri-ont/vocabulary/conceptscheme"/>
+        <rdfs:label xml:lang="en">Condition report</rdfs:label>
+        <rdfs:label xml:lang="el">Δελτίο κατάστασης διατήρησης</rdfs:label>
+        <skos:prefLabel xml:lang="en">Condition report</skos:prefLabel>
+        <skos:prefLabel xml:lang="el">Δελτίο κατάστασης διατήρησης</skos:prefLabel>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://w3id.org/dcri-ont/vocabulary/concept_00278 -->
+
+    <owl:NamedIndividual rdf:about="http://w3id.org/dcri-ont/vocabulary/concept_00278">
+        <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+        <skos:broader rdf:resource="http://w3id.org/dcri-ont/vocabulary/concept_00222"/>
+        <skos:inScheme rdf:resource="http://w3id.org/dcri-ont/vocabulary/conceptscheme"/>
+        <skos:narrower rdf:resource="http://w3id.org/dcri-ont/vocabulary/concept_00257"/>
+        <rdfs:label xml:lang="en">Solution</rdfs:label>
+        <rdfs:label xml:lang="el">Διάλυμα</rdfs:label>
+        <skos:prefLabel xml:lang="en">Solution</skos:prefLabel>
+        <skos:prefLabel xml:lang="el">Διάλυμα</skos:prefLabel>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://w3id.org/dcri-ont/vocabulary/concept_00279 -->
+
+    <owl:NamedIndividual rdf:about="http://w3id.org/dcri-ont/vocabulary/concept_00279">
+        <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+        <skos:inScheme rdf:resource="http://w3id.org/dcri-ont/vocabulary/conceptscheme"/>
+        <skos:narrower rdf:resource="http://w3id.org/dcri-ont/vocabulary/concept_00280"/>
+        <skos:narrower rdf:resource="http://w3id.org/dcri-ont/vocabulary/concept_00281"/>
+        <skos:narrower rdf:resource="http://w3id.org/dcri-ont/vocabulary/concept_00282"/>
+        <skos:narrower rdf:resource="http://w3id.org/dcri-ont/vocabulary/concept_00283"/>
+        <skos:narrower rdf:resource="http://w3id.org/dcri-ont/vocabulary/concept_00284"/>
+        <skos:topConceptOf rdf:resource="http://w3id.org/dcri-ont/vocabulary/conceptscheme"/>
+        <rdfs:label xml:lang="en">Condition state type (vocabulary top concept)</rdfs:label>
+        <rdfs:label xml:lang="el">Τύπος κατάστασης</rdfs:label>
+        <skos:prefLabel xml:lang="en">Condition state type (vocabulary top concept)</skos:prefLabel>
+        <skos:prefLabel xml:lang="el">Τύπος κατάστασης</skos:prefLabel>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://w3id.org/dcri-ont/vocabulary/concept_00280 -->
+
+    <owl:NamedIndividual rdf:about="http://w3id.org/dcri-ont/vocabulary/concept_00280">
+        <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+        <skos:broader rdf:resource="http://w3id.org/dcri-ont/vocabulary/concept_00279"/>
+        <skos:inScheme rdf:resource="http://w3id.org/dcri-ont/vocabulary/conceptscheme"/>
+        <rdfs:label xml:lang="en">Very good condition state</rdfs:label>
+        <rdfs:label xml:lang="el">Πολύ καλή κατάσταση</rdfs:label>
+        <skos:prefLabel xml:lang="en">Very good condition state</skos:prefLabel>
+        <skos:prefLabel xml:lang="el">Πολύ καλή κατάσταση</skos:prefLabel>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://w3id.org/dcri-ont/vocabulary/concept_00281 -->
+
+    <owl:NamedIndividual rdf:about="http://w3id.org/dcri-ont/vocabulary/concept_00281">
+        <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+        <skos:broader rdf:resource="http://w3id.org/dcri-ont/vocabulary/concept_00279"/>
+        <skos:inScheme rdf:resource="http://w3id.org/dcri-ont/vocabulary/conceptscheme"/>
+        <rdfs:label xml:lang="en">Good condition state</rdfs:label>
+        <rdfs:label xml:lang="el">Καλή κατάσταση</rdfs:label>
+        <skos:prefLabel xml:lang="en">Good condition state</skos:prefLabel>
+        <skos:prefLabel xml:lang="el">Καλή κατάσταση</skos:prefLabel>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://w3id.org/dcri-ont/vocabulary/concept_00282 -->
+
+    <owl:NamedIndividual rdf:about="http://w3id.org/dcri-ont/vocabulary/concept_00282">
+        <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+        <skos:broader rdf:resource="http://w3id.org/dcri-ont/vocabulary/concept_00279"/>
+        <skos:inScheme rdf:resource="http://w3id.org/dcri-ont/vocabulary/conceptscheme"/>
+        <rdfs:label xml:lang="en">Moderate condition state</rdfs:label>
+        <rdfs:label xml:lang="el">Μέτρια κατάσταση</rdfs:label>
+        <skos:prefLabel xml:lang="en">Moderate condition state</skos:prefLabel>
+        <skos:prefLabel xml:lang="el">Μέτρια κατάσταση</skos:prefLabel>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://w3id.org/dcri-ont/vocabulary/concept_00283 -->
+
+    <owl:NamedIndividual rdf:about="http://w3id.org/dcri-ont/vocabulary/concept_00283">
+        <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+        <skos:broader rdf:resource="http://w3id.org/dcri-ont/vocabulary/concept_00279"/>
+        <skos:inScheme rdf:resource="http://w3id.org/dcri-ont/vocabulary/conceptscheme"/>
+        <rdfs:label xml:lang="en">Bad condition state</rdfs:label>
+        <rdfs:label xml:lang="el">Κακή κατάσταση</rdfs:label>
+        <skos:prefLabel xml:lang="en">Bad condition state</skos:prefLabel>
+        <skos:prefLabel xml:lang="el">Κακή κατάσταση</skos:prefLabel>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://w3id.org/dcri-ont/vocabulary/concept_00284 -->
+
+    <owl:NamedIndividual rdf:about="http://w3id.org/dcri-ont/vocabulary/concept_00284">
+        <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+        <skos:broader rdf:resource="http://w3id.org/dcri-ont/vocabulary/concept_00279"/>
+        <skos:inScheme rdf:resource="http://w3id.org/dcri-ont/vocabulary/conceptscheme"/>
+        <rdfs:label xml:lang="en">Very bad condition state</rdfs:label>
+        <rdfs:label xml:lang="el">Πολύ κακή κατάσταση</rdfs:label>
+        <skos:prefLabel xml:lang="en">Very bad condition state</skos:prefLabel>
+        <skos:prefLabel xml:lang="el">Πολύ κακή κατάσταση</skos:prefLabel>
     </owl:NamedIndividual>
     
 
@@ -3216,6 +3435,8 @@ A secondary objective of the vocabulary is the development of a vocabulary for t
         <skos:hasTopConcept rdf:resource="http://w3id.org/dcri-ont/vocabulary/concept_00228"/>
         <skos:hasTopConcept rdf:resource="http://w3id.org/dcri-ont/vocabulary/concept_00251"/>
         <skos:hasTopConcept rdf:resource="http://w3id.org/dcri-ont/vocabulary/concept_00263"/>
+        <skos:hasTopConcept rdf:resource="http://w3id.org/dcri-ont/vocabulary/concept_00273"/>
+        <skos:hasTopConcept rdf:resource="http://w3id.org/dcri-ont/vocabulary/concept_00279"/>
         <terms:title xml:lang="en">DCRIO Vocabulary</terms:title>
         <terms:title xml:lang="el">DCRIO Λεξιλόγιο</terms:title>
         <rdfs:label xml:lang="en">DCRIO Vocabulary</rdfs:label>

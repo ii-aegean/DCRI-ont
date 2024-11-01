@@ -171,12 +171,8 @@ A secondary objective of the vocabulary is the development of a vocabulary for t
         <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
         <skos:broader rdf:resource="http://w3id.org/dcri-ont/vocabulary/concept_00228"/>
         <skos:inScheme rdf:resource="http://w3id.org/dcri-ont/vocabulary/conceptscheme"/>
-        <rdfs:comment xml:lang="en">It refers to the abundance of a constituent (solute) divided by the total volume of a mixture (solution).</rdfs:comment>
-        <rdfs:comment xml:lang="el">Αναφέρεται στην ποσότητα ενός συστατικού (διαλυμένης ουσίας) διαιρούμενης με τον συνολικό όγκο ενός μείγματος (διαλύματος).</rdfs:comment>
         <rdfs:label xml:lang="en">Concentration</rdfs:label>
         <rdfs:label xml:lang="el">Συγκέντρωση</rdfs:label>
-        <skos:definition xml:lang="en">It refers to the abundance of a constituent (solute) divided by the total volume of a mixture (solution).</skos:definition>
-        <skos:definition xml:lang="el">Αναφέρεται στην ποσότητα ενός συστατικού (διαλυμένης ουσίας) διαιρούμενης με τον συνολικό όγκο ενός μείγματος (διαλύματος).</skos:definition>
         <skos:prefLabel xml:lang="en">Concentration</skos:prefLabel>
         <skos:prefLabel xml:lang="el">Συγκέντρωση</skos:prefLabel>
     </owl:NamedIndividual>
@@ -189,12 +185,8 @@ A secondary objective of the vocabulary is the development of a vocabulary for t
         <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
         <skos:broader rdf:resource="http://w3id.org/dcri-ont/vocabulary/concept_00225"/>
         <skos:inScheme rdf:resource="http://w3id.org/dcri-ont/vocabulary/conceptscheme"/>
-        <rdfs:comment xml:lang="en">It refers to the re-establishment of mechanical strength, improvment of the internal cohesion and generally stabilisation of degraded or weakend areas or layers by introducing or attaching adhesive products that will hold the areas or layers together.</rdfs:comment>
-        <rdfs:comment xml:lang="el">Αναφέρεται στην επαναφορά της μηχανικής στερεότητας, στην βελτίωση της εσωτερικής συνοχής και την γενική σταθεροποίηση φθαρμένων ή αδύναμων περιοχών ή στρωμάτων εισάγοντας ή προσαρτώντας συγκολλητικά υλικά τα οποία θα συγκρατήσουν τις περιοχές ή τα στρώματα μεταξύ τους.</rdfs:comment>
         <rdfs:label xml:lang="en">Consolidation</rdfs:label>
         <rdfs:label xml:lang="el">Στερέωση</rdfs:label>
-        <skos:definition xml:lang="en">It refers to the re-establishment of mechanical strength, improvment of the internal cohesion and generally stabilisation of degraded or weakend areas or layers by introducing or attaching adhesive products that will hold the areas or layers together.</skos:definition>
-        <skos:definition xml:lang="el">Αναφέρεται στην επαναφορά της μηχανικής στερεότητας, στην βελτίωση της εσωτερικής συνοχής και την γενική σταθεροποίηση φθαρμένων ή αδύναμων περιοχών ή στρωμάτων εισάγοντας ή προσαρτώντας συγκολλητικά υλικά τα οποία θα συγκρατήσουν τις περιοχές ή τα στρώματα μεταξύ τους.</skos:definition>
         <skos:prefLabel xml:lang="en">Consolidation</skos:prefLabel>
         <skos:prefLabel xml:lang="el">Στερέωση</skos:prefLabel>
     </owl:NamedIndividual>
@@ -207,12 +199,8 @@ A secondary objective of the vocabulary is the development of a vocabulary for t
         <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
         <skos:broader rdf:resource="http://w3id.org/dcri-ont/vocabulary/concept_00225"/>
         <skos:inScheme rdf:resource="http://w3id.org/dcri-ont/vocabulary/conceptscheme"/>
-        <rdfs:comment xml:lang="en">It refers to the making of an area or surface of a conservation object firm and stable.</rdfs:comment>
-        <rdfs:comment xml:lang="el">Αναφέρεται στο να καταστεί μια περιοχή ή επιφάνεια ενός αντικειμένου συντήρησης σταθερή.</rdfs:comment>
         <rdfs:label xml:lang="en">Fixing</rdfs:label>
         <rdfs:label xml:lang="el">Στερέωση</rdfs:label>
-        <skos:definition xml:lang="en">It refers to the making of an area or surface of a conservation object firm and stable.</skos:definition>
-        <skos:definition xml:lang="el">Αναφέρεται στο να καταστεί μια περιοχή ή επιφάνεια ενός αντικειμένου συντήρησης σταθερή.</skos:definition>
         <skos:prefLabel xml:lang="en">Fixing</skos:prefLabel>
         <skos:prefLabel xml:lang="el">Στερέωση</skos:prefLabel>
     </owl:NamedIndividual>
@@ -230,12 +218,8 @@ A secondary objective of the vocabulary is the development of a vocabulary for t
         <skos:narrower rdf:resource="http://w3id.org/dcri-ont/vocabulary/concept_00025"/>
         <skos:narrower rdf:resource="http://w3id.org/dcri-ont/vocabulary/concept_00026"/>
         <skos:narrower rdf:resource="http://w3id.org/dcri-ont/vocabulary/concept_00027"/>
-        <rdfs:comment xml:lang="en">It refers to the process of removing dirt, foreign matter, products of alteration, surface coatings, discolorations, or other undesired matter from a substrate.</rdfs:comment>
-        <rdfs:comment xml:lang="el">Αναφέρεται στην διαδικασία απομάκρυνσης βρωμιάς, ξένου υλικού, προιόντων αλλοίωσης, επικαλυπτικών υλικών, δυσχρωμιών ή οποιουδήποτε μη επιθυμητού υλικού από μια επιφάνεια.</rdfs:comment>
         <rdfs:label xml:lang="en">Cleaning</rdfs:label>
         <rdfs:label xml:lang="el">Καθαρισμός</rdfs:label>
-        <skos:definition xml:lang="en">It refers to the process of removing dirt, foreign matter, products of alteration, surface coatings, discolorations, or other undesired matter from a substrate.</skos:definition>
-        <skos:definition xml:lang="el">Αναφέρεται στην διαδικασία απομάκρυνσης βρωμιάς, ξένου υλικού, προιόντων αλλοίωσης, επικαλυπτικών υλικών, δυσχρωμιών ή οποιουδήποτε μη επιθυμητού υλικού από μια επιφάνεια.</skos:definition>
         <skos:prefLabel xml:lang="en">Cleaning</skos:prefLabel>
         <skos:prefLabel xml:lang="el">Καθαρισμός</skos:prefLabel>
     </owl:NamedIndividual>
@@ -363,12 +347,8 @@ A secondary objective of the vocabulary is the development of a vocabulary for t
         <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
         <skos:broader rdf:resource="http://w3id.org/dcri-ont/vocabulary/concept_00020"/>
         <skos:inScheme rdf:resource="http://w3id.org/dcri-ont/vocabulary/conceptscheme"/>
-        <rdfs:comment xml:lang="en">It refers to a cleaning category, during which the removing of undesired matter from a substrate is achieved through the use of equipment of gels.</rdfs:comment>
-        <rdfs:comment xml:lang="el">Αναφέρεται σε μια κατηγορία καθαρισμού, κατά την οποία η απομάκρυνση του μη επιθυμητού υλικού από μια επιφάνεια επιτυγχάνεται με την χρήση γελών.</rdfs:comment>
         <rdfs:label xml:lang="en">Gel cleaning</rdfs:label>
         <rdfs:label xml:lang="el">Καθαρισμός με γέλη</rdfs:label>
-        <skos:definition xml:lang="en">It refers to a cleaning category, during which the removing of undesired matter from a substrate is achieved through the use of equipment of gels.</skos:definition>
-        <skos:definition xml:lang="el">Αναφέρεται σε μια κατηγορία καθαρισμού, κατά την οποία η απομάκρυνση του μη επιθυμητού υλικού από μια επιφάνεια επιτυγχάνεται με την χρήση γελών.</skos:definition>
         <skos:prefLabel xml:lang="en">Gel cleaning</skos:prefLabel>
         <skos:prefLabel xml:lang="el">Καθαρισμός με γέλη</skos:prefLabel>
     </owl:NamedIndividual>
@@ -435,12 +415,8 @@ A secondary objective of the vocabulary is the development of a vocabulary for t
         <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
         <skos:broader rdf:resource="http://w3id.org/dcri-ont/vocabulary/concept_00068"/>
         <skos:inScheme rdf:resource="http://w3id.org/dcri-ont/vocabulary/conceptscheme"/>
-        <rdfs:comment xml:lang="en">Textile made in various weights, usually of flax, hemp, jute, or cotton, used especially as a support for oil and other paintings.</rdfs:comment>
-        <rdfs:comment xml:lang="el">Ύφασμα φτιαγμένο σε ποικίλα βάρη, συνήθως από λινάρι, κάνναβη, γιούτα ή βαμβάκι, που χρησιμοποιείται ειδικά ως υποστήριγμα για ελαιογραφίες ή άλλους πίνακες.</rdfs:comment>
         <rdfs:label xml:lang="en">Canvas</rdfs:label>
         <rdfs:label xml:lang="el">Καμβάς</rdfs:label>
-        <skos:definition xml:lang="en">Textile made in various weights, usually of flax, hemp, jute, or cotton, used especially as a support for oil and other paintings.</skos:definition>
-        <skos:definition xml:lang="el">Ύφασμα φτιαγμένο σε ποικίλα βάρη, συνήθως από λινάρι, κάνναβη, γιούτα ή βαμβάκι, που χρησιμοποιείται ειδικά ως υποστήριγμα για ελαιογραφίες ή άλλους πίνακες.</skos:definition>
         <skos:prefLabel xml:lang="en">Canvas</skos:prefLabel>
         <skos:prefLabel xml:lang="el">Καμβάς</skos:prefLabel>
     </owl:NamedIndividual>
@@ -489,12 +465,8 @@ A secondary objective of the vocabulary is the development of a vocabulary for t
         <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
         <skos:broader rdf:resource="http://w3id.org/dcri-ont/vocabulary/concept_00228"/>
         <skos:inScheme rdf:resource="http://w3id.org/dcri-ont/vocabulary/conceptscheme"/>
-        <rdfs:comment xml:lang="en">It refers to the ability of an intervention material to preserve its optical properties through the time.</rdfs:comment>
-        <rdfs:comment xml:lang="el">Αναφέρεται στην ικανότητα ενός υλικού επέμβασης να διατηρεί τις οπτικές του ιδιότητες στο πέρασμα του χρόνου.</rdfs:comment>
         <rdfs:label xml:lang="en">Optical stability</rdfs:label>
         <rdfs:label xml:lang="el">Οπτική σταθερότητα</rdfs:label>
-        <skos:definition xml:lang="en">It refers to the ability of an intervention material to preserve its optical properties through the time.</skos:definition>
-        <skos:definition xml:lang="el">Αναφέρεται στην ικανότητα ενός υλικού επέμβασης να διατηρεί τις οπτικές του ιδιότητες στο πέρασμα του χρόνου.</skos:definition>
         <skos:prefLabel xml:lang="en">Optical stability</skos:prefLabel>
         <skos:prefLabel xml:lang="el">Οπτική σταθερότητα</skos:prefLabel>
     </owl:NamedIndividual>
@@ -543,12 +515,8 @@ A secondary objective of the vocabulary is the development of a vocabulary for t
         <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
         <skos:broader rdf:resource="http://w3id.org/dcri-ont/vocabulary/concept_00228"/>
         <skos:inScheme rdf:resource="http://w3id.org/dcri-ont/vocabulary/conceptscheme"/>
-        <rdfs:comment xml:lang="en">It refers to the property of an intervention material to dissolve in a solvent.</rdfs:comment>
-        <rdfs:comment xml:lang="el">Αναφέρεται στην ιδιότητα ενός υλικού επέμβασης να διαλύεται σε έναν διαλύτη.</rdfs:comment>
         <rdfs:label xml:lang="en">Solubility in solvent</rdfs:label>
         <rdfs:label xml:lang="el">Διαλυτότητα σε διαλύτη</rdfs:label>
-        <skos:definition xml:lang="en">It refers to the property of an intervention material to dissolve in a solvent.</skos:definition>
-        <skos:definition xml:lang="el">Αναφέρεται στην ιδιότητα ενός υλικού επέμβασης να διαλύεται σε έναν διαλύτη.</skos:definition>
         <skos:prefLabel xml:lang="en">Solubility in solvent</skos:prefLabel>
         <skos:prefLabel xml:lang="el">Διαλυτότητα σε διαλύτη</skos:prefLabel>
     </owl:NamedIndividual>
@@ -612,14 +580,10 @@ A secondary objective of the vocabulary is the development of a vocabulary for t
         <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
         <skos:broader rdf:resource="http://w3id.org/dcri-ont/vocabulary/concept_00223"/>
         <skos:inScheme rdf:resource="http://w3id.org/dcri-ont/vocabulary/conceptscheme"/>
-        <rdfs:comment xml:lang="en">Pieces of textile which is used for cleaning.  It is used in the context of conservation interventions related to surface cleaning or removal of loose deposits (e.g. dust) from the surfaces of movable Cultural Heritage items.</rdfs:comment>
-        <rdfs:comment xml:lang="el">Τμήματα/κομάτια υφάσματος τα οποία χρησιμοποιούνται για καθάρισμα. Χρησιμοποιείται στο πλαίσιο επεμβάσεων συντήρησης που αφορούν στον επιφανειακό καθαρισμό ή την απομάκρυνση χαλαρών επικαθίσεων (π.χ. σκόνης) από τις επιφάνειες κινητών αντικειμένων της Πολιτιστικής Κληρονομιάς.</rdfs:comment>
         <rdfs:label xml:lang="en">Dust cloth</rdfs:label>
         <rdfs:label xml:lang="el">Ξεσκονόπανο</rdfs:label>
         <skos:altLabel xml:lang="en">Cloth for dusting</skos:altLabel>
         <skos:altLabel xml:lang="el">Πανί για ξεσκόνισμα</skos:altLabel>
-        <skos:definition xml:lang="en">Pieces of textile which is used for cleaning.  It is used in the context of conservation interventions related to surface cleaning or removal of loose deposits (e.g. dust) from the surfaces of movable Cultural Heritage items.</skos:definition>
-        <skos:definition xml:lang="el">Τμήματα/κομάτια υφάσματος τα οποία χρησιμοποιούνται για καθάρισμα. Χρησιμοποιείται στο πλαίσιο επεμβάσεων συντήρησης που αφορούν στον επιφανειακό καθαρισμό ή την απομάκρυνση χαλαρών επικαθίσεων (π.χ. σκόνης) από τις επιφάνειες κινητών αντικειμένων της Πολιτιστικής Κληρονομιάς.</skos:definition>
         <skos:prefLabel xml:lang="en">Dust cloth</skos:prefLabel>
         <skos:prefLabel xml:lang="el">Ξεσκονόπανο</skos:prefLabel>
     </owl:NamedIndividual>
@@ -653,12 +617,8 @@ A secondary objective of the vocabulary is the development of a vocabulary for t
         <skos:broader rdf:resource="http://w3id.org/dcri-ont/vocabulary/concept_00223"/>
         <skos:inScheme rdf:resource="http://w3id.org/dcri-ont/vocabulary/conceptscheme"/>
         <skos:narrower rdf:resource="http://w3id.org/dcri-ont/vocabulary/concept_00053"/>
-        <rdfs:comment xml:lang="en">A tool used for cleaning, consisting of a handle onto which bristles are wound. It is used in the context of conservation interventions related to surface cleaning or removal of loose deposits (e.g. dust) from the surfaces of movable Cultural Heritage items.</rdfs:comment>
-        <rdfs:comment xml:lang="el">Εργαλείο καθαρισμού, αποτελούμενο από μια λαβή πάνω στην οποία είναι στερεωμένες τρίχες. Χρησιμοποιείται στο πλαίσιο επεμβάσεων συντήρησης που αφορούν στον επιφανειακό καθαρισμό ή την απομάκρυνση χαλαρών επικαθίσεων (π.χ. σκόνης) από τις επιφάνειες κινητών αντικειμένων της Πολιτιστικής Κληρονομιάς.</rdfs:comment>
         <rdfs:label xml:lang="en">Dusting brush</rdfs:label>
         <rdfs:label xml:lang="el">Πινέλο ξεσκονίσματος</rdfs:label>
-        <skos:definition xml:lang="en">A tool used for cleaning, consisting of a handle onto which bristles are wound. It is used in the context of conservation interventions related to surface cleaning or removal of loose deposits (e.g. dust) from the surfaces of movable Cultural Heritage items.</skos:definition>
-        <skos:definition xml:lang="el">Εργαλείο καθαρισμού, αποτελούμενο από μια λαβή πάνω στην οποία είναι στερεωμένες τρίχες. Χρησιμοποιείται στο πλαίσιο επεμβάσεων συντήρησης που αφορούν στον επιφανειακό καθαρισμό ή την απομάκρυνση χαλαρών επικαθίσεων (π.χ. σκόνης) από τις επιφάνειες κινητών αντικειμένων της Πολιτιστικής Κληρονομιάς.</skos:definition>
         <skos:prefLabel xml:lang="en">Dusting brush</skos:prefLabel>
         <skos:prefLabel xml:lang="el">Πινέλο ξεσκονίσματος</skos:prefLabel>
     </owl:NamedIndividual>
@@ -873,12 +833,8 @@ A secondary objective of the vocabulary is the development of a vocabulary for t
         <skos:inScheme rdf:resource="http://w3id.org/dcri-ont/vocabulary/conceptscheme"/>
         <skos:narrower rdf:resource="http://w3id.org/dcri-ont/vocabulary/concept_00174"/>
         <skos:narrower rdf:resource="http://w3id.org/dcri-ont/vocabulary/concept_00175"/>
-        <rdfs:comment xml:lang="en">Thin and dry sheets or webs of fiber formed and dried on a fine screen from a pulpy water suspension. The fibers may be animal (e.g., hair, silk or wool), mineral (e.g., asbestos), synthetic or cellulosic plant (e.g., wood pulp, grass, cotton, linen, and straw).</rdfs:comment>
-        <rdfs:comment xml:lang="el">Λεπτά και ξηρά φύλλα ή πλέγματα ινών τα οποία έχουν σχηματιστεί από την ξήρανση εναιωρήματος πολτού και νερού πάνω σε λεπτή σίτα. Οι ίνες μπορεί να είναι ζωικές (π.χ., μαλλιά, μετάξι, μαλλί), ορυκτές (π.χ., άσβεστος), συνθετικές ή κυτταρινικών φυτών (π.χ., ξυλοπολτός, γρασίδι, βαμβάκι, λινό, άχυρο).</rdfs:comment>
         <rdfs:label xml:lang="en">Paper</rdfs:label>
         <rdfs:label xml:lang="el">Χαρτί</rdfs:label>
-        <skos:definition xml:lang="en">Thin and dry sheets or webs of fiber formed and dried on a fine screen from a pulpy water suspension. The fibers may be animal (e.g., hair, silk or wool), mineral (e.g., asbestos), synthetic or cellulosic plant (e.g., wood pulp, grass, cotton, linen, and straw).</skos:definition>
-        <skos:definition xml:lang="el">Λεπτά και ξηρά φύλλα ή πλέγματα ινών τα οποία έχουν σχηματιστεί από την ξήρανση εναιωρήματος πολτού και νερού πάνω σε λεπτή σίτα. Οι ίνες μπορεί να είναι ζωικές (π.χ., μαλλιά, μετάξι, μαλλί), ορυκτές (π.χ., άσβεστος), συνθετικές ή κυτταρινικών φυτών (π.χ., ξυλοπολτός, γρασίδι, βαμβάκι, λινό, άχυρο).</skos:definition>
         <skos:prefLabel xml:lang="en">Paper</skos:prefLabel>
         <skos:prefLabel xml:lang="el">Χαρτί</skos:prefLabel>
     </owl:NamedIndividual>
@@ -891,12 +847,8 @@ A secondary objective of the vocabulary is the development of a vocabulary for t
         <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
         <skos:broader rdf:resource="http://w3id.org/dcri-ont/vocabulary/concept_00155"/>
         <skos:inScheme rdf:resource="http://w3id.org/dcri-ont/vocabulary/conceptscheme"/>
-        <rdfs:comment xml:lang="en">A black, porous carbonaceous material comprising the carbon-containing residue from burned wood or other organic containing materials (e.g., bone, plants, animals).</rdfs:comment>
-        <rdfs:comment xml:lang="el">Μαύρο πορώδες υλικό το οποίο περιλαμβάνει κατάλοιπα άνθρακα από καμμένο ξύλο ή άλλα οργανικά υλικά (π.χ., οστά, φυτά, ζώα).</rdfs:comment>
         <rdfs:label xml:lang="en">Charcoal</rdfs:label>
         <rdfs:label xml:lang="el">Κάρβουνο</rdfs:label>
-        <skos:definition xml:lang="en">A black, porous carbonaceous material comprising the carbon-containing residue from burned wood or other organic containing materials (e.g., bone, plants, animals).</skos:definition>
-        <skos:definition xml:lang="el">Μαύρο πορώδες υλικό το οποίο περιλαμβάνει κατάλοιπα άνθρακα από καμμένο ξύλο ή άλλα οργανικά υλικά (π.χ., οστά, φυτά, ζώα).</skos:definition>
         <skos:prefLabel xml:lang="en">Charcoal</skos:prefLabel>
         <skos:prefLabel xml:lang="el">Κάρβουνο</skos:prefLabel>
     </owl:NamedIndividual>
@@ -914,13 +866,8 @@ A secondary objective of the vocabulary is the development of a vocabulary for t
         <skos:narrower rdf:resource="http://w3id.org/dcri-ont/vocabulary/concept_00177"/>
         <skos:narrower rdf:resource="http://w3id.org/dcri-ont/vocabulary/concept_00178"/>
         <skos:narrower rdf:resource="http://w3id.org/dcri-ont/vocabulary/concept_00229"/>
-        <rdfs:comment xml:lang="en">Any dispersion of pigment in a liquid binder. Paint is applied with a brush, roller, sprayer, or by dipping and dries to form a decorative or protective film.</rdfs:comment>
-        <rdfs:comment xml:lang="el">Διεσπαρμένη χρωστική σε κάποιο ρευστό συνδετικό μέσο. Το χρώμα εφαρμόζεται με πινέλο, ρόλερ, σπρέυ ή τίναγμα και στεγνώνει ώστε να δημιουργήσει ένα διακοσμητικό ή προστατευτικό φίλμ.</rdfs:comment>
         <rdfs:label xml:lang="en">Paint</rdfs:label>
         <rdfs:label xml:lang="el">Χρώμα</rdfs:label>
-        <skos:altLabel xml:lang="el">Μπογιά</skos:altLabel>
-        <skos:definition xml:lang="en">Any dispersion of pigment in a liquid binder. Paint is applied with a brush, roller, sprayer, or by dipping and dries to form a decorative or protective film.</skos:definition>
-        <skos:definition xml:lang="el">Διεσπαρμένη χρωστική σε κάποιο ρευστό συνδετικό μέσο. Το χρώμα εφαρμόζεται με πινέλο, ρόλερ, σπρέυ ή τίναγμα και στεγνώνει ώστε να δημιουργήσει ένα διακοσμητικό ή προστατευτικό φίλμ.</skos:definition>
         <skos:prefLabel xml:lang="en">Paint</skos:prefLabel>
         <skos:prefLabel xml:lang="el">Χρώμα</skos:prefLabel>
     </owl:NamedIndividual>
@@ -934,12 +881,8 @@ A secondary objective of the vocabulary is the development of a vocabulary for t
         <skos:broader rdf:resource="http://w3id.org/dcri-ont/vocabulary/concept_00222"/>
         <skos:inScheme rdf:resource="http://w3id.org/dcri-ont/vocabulary/conceptscheme"/>
         <skos:narrower rdf:resource="http://w3id.org/dcri-ont/vocabulary/concept_00031"/>
-        <rdfs:comment xml:lang="en">Materials produced by weaving, felting, knotting, twining, or otherwise processing natural or synthetic fibers so that they cohere into a form or unit.</rdfs:comment>
-        <rdfs:comment xml:lang="el">Υλικά τα οποία έχουν προέλθει από ύφανση ή κάποια διαδικασία επεξεργασίας φυσικών ή συνθετικών ινών έτσι ώστε να έχουν μια ενιαία μορφή ή να αποτελούν μια μονάδα.</rdfs:comment>
         <rdfs:label xml:lang="en">Textile</rdfs:label>
         <rdfs:label xml:lang="el">Ύφασμα</rdfs:label>
-        <skos:definition xml:lang="en">Materials produced by weaving, felting, knotting, twining, or otherwise processing natural or synthetic fibers so that they cohere into a form or unit.</skos:definition>
-        <skos:definition xml:lang="el">Υλικά τα οποία έχουν προέλθει από ύφανση ή κάποια διαδικασία επεξεργασίας φυσικών ή συνθετικών ινών έτσι ώστε να έχουν μια ενιαία μορφή ή να αποτελούν μια μονάδα.</skos:definition>
         <skos:prefLabel xml:lang="en">Textile</skos:prefLabel>
         <skos:prefLabel xml:lang="el">Ύφασμα</skos:prefLabel>
     </owl:NamedIndividual>
@@ -956,12 +899,8 @@ A secondary objective of the vocabulary is the development of a vocabulary for t
         <skos:narrower rdf:resource="http://w3id.org/dcri-ont/vocabulary/concept_00205"/>
         <skos:narrower rdf:resource="http://w3id.org/dcri-ont/vocabulary/concept_00206"/>
         <skos:narrower rdf:resource="http://w3id.org/dcri-ont/vocabulary/concept_00207"/>
-        <rdfs:comment xml:lang="en">Natural or synthetic organic materials that can be molded, extruded, or cast when soft or liquid, and then set into a rigid or slightly elastic form. Natural plastics include tree resins, beeswax, gutta-percha, horn, and clay. Synthetic plastics were first made in the 19th century.</rdfs:comment>
-        <rdfs:comment xml:lang="el">Φυσικά ή συνθετικά οργανικά υλικά που μπορούν να μορφοποιηθούν, να εξωθούνται ή να χυθούν όταν είναι μαλακά ή υγρά και στη συνέχεια να στερεοποιηθούν σε άκαμπτη ή ελαφρώς ελαστική μορφή. Τα φυσικά πλαστικά περιλαμβάνουν ρητίνες δέντρων, κερί μέλισσας, γουταπέρκα, κέρατο και πηλό. Τα συνθετικά πλαστικά κατασκευάστηκαν για πρώτη φορά τον 19ο αιώνα.</rdfs:comment>
         <rdfs:label xml:lang="en">Plastic</rdfs:label>
         <rdfs:label xml:lang="el">Πλαστικό</rdfs:label>
-        <skos:definition xml:lang="en">Natural or synthetic organic materials that can be molded, extruded, or cast when soft or liquid, and then set into a rigid or slightly elastic form. Natural plastics include tree resins, beeswax, gutta-percha, horn, and clay. Synthetic plastics were first made in the 19th century.</skos:definition>
-        <skos:definition xml:lang="el">Φυσικά ή συνθετικά οργανικά υλικά που μπορούν να μορφοποιηθούν, να εξωθούνται ή να χυθούν όταν είναι μαλακά ή υγρά και στη συνέχεια να στερεοποιηθούν σε άκαμπτη ή ελαφρώς ελαστική μορφή. Τα φυσικά πλαστικά περιλαμβάνουν ρητίνες δέντρων, κερί μέλισσας, γουταπέρκα, κέρατο και πηλό. Τα συνθετικά πλαστικά κατασκευάστηκαν για πρώτη φορά τον 19ο αιώνα.</skos:definition>
         <skos:prefLabel xml:lang="en">Plastic</skos:prefLabel>
         <skos:prefLabel xml:lang="el">Πλαστικό</skos:prefLabel>
     </owl:NamedIndividual>
@@ -974,12 +913,8 @@ A secondary objective of the vocabulary is the development of a vocabulary for t
         <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
         <skos:broader rdf:resource="http://w3id.org/dcri-ont/vocabulary/concept_00222"/>
         <skos:inScheme rdf:resource="http://w3id.org/dcri-ont/vocabulary/conceptscheme"/>
-        <rdfs:comment xml:lang="en">The principal tissue of trees and other plants that provides both strength and a means of conducting nutrients.</rdfs:comment>
-        <rdfs:comment xml:lang="el">Ο βασικός ιστός των δέντρων και άλλων φυτών που παρέχει τόσο δύναμη όσο και ένα μέσο αγωγής θρεπτικών συστατικών.</rdfs:comment>
         <rdfs:label xml:lang="en">Wood</rdfs:label>
         <rdfs:label xml:lang="el">Ξύλο</rdfs:label>
-        <skos:definition xml:lang="en">The principal tissue of trees and other plants that provides both strength and a means of conducting nutrients.</skos:definition>
-        <skos:definition xml:lang="el">Ο βασικός ιστός των δέντρων και άλλων φυτών που παρέχει τόσο δύναμη όσο και ένα μέσο αγωγής θρεπτικών συστατικών.</skos:definition>
         <skos:prefLabel xml:lang="en">Wood</skos:prefLabel>
         <skos:prefLabel xml:lang="el">Ξύλο</skos:prefLabel>
     </owl:NamedIndividual>
@@ -992,12 +927,8 @@ A secondary objective of the vocabulary is the development of a vocabulary for t
         <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
         <skos:broader rdf:resource="http://w3id.org/dcri-ont/vocabulary/concept_00155"/>
         <skos:inScheme rdf:resource="http://w3id.org/dcri-ont/vocabulary/conceptscheme"/>
-        <rdfs:comment xml:lang="en">Naturally occurring crystalline form of carbon dimorphous with diamond. Graphite is opaque, soft, greasy to the touch, and iron black to steel gray in color; it occurs as crystals, flakes, scales, veins, bedded masses, or disseminations in metamorphic rocks.</rdfs:comment>
-        <rdfs:comment xml:lang="el">Άνθρακας σε φυσική κρυσταλλική μορφή διαμορφωμένη με διαμάντι. Ο γραφίτης είναι αδιαφανής, απαλός, λιπαρός στην αφή και έχει χρώμα από μαύρο (σιδήρου) έως γκρί (ατσαλιού). Μπορεί να έχει την μορφή κρυστάλλων, νιφάδων, λεπιών, φλεβών, στρωμένες μάζες ή διασπορών σε μεταμορφωσιγενή πετρώματα.</rdfs:comment>
         <rdfs:label xml:lang="en">Graphite</rdfs:label>
         <rdfs:label xml:lang="el">Γραφίτης</rdfs:label>
-        <skos:definition xml:lang="en">Naturally occurring crystalline form of carbon dimorphous with diamond. Graphite is opaque, soft, greasy to the touch, and iron black to steel gray in color; it occurs as crystals, flakes, scales, veins, bedded masses, or disseminations in metamorphic rocks.</skos:definition>
-        <skos:definition xml:lang="el">Άνθρακας σε φυσική κρυσταλλική μορφή διαμορφωμένη με διαμάντι. Ο γραφίτης είναι αδιαφανής, απαλός, λιπαρός στην αφή και έχει χρώμα από μαύρο (σιδήρου) έως γκρί (ατσαλιού). Μπορεί να έχει την μορφή κρυστάλλων, νιφάδων, λεπιών, φλεβών, στρωμένες μάζες ή διασπορών σε μεταμορφωσιγενή πετρώματα.</skos:definition>
         <skos:prefLabel xml:lang="en">Graphite</skos:prefLabel>
         <skos:prefLabel xml:lang="el">Γραφίτης</skos:prefLabel>
     </owl:NamedIndividual>
@@ -1010,12 +941,8 @@ A secondary objective of the vocabulary is the development of a vocabulary for t
         <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
         <skos:broader rdf:resource="http://w3id.org/dcri-ont/vocabulary/concept_00155"/>
         <skos:inScheme rdf:resource="http://w3id.org/dcri-ont/vocabulary/conceptscheme"/>
-        <rdfs:comment xml:lang="en">A fine-grained limestone, or soft, earthy form of calcium carbonate.</rdfs:comment>
-        <rdfs:comment xml:lang="el">Ένας λεπτόκοκκος ασβεστόλιθος, ή μαλακή, γήινη μορφή ανθρακικού ασβεστίου.</rdfs:comment>
         <rdfs:label xml:lang="en">Chalk</rdfs:label>
         <rdfs:label xml:lang="el">Κιμωλία</rdfs:label>
-        <skos:definition xml:lang="en">A fine-grained limestone, or soft, earthy form of calcium carbonate.</skos:definition>
-        <skos:definition xml:lang="el">Ένας λεπτόκοκκος ασβεστόλιθος, ή μαλακή, γήινη μορφή ανθρακικού ασβεστίου.</skos:definition>
         <skos:prefLabel xml:lang="en">Chalk</skos:prefLabel>
         <skos:prefLabel xml:lang="el">Κιμωλία</skos:prefLabel>
     </owl:NamedIndividual>
@@ -1028,12 +955,8 @@ A secondary objective of the vocabulary is the development of a vocabulary for t
         <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
         <skos:broader rdf:resource="http://w3id.org/dcri-ont/vocabulary/concept_00155"/>
         <skos:inScheme rdf:resource="http://w3id.org/dcri-ont/vocabulary/conceptscheme"/>
-        <rdfs:comment xml:lang="en">A fluid medium used for drawings or tracings. An opaque, usually black, pigment is mixed with a vehicle such as water to produce a fluid which can be applied with a pen or brush.</rdfs:comment>
-        <rdfs:comment xml:lang="el">Ένα ρευστό μέσο που χρησιμοποιείται για σχέδια ή ιχνογραφίες. Μια αδιαφανής, συνήθως μαύρη, χρωστική ουσία αναμιγνύεται με ένα μέσο όπως το νερό για να παραχθεί ένα υγρό που μπορεί να εφαρμοστεί με στυλό ή βούρτσα.</rdfs:comment>
         <rdfs:label xml:lang="en">Ink</rdfs:label>
         <rdfs:label xml:lang="el">Μελάνι</rdfs:label>
-        <skos:definition xml:lang="en">A fluid medium used for drawings or tracings. An opaque, usually black, pigment is mixed with a vehicle such as water to produce a fluid which can be applied with a pen or brush.</skos:definition>
-        <skos:definition xml:lang="el">Ένα ρευστό μέσο που χρησιμοποιείται για σχέδια ή ιχνογραφίες. Μια αδιαφανής, συνήθως μαύρη, χρωστική ουσία αναμιγνύεται με ένα μέσο όπως το νερό για να παραχθεί ένα υγρό που μπορεί να εφαρμοστεί με στυλό ή βούρτσα.</skos:definition>
         <skos:prefLabel xml:lang="en">Ink</skos:prefLabel>
         <skos:prefLabel xml:lang="el">Μελάνι</skos:prefLabel>
     </owl:NamedIndividual>
@@ -1047,12 +970,8 @@ A secondary objective of the vocabulary is the development of a vocabulary for t
         <skos:broader rdf:resource="http://w3id.org/dcri-ont/vocabulary/concept_00155"/>
         <skos:broader rdf:resource="http://w3id.org/dcri-ont/vocabulary/concept_00156"/>
         <skos:inScheme rdf:resource="http://w3id.org/dcri-ont/vocabulary/conceptscheme"/>
-        <rdfs:comment xml:lang="en">Combination of ground, powdery pigment and aqueous binder that are used in drawing and dry painting, delivered via a crayon or stick. Pastel as a material is soft and blendable.</rdfs:comment>
-        <rdfs:comment xml:lang="el">Συνδυασμός αλεσμένης, κονιορτοποιημένης χρωστικής και υδατικού συνδετικού που χρησιμοποιούνται στο σχέδιο και στη ζωγραφική με ξηρά μέσα, τα οποία εφαρμόζονται μέσω ενός κραγιόν ή ραβδιού. Το παστέλ ως υλικό είναι μαλακό και αναμειγνύεται.</rdfs:comment>
         <rdfs:label xml:lang="en">Pastel</rdfs:label>
         <rdfs:label xml:lang="el">Παστέλ</rdfs:label>
-        <skos:definition xml:lang="en">Combination of ground, powdery pigment and aqueous binder that are used in drawing and dry painting, delivered via a crayon or stick. Pastel as a material is soft and blendable.</skos:definition>
-        <skos:definition xml:lang="el">Συνδυασμός αλεσμένης, κονιορτοποιημένης χρωστικής και υδατικού συνδετικού που χρησιμοποιούνται στο σχέδιο και στη ζωγραφική με ξηρά μέσα, τα οποία εφαρμόζονται μέσω ενός κραγιόν ή ραβδιού. Το παστέλ ως υλικό είναι μαλακό και αναμειγνύεται.</skos:definition>
         <skos:prefLabel xml:lang="en">Pastel</skos:prefLabel>
         <skos:prefLabel xml:lang="el">Παστέλ</skos:prefLabel>
     </owl:NamedIndividual>
@@ -1130,12 +1049,8 @@ A secondary objective of the vocabulary is the development of a vocabulary for t
         <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
         <skos:broader rdf:resource="http://w3id.org/dcri-ont/vocabulary/concept_00075"/>
         <skos:inScheme rdf:resource="http://w3id.org/dcri-ont/vocabulary/conceptscheme"/>
-        <rdfs:comment xml:lang="en">Webs that are spun by spiders, made of spider silk as interlaced threads of viscous protein fluid that solidify on exposure to air.</rdfs:comment>
-        <rdfs:comment xml:lang="el">Ιστοί που υφαίνονται από αράχνες, κατασκευασμένοι από μετάξι αράχνης ως συμπλεγμένα νήματα ιξώδους πρωτεϊνικού υγρού που στερεοποιούνται κατά την έκθεση στον αέρα.</rdfs:comment>
         <rdfs:label xml:lang="en">Spider web</rdfs:label>
         <rdfs:label xml:lang="el">Ιστός αράχνης</rdfs:label>
-        <skos:definition xml:lang="en">Webs that are spun by spiders, made of spider silk as interlaced threads of viscous protein fluid that solidify on exposure to air.</skos:definition>
-        <skos:definition xml:lang="el">Ιστοί που υφαίνονται από αράχνες, κατασκευασμένοι από μετάξι αράχνης ως συμπλεγμένα νήματα ιξώδους πρωτεϊνικού υγρού που στερεοποιούνται κατά την έκθεση στον αέρα.</skos:definition>
         <skos:prefLabel xml:lang="en">Spider web</skos:prefLabel>
         <skos:prefLabel xml:lang="el">Ιστός αράχνης</skos:prefLabel>
     </owl:NamedIndividual>
@@ -1148,12 +1063,8 @@ A secondary objective of the vocabulary is the development of a vocabulary for t
         <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
         <skos:broader rdf:resource="http://w3id.org/dcri-ont/vocabulary/concept_00075"/>
         <skos:inScheme rdf:resource="http://w3id.org/dcri-ont/vocabulary/conceptscheme"/>
-        <rdfs:comment xml:lang="en">Various fungi that produce a conspicuous, furry mass of mycelium (masses of vegetative filaments, or hyphae) and fruiting structures, particularly those of the genera Aspergillus, Penicillium, and Rhizopus, which are associated with food spoilage, plant diseases, and damage to artifacts.</rdfs:comment>
-        <rdfs:comment xml:lang="el">Ποικίλοι μύκητες οι οποίοι παράγουν μια διακριτή, τριχωειδή μάζα μυκηλίου (μάζες φυτικών νημάτων ή υφών) και καρποφόρων δομών, ιδίως εκείνων των γενών Aspergillus, Penicillium και Rhizopus, που σχετίζονται με αλλοίωση τροφίμων, ασθένειες των φυτών και βλάβες σε τεχνουργήματα.</rdfs:comment>
         <rdfs:label xml:lang="en">Mold</rdfs:label>
         <rdfs:label xml:lang="el">Μούχλα</rdfs:label>
-        <skos:definition xml:lang="en">Various fungi that produce a conspicuous, furry mass of mycelium (masses of vegetative filaments, or hyphae) and fruiting structures, particularly those of the genera Aspergillus, Penicillium, and Rhizopus, which are associated with food spoilage, plant diseases, and damage to artifacts.</skos:definition>
-        <skos:definition xml:lang="el">Ποικίλοι μύκητες οι οποίοι παράγουν μια διακριτή, τριχωειδή μάζα μυκηλίου (μάζες φυτικών νημάτων ή υφών) και καρποφόρων δομών, ιδίως εκείνων των γενών Aspergillus, Penicillium και Rhizopus, που σχετίζονται με αλλοίωση τροφίμων, ασθένειες των φυτών και βλάβες σε τεχνουργήματα.</skos:definition>
         <skos:prefLabel xml:lang="en">Mold</skos:prefLabel>
         <skos:prefLabel xml:lang="el">Μούχλα</skos:prefLabel>
     </owl:NamedIndividual>
@@ -1166,12 +1077,8 @@ A secondary objective of the vocabulary is the development of a vocabulary for t
         <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
         <skos:broader rdf:resource="http://w3id.org/dcri-ont/vocabulary/concept_00075"/>
         <skos:inScheme rdf:resource="http://w3id.org/dcri-ont/vocabulary/conceptscheme"/>
-        <rdfs:comment xml:lang="en">Fine, dry particles of matter regarded as the result of disintegration. Dust may be accumulated on surfaces.</rdfs:comment>
-        <rdfs:comment xml:lang="el">Λεπτά, ξηρά σωματίδια ύλης τα οποία θεωρούνται αποτέλεσμα αποσύνθεσης. Η σκόνη μπορεί να συσσωρεύεται σε επιφάνειες.</rdfs:comment>
         <rdfs:label xml:lang="en">Dust</rdfs:label>
         <rdfs:label xml:lang="el">Σκόνη</rdfs:label>
-        <skos:definition xml:lang="en">Fine, dry particles of matter regarded as the result of disintegration. Dust may be accumulated on surfaces.</skos:definition>
-        <skos:definition xml:lang="el">Λεπτά, ξηρά σωματίδια ύλης τα οποία θεωρούνται αποτέλεσμα αποσύνθεσης. Η σκόνη μπορεί να συσσωρεύεται σε επιφάνειες.</skos:definition>
         <skos:prefLabel xml:lang="en">Dust</skos:prefLabel>
         <skos:prefLabel xml:lang="el">Σκόνη</skos:prefLabel>
     </owl:NamedIndividual>
@@ -1216,13 +1123,9 @@ A secondary objective of the vocabulary is the development of a vocabulary for t
         <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
         <skos:broader rdf:resource="http://w3id.org/dcri-ont/vocabulary/concept_00227"/>
         <skos:inScheme rdf:resource="http://w3id.org/dcri-ont/vocabulary/conceptscheme"/>
-        <rdfs:comment xml:lang="en">The quality of being easily crumbled or reduced to a powder.</rdfs:comment>
-        <rdfs:comment xml:lang="el">Η ιδιότητα του να θριμματίζεται κάτι εύκολα ή να γίνεται σκόνη.</rdfs:comment>
         <rdfs:label xml:lang="en">Friability</rdfs:label>
         <rdfs:label xml:lang="el">Ευθρυπτότητα</rdfs:label>
         <skos:altLabel xml:lang="en">Brittle</skos:altLabel>
-        <skos:definition xml:lang="en">The quality of being easily crumbled or reduced to a powder.</skos:definition>
-        <skos:definition xml:lang="el">Η ιδιότητα του να θριμματίζεται κάτι εύκολα ή να γίνεται σκόνη.</skos:definition>
         <skos:prefLabel xml:lang="en">Friability</skos:prefLabel>
         <skos:prefLabel xml:lang="el">Ευθρυπτότητα</skos:prefLabel>
     </owl:NamedIndividual>
@@ -1235,12 +1138,8 @@ A secondary objective of the vocabulary is the development of a vocabulary for t
         <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
         <skos:broader rdf:resource="http://w3id.org/dcri-ont/vocabulary/concept_00227"/>
         <skos:inScheme rdf:resource="http://w3id.org/dcri-ont/vocabulary/conceptscheme"/>
-        <rdfs:comment xml:lang="en">The quality of being easily broken, shattered, or damaged.</rdfs:comment>
-        <rdfs:comment xml:lang="el">Η ιδιότητα του να σπάει, να κομματιάζεται ή να χαλάει κάτι εύκολα.</rdfs:comment>
         <rdfs:label xml:lang="en">Fragility</rdfs:label>
         <rdfs:label xml:lang="el">Ευθραυστότητα</rdfs:label>
-        <skos:definition xml:lang="en">The quality of being easily broken, shattered, or damaged.</skos:definition>
-        <skos:definition xml:lang="el">Η ιδιότητα του να σπάει, να κομματιάζεται ή να χαλάει κάτι εύκολα.</skos:definition>
         <skos:prefLabel xml:lang="en">Fragility</skos:prefLabel>
         <skos:prefLabel xml:lang="el">Ευθραυστότητα</skos:prefLabel>
     </owl:NamedIndividual>
@@ -1253,12 +1152,8 @@ A secondary objective of the vocabulary is the development of a vocabulary for t
         <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
         <skos:broader rdf:resource="http://w3id.org/dcri-ont/vocabulary/concept_00227"/>
         <skos:inScheme rdf:resource="http://w3id.org/dcri-ont/vocabulary/conceptscheme"/>
-        <rdfs:comment xml:lang="en">The quality or state of lacking stability, of tending toward changeability, or of readily decomposing or changing chemically.</rdfs:comment>
-        <rdfs:comment xml:lang="el">Η ιδιότητα ή κατάσταση της έλλειψης σταθερότητας, της τάσης για αλλαγή ή της εύκολης αποσύνθεσης ή χημικής αλλαγής.</rdfs:comment>
         <rdfs:label xml:lang="en">Instability</rdfs:label>
         <rdfs:label xml:lang="el">Αστάθεια</rdfs:label>
-        <skos:definition xml:lang="en">The quality or state of lacking stability, of tending toward changeability, or of readily decomposing or changing chemically.</skos:definition>
-        <skos:definition xml:lang="el">Η ιδιότητα ή κατάσταση της έλλειψης σταθερότητας, της τάσης για αλλαγή ή της εύκολης αποσύνθεσης ή χημικής αλλαγής.</skos:definition>
         <skos:prefLabel xml:lang="en">Instability</skos:prefLabel>
         <skos:prefLabel xml:lang="el">Αστάθεια</skos:prefLabel>
     </owl:NamedIndividual>
@@ -1290,12 +1185,8 @@ A secondary objective of the vocabulary is the development of a vocabulary for t
         <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
         <skos:broader rdf:resource="http://w3id.org/dcri-ont/vocabulary/concept_00227"/>
         <skos:inScheme rdf:resource="http://w3id.org/dcri-ont/vocabulary/conceptscheme"/>
-        <rdfs:comment xml:lang="en">Separating into thin flattened pieces or layers.</rdfs:comment>
-        <rdfs:comment xml:lang="el">Διαχωρισμός σε λεπτά ίσια κομμάτια ή στρώματα.</rdfs:comment>
         <rdfs:label xml:lang="en">Flaking</rdfs:label>
         <rdfs:label xml:lang="el">Απολέπιση</rdfs:label>
-        <skos:definition xml:lang="en">Separating into thin flattened pieces or layers.</skos:definition>
-        <skos:definition xml:lang="el">Διαχωρισμός σε λεπτά ίσια κομμάτια ή στρώματα.</skos:definition>
         <skos:prefLabel xml:lang="en">Flaking</skos:prefLabel>
         <skos:prefLabel xml:lang="el">Απολέπιση</skos:prefLabel>
     </owl:NamedIndividual>
@@ -1308,13 +1199,8 @@ A secondary objective of the vocabulary is the development of a vocabulary for t
         <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
         <skos:broader rdf:resource="http://w3id.org/dcri-ont/vocabulary/concept_00227"/>
         <skos:inScheme rdf:resource="http://w3id.org/dcri-ont/vocabulary/conceptscheme"/>
-        <rdfs:comment xml:lang="en">The act or process of reducing to powder, pulverization; in conservation science context refers to granular disintegration of stone and pigments.</rdfs:comment>
-        <rdfs:comment xml:lang="el">Η πράξη ή η διαδικασία αναγωγής σε σκόνη, κονιορτοποίηση. Στο πλαίσιο της επιστήμης της διατήρησης αναφέρεται στην αποδόμηση σε κόκκους της πέτρας και των χρωστικών.</rdfs:comment>
         <rdfs:label xml:lang="en">Powdering</rdfs:label>
         <rdfs:label xml:lang="el">Κονιορτοποίηση</rdfs:label>
-        <skos:altLabel xml:lang="en">Pulverization</skos:altLabel>
-        <skos:definition xml:lang="en">The act or process of reducing to powder, pulverization; in conservation science context refers to granular disintegration of stone and pigments.</skos:definition>
-        <skos:definition xml:lang="el">Η πράξη ή η διαδικασία αναγωγής σε σκόνη, κονιορτοποίηση. Στο πλαίσιο της επιστήμης της διατήρησης αναφέρεται στην αποδόμηση σε κόκκους της πέτρας και των χρωστικών.</skos:definition>
         <skos:prefLabel xml:lang="en">Powdering</skos:prefLabel>
         <skos:prefLabel xml:lang="el">Κονιορτοποίηση</skos:prefLabel>
     </owl:NamedIndividual>
@@ -1336,12 +1222,8 @@ A secondary objective of the vocabulary is the development of a vocabulary for t
         <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
         <skos:broader rdf:resource="http://w3id.org/dcri-ont/vocabulary/concept_00227"/>
         <skos:inScheme rdf:resource="http://w3id.org/dcri-ont/vocabulary/conceptscheme"/>
-        <rdfs:comment xml:lang="en">A mass or layer of matter of varying thickness that has subsided or been precipitated from a fluid medium onto another mass of material, or has collected in one place by any natural process. The bond of the ingrained deposit to the surface is firm.</rdfs:comment>
-        <rdfs:comment xml:lang="el">Μάζα ή στρώμα ύλης ποικίλου πάχους που έχει καθιζάνει ή καταβυθιστεί από ένα ρευστό μέσο σε μια άλλη μάζα υλικού ή έχει συγκεντρωθεί σε ένα μέρος με οποιαδήποτε φυσική διαδικασία. Οι δυνάμεις που συγκρατούν την εμποτισμένη επικάθιση στην επιφάνεια είναι ισχυρές.</rdfs:comment>
         <rdfs:label xml:lang="en">Ingrained deposit</rdfs:label>
         <rdfs:label xml:lang="el">Εμποτισμένη επικάθιση</rdfs:label>
-        <skos:definition xml:lang="en">A mass or layer of matter of varying thickness that has subsided or been precipitated from a fluid medium onto another mass of material, or has collected in one place by any natural process. The bond of the ingrained deposit to the surface is firm.</skos:definition>
-        <skos:definition xml:lang="el">Μάζα ή στρώμα ύλης ποικίλου πάχους που έχει καθιζάνει ή καταβυθιστεί από ένα ρευστό μέσο σε μια άλλη μάζα υλικού ή έχει συγκεντρωθεί σε ένα μέρος με οποιαδήποτε φυσική διαδικασία. Οι δυνάμεις που συγκρατούν την εμποτισμένη επικάθιση στην επιφάνεια είναι ισχυρές.</skos:definition>
         <skos:prefLabel xml:lang="en">Ingrained deposit</skos:prefLabel>
         <skos:prefLabel xml:lang="el">Εμποτισμένη επικάθιση</skos:prefLabel>
     </owl:NamedIndividual>
@@ -1354,12 +1236,8 @@ A secondary objective of the vocabulary is the development of a vocabulary for t
         <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
         <skos:broader rdf:resource="http://w3id.org/dcri-ont/vocabulary/concept_00227"/>
         <skos:inScheme rdf:resource="http://w3id.org/dcri-ont/vocabulary/conceptscheme"/>
-        <rdfs:comment xml:lang="en">The quality of having a surface diversified with small projections, points, and irregularities so as to be harsh or uneven to the sight or touch.</rdfs:comment>
-        <rdfs:comment xml:lang="el">Η ιδιότητα μιας επιφάνειας να έχει διαφοροποιήσεις με μικρές προεξοχές, σημεία και ανωμαλίες έτσι ώστε να είναι σκηρή ή ανώμαλη στην όψη και την υφή.</rdfs:comment>
         <rdfs:label xml:lang="en">Roughness</rdfs:label>
         <rdfs:label xml:lang="el">Τραχύτητα</rdfs:label>
-        <skos:definition xml:lang="en">The quality of having a surface diversified with small projections, points, and irregularities so as to be harsh or uneven to the sight or touch.</skos:definition>
-        <skos:definition xml:lang="el">Η ιδιότητα μιας επιφάνειας να έχει διαφοροποιήσεις με μικρές προεξοχές, σημεία και ανωμαλίες έτσι ώστε να είναι σκηρή ή ανώμαλη στην όψη και την υφή.</skos:definition>
         <skos:prefLabel xml:lang="en">Roughness</skos:prefLabel>
         <skos:prefLabel xml:lang="el">Τραχύτητα</skos:prefLabel>
     </owl:NamedIndividual>
@@ -1418,12 +1296,8 @@ A secondary objective of the vocabulary is the development of a vocabulary for t
         <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
         <skos:broader rdf:resource="http://w3id.org/dcri-ont/vocabulary/concept_00222"/>
         <skos:inScheme rdf:resource="http://w3id.org/dcri-ont/vocabulary/conceptscheme"/>
-        <rdfs:comment xml:lang="en">Substances that typically show a characteristic luster, are good conductors of electricity and heat, are opaque, can be fused, and are usually malleable or ductile.</rdfs:comment>
-        <rdfs:comment xml:lang="el">Ουσίες που παρουσιάζουν μια χαρακτηριστική γυαλάδα, είναι καλοί αγωγοί ηλεκτρισμού και θερμότητας, είναι αδιαφανείς, μπορούν να λιωθούν, και είναι συνήθως εύπλαστες ή όλκιμες.</rdfs:comment>
         <rdfs:label xml:lang="en">Metal</rdfs:label>
         <rdfs:label xml:lang="el">Μέταλλο</rdfs:label>
-        <skos:definition xml:lang="en">Substances that typically show a characteristic luster, are good conductors of electricity and heat, are opaque, can be fused, and are usually malleable or ductile.</skos:definition>
-        <skos:definition xml:lang="el">Ουσίες που παρουσιάζουν μια χαρακτηριστική γυαλάδα, είναι καλοί αγωγοί ηλεκτρισμού και θερμότητας, είναι αδιαφανείς, μπορούν να λιωθούν, και είναι συνήθως εύπλαστες ή όλκιμες.</skos:definition>
         <skos:prefLabel xml:lang="en">Metal</skos:prefLabel>
         <skos:prefLabel xml:lang="el">Μέταλλο</skos:prefLabel>
     </owl:NamedIndividual>
@@ -1444,13 +1318,8 @@ A secondary objective of the vocabulary is the development of a vocabulary for t
         <skos:narrower rdf:resource="http://w3id.org/dcri-ont/vocabulary/concept_00187"/>
         <skos:narrower rdf:resource="http://w3id.org/dcri-ont/vocabulary/concept_00188"/>
         <skos:narrower rdf:resource="http://w3id.org/dcri-ont/vocabulary/concept_00201"/>
-        <rdfs:comment xml:lang="en">Materials used for the production of a design on a support.</rdfs:comment>
-        <rdfs:comment xml:lang="el">Τα υλικά μέσα τα οποία χρησιμοποιούνται για την δημιουργία ενός σχεδίου σε ένα υποστήριγμα.</rdfs:comment>
         <rdfs:label xml:lang="en">Design media</rdfs:label>
         <rdfs:label xml:lang="el">Μέσα σχεδίου</rdfs:label>
-        <skos:altLabel xml:lang="en">Drawing media</skos:altLabel>
-        <skos:definition xml:lang="en">Materials used for the production of a design on a support.</skos:definition>
-        <skos:definition xml:lang="el">Τα υλικά μέσα τα οποία χρησιμοποιούνται για την δημιουργία ενός σχεδίου σε ένα υποστήριγμα.</skos:definition>
         <skos:prefLabel xml:lang="en">Design media</skos:prefLabel>
         <skos:prefLabel xml:lang="el">Μέσα σχεδίου</skos:prefLabel>
     </owl:NamedIndividual>
@@ -1465,12 +1334,8 @@ A secondary objective of the vocabulary is the development of a vocabulary for t
         <skos:inScheme rdf:resource="http://w3id.org/dcri-ont/vocabulary/conceptscheme"/>
         <skos:narrower rdf:resource="http://w3id.org/dcri-ont/vocabulary/concept_00067"/>
         <skos:narrower rdf:resource="http://w3id.org/dcri-ont/vocabulary/concept_00074"/>
-        <rdfs:comment xml:lang="en">Materials used for the production of a painting on a support.</rdfs:comment>
-        <rdfs:comment xml:lang="el">Τα υλικά μέσα τα οποία χρησιμοποιούνται για την ζωγραφική σε ένα υποστήριγμα.</rdfs:comment>
         <rdfs:label xml:lang="en">Painting media</rdfs:label>
         <rdfs:label xml:lang="el">Μέσα ζωγραφικής</rdfs:label>
-        <skos:definition xml:lang="en">Materials used for the production of a painting on a support.</skos:definition>
-        <skos:definition xml:lang="el">Τα υλικά μέσα τα οποία χρησιμοποιούνται για την ζωγραφική σε ένα υποστήριγμα.</skos:definition>
         <skos:prefLabel xml:lang="en">Painting media</skos:prefLabel>
         <skos:prefLabel xml:lang="el">Μέσα ζωγραφικής</skos:prefLabel>
     </owl:NamedIndividual>
@@ -1500,12 +1365,8 @@ A secondary objective of the vocabulary is the development of a vocabulary for t
         <skos:narrower rdf:resource="http://w3id.org/dcri-ont/vocabulary/concept_00062"/>
         <skos:narrower rdf:resource="http://w3id.org/dcri-ont/vocabulary/concept_00063"/>
         <skos:narrower rdf:resource="http://w3id.org/dcri-ont/vocabulary/concept_00168"/>
-        <rdfs:comment xml:lang="en">Any material, usually liquid, having the power of dissolving another material.</rdfs:comment>
-        <rdfs:comment xml:lang="el">Οποιοδήποτε υλικό, συνήθως ρευστό, το οποίο έχει την ικανότητα να διαλύσει ένα άλλο υλικό.</rdfs:comment>
         <rdfs:label xml:lang="en">Solvent</rdfs:label>
         <rdfs:label xml:lang="el">Διαλύτης</rdfs:label>
-        <skos:definition xml:lang="en">Any material, usually liquid, having the power of dissolving another material.</skos:definition>
-        <skos:definition xml:lang="el">Οποιοδήποτε υλικό, συνήθως ρευστό, το οποίο έχει την ικανότητα να διαλύσει ένα άλλο υλικό.</skos:definition>
         <skos:prefLabel xml:lang="en">Solvent</skos:prefLabel>
         <skos:prefLabel xml:lang="el">Διαλύτης</skos:prefLabel>
     </owl:NamedIndividual>
@@ -1518,12 +1379,8 @@ A secondary objective of the vocabulary is the development of a vocabulary for t
         <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
         <skos:broader rdf:resource="http://w3id.org/dcri-ont/vocabulary/concept_00222"/>
         <skos:inScheme rdf:resource="http://w3id.org/dcri-ont/vocabulary/conceptscheme"/>
-        <rdfs:comment xml:lang="en">Combination of two or more substances in no definite proportions, within which the constituent substances retain their individual properties and are separable by ordinary physical means. </rdfs:comment>
-        <rdfs:comment xml:lang="el">Συνδυασμός δύο ή περισσότερων ουσιών σε μη καθορισμένες ποσότηττες, μέσα στον οποίο οι ουσίες διατηρούν τις ιδιότητές τους και μπορούν να διαχωριστούν με φυσικού τρόπους.</rdfs:comment>
         <rdfs:label xml:lang="en">Mixture</rdfs:label>
         <rdfs:label xml:lang="el">Μίγμα</rdfs:label>
-        <skos:definition xml:lang="en">Combination of two or more substances in no definite proportions, within which the constituent substances retain their individual properties and are separable by ordinary physical means. </skos:definition>
-        <skos:definition xml:lang="el">Συνδυασμός δύο ή περισσότερων ουσιών σε μη καθορισμένες ποσότηττες, μέσα στον οποίο οι ουσίες διατηρούν τις ιδιότητές τους και μπορούν να διαχωριστούν με φυσικού τρόπους.</skos:definition>
         <skos:prefLabel xml:lang="en">Mixture</skos:prefLabel>
         <skos:prefLabel xml:lang="el">Μίγμα</skos:prefLabel>
     </owl:NamedIndividual>
@@ -1536,12 +1393,8 @@ A secondary objective of the vocabulary is the development of a vocabulary for t
         <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
         <skos:broader rdf:resource="http://w3id.org/dcri-ont/vocabulary/concept_00222"/>
         <skos:inScheme rdf:resource="http://w3id.org/dcri-ont/vocabulary/conceptscheme"/>
-        <rdfs:comment xml:lang="en">Any substance introduced into a deteriorated surface where it strengthens and stabilizes the surface, making it solid, or compact.</rdfs:comment>
-        <rdfs:comment xml:lang="el">Οποιαδήποτε ουσία που εισάγεται σε μια διαβρωμένη επιφάνεια η οποία ενδυναμώνει και σταθεροποιεί την επιφάνεια, καθιστώντας την σταθερή ή συμπαγής.</rdfs:comment>
         <rdfs:label xml:lang="en">Consolidant</rdfs:label>
         <rdfs:label xml:lang="el">Συγκολλητικό</rdfs:label>
-        <skos:definition xml:lang="en">Any substance introduced into a deteriorated surface where it strengthens and stabilizes the surface, making it solid, or compact.</skos:definition>
-        <skos:definition xml:lang="el">Οποιαδήποτε ουσία που εισάγεται σε μια διαβρωμένη επιφάνεια η οποία ενδυναμώνει και σταθεροποιεί την επιφάνεια, καθιστώντας την σταθερή ή συμπαγής.</skos:definition>
         <skos:prefLabel xml:lang="en">Consolidant</skos:prefLabel>
         <skos:prefLabel xml:lang="el">Συγκολλητικό</skos:prefLabel>
     </owl:NamedIndividual>
@@ -1632,12 +1485,8 @@ A secondary objective of the vocabulary is the development of a vocabulary for t
         <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
         <skos:broader rdf:resource="http://w3id.org/dcri-ont/vocabulary/concept_00223"/>
         <skos:inScheme rdf:resource="http://w3id.org/dcri-ont/vocabulary/conceptscheme"/>
-        <rdfs:comment xml:lang="en">Atomizer used for applying a fine spray of paint or another coating or consolidant by compressed air.</rdfs:comment>
-        <rdfs:comment xml:lang="el">Ψεκαστήρας που χρησιμοποιείται για την εφαρμογή ενός λεπτού ψεκάσματος χρώματος ή κάποιου άλλου επικαλυπτικού ή συγκολλητικού υλικού με πεπιεσμένο αέρα.</rdfs:comment>
         <rdfs:label xml:lang="en">Airbrush</rdfs:label>
         <rdfs:label xml:lang="el">Αερογράφος</rdfs:label>
-        <skos:definition xml:lang="en">Atomizer used for applying a fine spray of paint or another coating or consolidant by compressed air.</skos:definition>
-        <skos:definition xml:lang="el">Ψεκαστήρας που χρησιμοποιείται για την εφαρμογή ενός λεπτού ψεκάσματος χρώματος ή κάποιου άλλου επικαλυπτικού ή συγκολλητικού υλικού με πεπιεσμένο αέρα.</skos:definition>
         <skos:prefLabel xml:lang="en">Airbrush</skos:prefLabel>
         <skos:prefLabel xml:lang="el">Αερογράφος</skos:prefLabel>
     </owl:NamedIndividual>
@@ -1650,12 +1499,8 @@ A secondary objective of the vocabulary is the development of a vocabulary for t
         <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
         <skos:broader rdf:resource="http://w3id.org/dcri-ont/vocabulary/concept_00222"/>
         <skos:inScheme rdf:resource="http://w3id.org/dcri-ont/vocabulary/conceptscheme"/>
-        <rdfs:comment xml:lang="en">Methylated derivative of cellulose. It is usually used in the context of textile and paper conservation interventions related to consolidation, as well as to cleaning-removal of stains.</rdfs:comment>
-        <rdfs:comment xml:lang="el">Μεθυλιωμένο παράγωγο κυτταρίνης. Χρησιμοποιείται συνήθως στο πλαίσιο επεμβάσεων συντήρησης χαρτιού και υφάσματος σχετικές με συγκόλληση, καθώς και για τον καθαρισμό-αφαίρεση λεκκέδων.</rdfs:comment>
         <rdfs:label xml:lang="en">Methyl cellulose</rdfs:label>
         <rdfs:label xml:lang="el">Μεθυλοκυτταρίνη</rdfs:label>
-        <skos:definition xml:lang="en">Methylated derivative of cellulose. It is usually used in the context of textile and paper conservation interventions related to consolidation, as well as to cleaning-removal of stains.</skos:definition>
-        <skos:definition xml:lang="el">Μεθυλιωμένο παράγωγο κυτταρίνης. Χρησιμοποιείται συνήθως στο πλαίσιο επεμβάσεων συντήρησης χαρτιού και υφάσματος σχετικές με συγκόλληση, καθώς και για τον καθαρισμό-αφαίρεση λεκκέδων.</skos:definition>
         <skos:prefLabel xml:lang="en">Methyl cellulose</skos:prefLabel>
         <skos:prefLabel xml:lang="el">Μεθυλοκυτταρίνη</skos:prefLabel>
     </owl:NamedIndividual>
@@ -1668,12 +1513,8 @@ A secondary objective of the vocabulary is the development of a vocabulary for t
         <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
         <skos:broader rdf:resource="http://w3id.org/dcri-ont/vocabulary/concept_00158"/>
         <skos:inScheme rdf:resource="http://w3id.org/dcri-ont/vocabulary/conceptscheme"/>
-        <rdfs:comment xml:lang="en">A mixture of three isomeric hydrocarbons form commercial xylene. It is a colorless, flammable, toxic liquid insoluble in water.</rdfs:comment>
-        <rdfs:comment xml:lang="el">Ένα μείγμα τριών ισομερών υδρογονανθράκων το οποίο σχηματίζει το εμπορικό ξυλόλιο. Είναι ένα άχρωμο, εύφλεκτο, τοξικό υγρό αδιάλυτο στο νερό.</rdfs:comment>
         <rdfs:label xml:lang="en">Xylene</rdfs:label>
         <rdfs:label xml:lang="el">Ξυλένιο</rdfs:label>
-        <skos:definition xml:lang="en">A mixture of three isomeric hydrocarbons form commercial xylene. It is a colorless, flammable, toxic liquid insoluble in water.</skos:definition>
-        <skos:definition xml:lang="el">Ένα μείγμα τριών ισομερών υδρογονανθράκων το οποίο σχηματίζει το εμπορικό ξυλόλιο. Είναι ένα άχρωμο, εύφλεκτο, τοξικό υγρό αδιάλυτο στο νερό.</skos:definition>
         <skos:prefLabel xml:lang="en">Xylene</skos:prefLabel>
         <skos:prefLabel xml:lang="el">Ξυλένιο</skos:prefLabel>
     </owl:NamedIndividual>
@@ -1686,12 +1527,8 @@ A secondary objective of the vocabulary is the development of a vocabulary for t
         <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
         <skos:broader rdf:resource="http://w3id.org/dcri-ont/vocabulary/concept_00222"/>
         <skos:inScheme rdf:resource="http://w3id.org/dcri-ont/vocabulary/conceptscheme"/>
-        <rdfs:comment xml:lang="en">Synthetic thermal plastic resin that does not embrittle or discolor over time, having a liquid density of 8.3 pounds per gallon, a flash point of 60 degrees Fahrenheit, and a viscosity of 3700-6200 cps. It is widely used in conservation treatments.</rdfs:comment>
-        <rdfs:comment xml:lang="el">Συνθετική θερμοπλαστική ρητίνη που δεν γίνεται εύθραυστη ή αποχρωματίζεται με την πάροδο του χρόνου, με πυκνότητα υγρού 8,3 λίβρες ανά γαλόνι, σημείο ανάφλεξης 60 βαθμούς Φαρενάιτ και ιξώδες 3700-6200 cps. Χρησιμοποιείται ευρέως σε επεμβάσεις συντήρησης σχετικές με συγκόλληση.</rdfs:comment>
         <rdfs:label xml:lang="en">Ethyl methycrylate-methyl acrylate copolymer</rdfs:label>
         <rdfs:label xml:lang="el">Συμπολυμερές μεθυκρυλικού αιθυλεστέρα - ακρυλικού μεθυλεστέρα</rdfs:label>
-        <skos:definition xml:lang="en">Synthetic thermal plastic resin that does not embrittle or discolor over time, having a liquid density of 8.3 pounds per gallon, a flash point of 60 degrees Fahrenheit, and a viscosity of 3700-6200 cps. It is widely used in conservation treatments.</skos:definition>
-        <skos:definition xml:lang="el">Συνθετική θερμοπλαστική ρητίνη που δεν γίνεται εύθραυστη ή αποχρωματίζεται με την πάροδο του χρόνου, με πυκνότητα υγρού 8,3 λίβρες ανά γαλόνι, σημείο ανάφλεξης 60 βαθμούς Φαρενάιτ και ιξώδες 3700-6200 cps. Χρησιμοποιείται ευρέως σε επεμβάσεις συντήρησης σχετικές με συγκόλληση.</skos:definition>
         <skos:prefLabel xml:lang="en">Ethyl methycrylate-methyl acrylate copolymer</skos:prefLabel>
         <skos:prefLabel xml:lang="el">Συμπολυμερές μεθυκρυλικού αιθυλεστέρα - ακρυλικού μεθυλεστέρα</skos:prefLabel>
     </owl:NamedIndividual>
@@ -1704,12 +1541,8 @@ A secondary objective of the vocabulary is the development of a vocabulary for t
         <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
         <skos:broader rdf:resource="http://w3id.org/dcri-ont/vocabulary/concept_00222"/>
         <skos:inScheme rdf:resource="http://w3id.org/dcri-ont/vocabulary/conceptscheme"/>
-        <rdfs:comment xml:lang="en">A water-soluble, tasteless colloidal form of processed collagen obtained from bones, hooves or skins. Is high in molecular weight after processing. It is usually used in the context of conservation interventions related to consolidation and fixing of paintings and photographs.</rdfs:comment>
-        <rdfs:comment xml:lang="el">Μια υδατοδιαλυτή, άνευ γεύσης, κολλοειδούς μορφής επεξεργασμένου κολλαγόνου που λαμβάνεται από οστά, οπλές ή δέρματα. Έχει υψηλό μοριακό βάρος μετά την επεξεργασία. Χρησιμοποιείται συνήθως στο πλαίσιο επεμβάσεων συντήρησης σχετικές με συγκόλληση και στερέωση ζωγραφικών έργων και φωτογραφιών.</rdfs:comment>
         <rdfs:label xml:lang="en">Gelatin</rdfs:label>
         <rdfs:label xml:lang="el">Ζελατίνη</rdfs:label>
-        <skos:definition xml:lang="en">A water-soluble, tasteless colloidal form of processed collagen obtained from bones, hooves or skins. Is high in molecular weight after processing. It is usually used in the context of conservation interventions related to consolidation and fixing of paintings and photographs.</skos:definition>
-        <skos:definition xml:lang="el">Μια υδατοδιαλυτή, άνευ γεύσης, κολλοειδούς μορφής επεξεργασμένου κολλαγόνου που λαμβάνεται από οστά, οπλές ή δέρματα. Έχει υψηλό μοριακό βάρος μετά την επεξεργασία. Χρησιμοποιείται συνήθως στο πλαίσιο επεμβάσεων συντήρησης σχετικές με συγκόλληση και στερέωση ζωγραφικών έργων και φωτογραφιών.</skos:definition>
         <skos:prefLabel xml:lang="en">Gelatin</skos:prefLabel>
         <skos:prefLabel xml:lang="el">Ζελατίνη</skos:prefLabel>
     </owl:NamedIndividual>
@@ -1722,12 +1555,8 @@ A secondary objective of the vocabulary is the development of a vocabulary for t
         <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
         <skos:broader rdf:resource="http://w3id.org/dcri-ont/vocabulary/concept_00227"/>
         <skos:inScheme rdf:resource="http://w3id.org/dcri-ont/vocabulary/conceptscheme"/>
-        <rdfs:comment xml:lang="en">The property of surface of being dull or lusterless.</rdfs:comment>
-        <rdfs:comment xml:lang="el">Η ιδιότητα μιας επιφάνειας να είναι θαμπή ή χωρίς γυαλάδα.</rdfs:comment>
         <rdfs:label xml:lang="en">Matte</rdfs:label>
         <rdfs:label xml:lang="el">Μάτ</rdfs:label>
-        <skos:definition xml:lang="en">The property of surface of being dull or lusterless.</skos:definition>
-        <skos:definition xml:lang="el">Η ιδιότητα μιας επιφάνειας να είναι θαμπή ή χωρίς γυαλάδα.</skos:definition>
         <skos:prefLabel xml:lang="en">Matte</skos:prefLabel>
         <skos:prefLabel xml:lang="el">Μάτ</skos:prefLabel>
     </owl:NamedIndividual>
@@ -1740,12 +1569,8 @@ A secondary objective of the vocabulary is the development of a vocabulary for t
         <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
         <skos:broader rdf:resource="http://w3id.org/dcri-ont/vocabulary/concept_00067"/>
         <skos:inScheme rdf:resource="http://w3id.org/dcri-ont/vocabulary/conceptscheme"/>
-        <rdfs:comment xml:lang="en">A matte, opaque watercolor paint typically having gum arabic, gum senegal, or dextrin as a binder. Gouache paints differ from watercolor paints, which use transparent pigments. Chalk and other white fillers may be added to some colors.</rdfs:comment>
-        <rdfs:comment xml:lang="el">Ένα ματ, αδιαφανές χρώμα ακουαρέλας που έχει τυπικά αραβικό κόμμι, κόμμι Σενεγάλης ή δεξτρίνη ως συνδετικό. Τα χρώματα γκουάς διαφέρουν από τα χρώματα ακουαρέλας, τα οποία χρησιμοποιούν διαφανείς χρωστικές. Σε ορισμένα χρώματα μπορεί να προστεθούν κιμωλία και άλλα λευκά υλικά πλήρωσης.</rdfs:comment>
         <rdfs:label xml:lang="en">Gouache</rdfs:label>
         <rdfs:label xml:lang="el">Γκουάς</rdfs:label>
-        <skos:definition xml:lang="en">A matte, opaque watercolor paint typically having gum arabic, gum senegal, or dextrin as a binder. Gouache paints differ from watercolor paints, which use transparent pigments. Chalk and other white fillers may be added to some colors.</skos:definition>
-        <skos:definition xml:lang="el">Ένα ματ, αδιαφανές χρώμα ακουαρέλας που έχει τυπικά αραβικό κόμμι, κόμμι Σενεγάλης ή δεξτρίνη ως συνδετικό. Τα χρώματα γκουάς διαφέρουν από τα χρώματα ακουαρέλας, τα οποία χρησιμοποιούν διαφανείς χρωστικές. Σε ορισμένα χρώματα μπορεί να προστεθούν κιμωλία και άλλα λευκά υλικά πλήρωσης.</skos:definition>
         <skos:prefLabel xml:lang="en">Gouache</skos:prefLabel>
         <skos:prefLabel xml:lang="el">Γκουάς</skos:prefLabel>
     </owl:NamedIndividual>
@@ -1776,12 +1601,8 @@ A secondary objective of the vocabulary is the development of a vocabulary for t
         <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
         <skos:broader rdf:resource="http://w3id.org/dcri-ont/vocabulary/concept_00065"/>
         <skos:inScheme rdf:resource="http://w3id.org/dcri-ont/vocabulary/conceptscheme"/>
-        <rdfs:comment xml:lang="en">A thick paper formed from multiple sheets adhered with an adhesive and pressed to produce a hard, stiff board.</rdfs:comment>
-        <rdfs:comment xml:lang="el">Είδος χαρτιού μεγάλου πάχους το οποίο αποτελείται από πολλαπλά φύλλα χαρτιού κολημμένα με συγκολλητική ουσία, τα οποία έχουν πιεστεί δημιουργώντας μια σκληρή άκαμπτη επιφάνεια.</rdfs:comment>
         <rdfs:label xml:lang="en">Pasteboard</rdfs:label>
         <rdfs:label xml:lang="el">Χαρτόνι</rdfs:label>
-        <skos:definition xml:lang="en">A thick paper formed from multiple sheets adhered with an adhesive and pressed to produce a hard, stiff board.</skos:definition>
-        <skos:definition xml:lang="el">Είδος χαρτιού μεγάλου πάχους το οποίο αποτελείται από πολλαπλά φύλλα χαρτιού κολημμένα με συγκολλητική ουσία, τα οποία έχουν πιεστεί δημιουργώντας μια σκληρή άκαμπτη επιφάνεια.</skos:definition>
         <skos:prefLabel xml:lang="en">Pasteboard</skos:prefLabel>
         <skos:prefLabel xml:lang="el">Χαρτόνι</skos:prefLabel>
     </owl:NamedIndividual>
@@ -1794,12 +1615,8 @@ A secondary objective of the vocabulary is the development of a vocabulary for t
         <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
         <skos:broader rdf:resource="http://w3id.org/dcri-ont/vocabulary/concept_00065"/>
         <skos:inScheme rdf:resource="http://w3id.org/dcri-ont/vocabulary/conceptscheme"/>
-        <rdfs:comment xml:lang="en">Paper made from thin layers of pith cut from two species of rice paper trees cultivated in China, Japan, and Thailand.</rdfs:comment>
-        <rdfs:comment xml:lang="el">Χαρτί φτιαγμένο από λεπτές στρώσεις φλοιού κομμένου από δύο είδη δέντρων ριζόχαρτου τα οποία καλλιεργούνται στην Κίνα, την Ιαπωνία και την Ταιλάνδη.</rdfs:comment>
         <rdfs:label xml:lang="en">Rice paper</rdfs:label>
         <rdfs:label xml:lang="el">Ριζόχαρτο</rdfs:label>
-        <skos:definition xml:lang="en">Paper made from thin layers of pith cut from two species of rice paper trees cultivated in China, Japan, and Thailand.</skos:definition>
-        <skos:definition xml:lang="el">Χαρτί φτιαγμένο από λεπτές στρώσεις φλοιού κομμένου από δύο είδη δέντρων ριζόχαρτου τα οποία καλλιεργούνται στην Κίνα, την Ιαπωνία και την Ταιλάνδη.</skos:definition>
         <skos:prefLabel xml:lang="en">Rice paper</skos:prefLabel>
         <skos:prefLabel xml:lang="el">Ριζόχαρτο</skos:prefLabel>
     </owl:NamedIndividual>
@@ -1812,12 +1629,8 @@ A secondary objective of the vocabulary is the development of a vocabulary for t
         <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
         <skos:broader rdf:resource="http://w3id.org/dcri-ont/vocabulary/concept_00067"/>
         <skos:inScheme rdf:resource="http://w3id.org/dcri-ont/vocabulary/conceptscheme"/>
-        <rdfs:comment xml:lang="en">A paint made bypigments and a drying oil such as linseed oil.</rdfs:comment>
-        <rdfs:comment xml:lang="el">Μπογιά φτιαγμένη από ανάμειξη χρωστικών και ξηραινόμενων ελαίων όπως λινέλαιο.</rdfs:comment>
         <rdfs:label xml:lang="en">Oil paint</rdfs:label>
         <rdfs:label xml:lang="el">Λάδι (χρώμα)</rdfs:label>
-        <skos:definition xml:lang="en">A paint made bypigments and a drying oil such as linseed oil.</skos:definition>
-        <skos:definition xml:lang="el">Μπογιά φτιαγμένη από ανάμειξη χρωστικών και ξηραινόμενων ελαίων όπως λινέλαιο.</skos:definition>
         <skos:prefLabel xml:lang="en">Oil paint</skos:prefLabel>
         <skos:prefLabel xml:lang="el">Λάδι (χρώμα)</skos:prefLabel>
     </owl:NamedIndividual>
@@ -1830,12 +1643,8 @@ A secondary objective of the vocabulary is the development of a vocabulary for t
         <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
         <skos:broader rdf:resource="http://w3id.org/dcri-ont/vocabulary/concept_00067"/>
         <skos:inScheme rdf:resource="http://w3id.org/dcri-ont/vocabulary/conceptscheme"/>
-        <rdfs:comment xml:lang="en">A paint made by pigments or dyes in acrylic, which is a colorless, transparent, thermoplastic synthetic resin made by the polymerization of acrylic acid derivatives.</rdfs:comment>
-        <rdfs:comment xml:lang="el">Χρώμα από χρωστικές ή βαφές σε ακρυλικό, το οποίο είναι μια άχρωμη, διάφανη, θερμοπλαστική συνθετική ρητίνη φτιαγμένη από τον πολυμερισμό παραγώγων ακρυλικού οξέος.</rdfs:comment>
         <rdfs:label xml:lang="en">Acrylic paint</rdfs:label>
         <rdfs:label xml:lang="el">Ακρυλικό (χρώμα)</rdfs:label>
-        <skos:definition xml:lang="en">A paint made by pigments or dyes in acrylic, which is a colorless, transparent, thermoplastic synthetic resin made by the polymerization of acrylic acid derivatives.</skos:definition>
-        <skos:definition xml:lang="el">Χρώμα από χρωστικές ή βαφές σε ακρυλικό, το οποίο είναι μια άχρωμη, διάφανη, θερμοπλαστική συνθετική ρητίνη φτιαγμένη από τον πολυμερισμό παραγώγων ακρυλικού οξέος.</skos:definition>
         <skos:prefLabel xml:lang="en">Acrylic paint</skos:prefLabel>
         <skos:prefLabel xml:lang="el">Ακρυλικό (χρώμα)</skos:prefLabel>
     </owl:NamedIndividual>
@@ -1848,12 +1657,8 @@ A secondary objective of the vocabulary is the development of a vocabulary for t
         <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
         <skos:broader rdf:resource="http://w3id.org/dcri-ont/vocabulary/concept_00067"/>
         <skos:inScheme rdf:resource="http://w3id.org/dcri-ont/vocabulary/conceptscheme"/>
-        <rdfs:comment xml:lang="en">A paint made by pigments and egg (usually the yolk).</rdfs:comment>
-        <rdfs:comment xml:lang="el">Χρώμα φτιαγμένο από ανάμειξη χρωστικών και αυγό (συνήθως τον κρόκο).</rdfs:comment>
         <rdfs:label xml:lang="en">Egg tempera</rdfs:label>
         <rdfs:label xml:lang="el">Αυγοτέμπερα</rdfs:label>
-        <skos:definition xml:lang="en">A paint made by pigments and egg (usually the yolk).</skos:definition>
-        <skos:definition xml:lang="el">Χρώμα φτιαγμένο από ανάμειξη χρωστικών και αυγό (συνήθως τον κρόκο).</skos:definition>
         <skos:prefLabel xml:lang="en">Egg tempera</skos:prefLabel>
         <skos:prefLabel xml:lang="el">Αυγοτέμπερα</skos:prefLabel>
     </owl:NamedIndividual>
@@ -1866,12 +1671,8 @@ A secondary objective of the vocabulary is the development of a vocabulary for t
         <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
         <skos:broader rdf:resource="http://w3id.org/dcri-ont/vocabulary/concept_00222"/>
         <skos:inScheme rdf:resource="http://w3id.org/dcri-ont/vocabulary/conceptscheme"/>
-        <rdfs:comment xml:lang="en">An amorphous, inorganic substance made by fusing silica (silicon dioxide) with a basic oxide; generally transparent but often translucent or opaque.</rdfs:comment>
-        <rdfs:comment xml:lang="el">Μια άμορφη, ανόργανη ουσία φτιαγμένη από σύντηξη διοξειδίου του πυρητίου με βασικό οξείδιο. Γενικά είναι διάφανο, αλλά μπορεί να είναι και ημιδιάφανο ή αδιάφανο.</rdfs:comment>
         <rdfs:label xml:lang="en">Glass</rdfs:label>
         <rdfs:label xml:lang="el">Γυαλί</rdfs:label>
-        <skos:definition xml:lang="en">An amorphous, inorganic substance made by fusing silica (silicon dioxide) with a basic oxide; generally transparent but often translucent or opaque.</skos:definition>
-        <skos:definition xml:lang="el">Μια άμορφη, ανόργανη ουσία φτιαγμένη από σύντηξη διοξειδίου του πυρητίου με βασικό οξείδιο. Γενικά είναι διάφανο, αλλά μπορεί να είναι και ημιδιάφανο ή αδιάφανο.</skos:definition>
         <skos:prefLabel xml:lang="en">Glass</skos:prefLabel>
         <skos:prefLabel xml:lang="el">Γυαλί</skos:prefLabel>
     </owl:NamedIndividual>
@@ -1884,12 +1685,8 @@ A secondary objective of the vocabulary is the development of a vocabulary for t
         <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
         <skos:broader rdf:resource="http://w3id.org/dcri-ont/vocabulary/concept_00069"/>
         <skos:inScheme rdf:resource="http://w3id.org/dcri-ont/vocabulary/conceptscheme"/>
-        <rdfs:comment xml:lang="en">Proprietary name for polymerized methyl methacrylate, used as a substitute for glass in products such as windows, frames etc.</rdfs:comment>
-        <rdfs:comment xml:lang="el">Εμπορικό όνομα του πολυμερισμένου μεθακρυλικό μεθυλεστέρα, που χρησιμοποιείται ως υποκατάστατο του γυαλιού σε προιόντα όπως τα παράθυρα, οι κορνίζες κ.ά.</rdfs:comment>
         <rdfs:label xml:lang="en">Plexiglass</rdfs:label>
         <rdfs:label xml:lang="el">Πλέξιγκλας</rdfs:label>
-        <skos:definition xml:lang="en">Proprietary name for polymerized methyl methacrylate, used as a substitute for glass in products such as windows, frames etc.</skos:definition>
-        <skos:definition xml:lang="el">Εμπορικό όνομα του πολυμερισμένου μεθακρυλικό μεθυλεστέρα, που χρησιμοποιείται ως υποκατάστατο του γυαλιού σε προιόντα όπως τα παράθυρα, οι κορνίζες κ.ά.</skos:definition>
         <skos:prefLabel xml:lang="en">Plexiglass</skos:prefLabel>
         <skos:prefLabel xml:lang="el">Πλέξιγκλας</skos:prefLabel>
     </owl:NamedIndividual>
@@ -1920,12 +1717,8 @@ A secondary objective of the vocabulary is the development of a vocabulary for t
         <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
         <skos:broader rdf:resource="http://w3id.org/dcri-ont/vocabulary/concept_00183"/>
         <skos:inScheme rdf:resource="http://w3id.org/dcri-ont/vocabulary/conceptscheme"/>
-        <rdfs:comment xml:lang="en">The removal of an object or object component from physical contact with another.</rdfs:comment>
-        <rdfs:comment xml:lang="el">Η αφαίρεση ενός αντικειμένου ή ενός τμήματος αντικειμένου από την φυσική επαφή που είχε με ένα άλλο.</rdfs:comment>
         <rdfs:label xml:lang="en">Detaching</rdfs:label>
         <rdfs:label xml:lang="el">Αποκολλήσεις</rdfs:label>
-        <skos:definition xml:lang="en">The removal of an object or object component from physical contact with another.</skos:definition>
-        <skos:definition xml:lang="el">Η αφαίρεση ενός αντικειμένου ή ενός τμήματος αντικειμένου από την φυσική επαφή που είχε με ένα άλλο.</skos:definition>
         <skos:prefLabel xml:lang="en">Detaching</skos:prefLabel>
         <skos:prefLabel xml:lang="el">Αποκολλήσεις</skos:prefLabel>
     </owl:NamedIndividual>
@@ -1938,12 +1731,8 @@ A secondary objective of the vocabulary is the development of a vocabulary for t
         <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
         <skos:broader rdf:resource="http://w3id.org/dcri-ont/vocabulary/concept_00227"/>
         <skos:inScheme rdf:resource="http://w3id.org/dcri-ont/vocabulary/conceptscheme"/>
-        <rdfs:comment xml:lang="en">Fracturing in a material or object, usually along a single or branched path.</rdfs:comment>
-        <rdfs:comment xml:lang="el">Διάνοιξη σε ένα υλικό ή αντικείμενο, συνήθως κατά μήκος ενός μονού ή διακλαδισμένου μονοπατιού.</rdfs:comment>
         <rdfs:label xml:lang="en">Crack</rdfs:label>
         <rdfs:label xml:lang="el">Ρωγμές</rdfs:label>
-        <skos:definition xml:lang="en">Fracturing in a material or object, usually along a single or branched path.</skos:definition>
-        <skos:definition xml:lang="el">Διάνοιξη σε ένα υλικό ή αντικείμενο, συνήθως κατά μήκος ενός μονού ή διακλαδισμένου μονοπατιού.</skos:definition>
         <skos:prefLabel xml:lang="en">Crack</skos:prefLabel>
         <skos:prefLabel xml:lang="el">Ρωγμές</skos:prefLabel>
     </owl:NamedIndividual>
@@ -2012,12 +1801,8 @@ A secondary objective of the vocabulary is the development of a vocabulary for t
         <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
         <skos:broader rdf:resource="http://w3id.org/dcri-ont/vocabulary/concept_00222"/>
         <skos:inScheme rdf:resource="http://w3id.org/dcri-ont/vocabulary/conceptscheme"/>
-        <rdfs:comment xml:lang="en">The suspension of droplets of one liquid in another liquid in which the first liquid is not soluble. Also, an intimate mixture of a solid or semi-solid substance with a liquid, sometimes with the aid of an emulsifier. In photography, the mixture of binder and final image material.</rdfs:comment>
-        <rdfs:comment xml:lang="el">Το εναιώρημα σταγονιδίων ενός υγρού σε άλλο υγρό στο οποίο το πρώτο υγρό δεν είναι διαλυτό. Επίσης, ένα μείγμα στερεάς ή ημιστερεής ουσίας με υγρό, μερικές φορές με τη βοήθεια γαλακτωματοποιητή. Στη φωτογραφία, η μίξη του συνδετικού υλικού και του τελικού υλικού εικόνας.</rdfs:comment>
         <rdfs:label xml:lang="en">Emulsion</rdfs:label>
         <rdfs:label xml:lang="el">Γαλάκτωμα</rdfs:label>
-        <skos:definition xml:lang="en">The suspension of droplets of one liquid in another liquid in which the first liquid is not soluble. Also, an intimate mixture of a solid or semi-solid substance with a liquid, sometimes with the aid of an emulsifier. In photography, the mixture of binder and final image material.</skos:definition>
-        <skos:definition xml:lang="el">Το εναιώρημα σταγονιδίων ενός υγρού σε άλλο υγρό στο οποίο το πρώτο υγρό δεν είναι διαλυτό. Επίσης, ένα μείγμα στερεάς ή ημιστερεής ουσίας με υγρό, μερικές φορές με τη βοήθεια γαλακτωματοποιητή. Στη φωτογραφία, η μίξη του συνδετικού υλικού και του τελικού υλικού εικόνας.</skos:definition>
         <skos:prefLabel xml:lang="en">Emulsion</skos:prefLabel>
         <skos:prefLabel xml:lang="el">Γαλάκτωμα</skos:prefLabel>
     </owl:NamedIndividual>
@@ -2033,12 +1818,8 @@ A secondary objective of the vocabulary is the development of a vocabulary for t
         <skos:narrower rdf:resource="http://w3id.org/dcri-ont/vocabulary/concept_00219"/>
         <skos:narrower rdf:resource="http://w3id.org/dcri-ont/vocabulary/concept_00220"/>
         <skos:narrower rdf:resource="http://w3id.org/dcri-ont/vocabulary/concept_00221"/>
-        <rdfs:comment xml:lang="en">Use generally for any substance spread over a surface, usually for protection or decoration.</rdfs:comment>
-        <rdfs:comment xml:lang="el">Αναφέρεται γενικά σε οποιαδήποτε ουσία απλώνεται σε μια επιφάνεια, συνήθως για προστασία ή διακόσμηση.</rdfs:comment>
         <rdfs:label xml:lang="en">Coating</rdfs:label>
         <rdfs:label xml:lang="el">Επικαλυπτικό υλικό</rdfs:label>
-        <skos:definition xml:lang="en">Use generally for any substance spread over a surface, usually for protection or decoration.</skos:definition>
-        <skos:definition xml:lang="el">Αναφέρεται γενικά σε οποιαδήποτε ουσία απλώνεται σε μια επιφάνεια, συνήθως για προστασία ή διακόσμηση.</skos:definition>
         <skos:prefLabel xml:lang="en">Coating</skos:prefLabel>
         <skos:prefLabel xml:lang="el">Επικαλυπτικό υλικό</skos:prefLabel>
     </owl:NamedIndividual>
@@ -2051,12 +1832,8 @@ A secondary objective of the vocabulary is the development of a vocabulary for t
         <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
         <skos:broader rdf:resource="http://w3id.org/dcri-ont/vocabulary/concept_00222"/>
         <skos:inScheme rdf:resource="http://w3id.org/dcri-ont/vocabulary/conceptscheme"/>
-        <rdfs:comment xml:lang="en">The skin of an animal that has been processed for further use e.g., for furniture, clothing, bookbinding. It is relatively soft and flexible when dry.</rdfs:comment>
-        <rdfs:comment xml:lang="el">Το δέρμα ζώου που έχει υποστεί επεξεργασία για περαιτέρω χρήση όπως π.χ., η κατασκευή επίπλων, ρουχισμού, βιβλιοδεσίας. Είναι σχετικά μαλακό και εύκαμπτο όταν είναι στεγνό.</rdfs:comment>
         <rdfs:label xml:lang="en">Leather</rdfs:label>
         <rdfs:label xml:lang="el">Δέρμα</rdfs:label>
-        <skos:definition xml:lang="en">The skin of an animal that has been processed for further use e.g., for furniture, clothing, bookbinding. It is relatively soft and flexible when dry.</skos:definition>
-        <skos:definition xml:lang="el">Το δέρμα ζώου που έχει υποστεί επεξεργασία για περαιτέρω χρήση όπως π.χ., η κατασκευή επίπλων, ρουχισμού, βιβλιοδεσίας. Είναι σχετικά μαλακό και εύκαμπτο όταν είναι στεγνό.</skos:definition>
         <skos:prefLabel xml:lang="en">Leather</skos:prefLabel>
         <skos:prefLabel xml:lang="el">Δέρμα</skos:prefLabel>
     </owl:NamedIndividual>
@@ -2083,12 +1860,8 @@ A secondary objective of the vocabulary is the development of a vocabulary for t
         <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
         <skos:broader rdf:resource="http://w3id.org/dcri-ont/vocabulary/concept_00227"/>
         <skos:inScheme rdf:resource="http://w3id.org/dcri-ont/vocabulary/conceptscheme"/>
-        <rdfs:comment xml:lang="en">A symptom of oxidative-reductive deterioration in photographs.</rdfs:comment>
-        <rdfs:comment xml:lang="el">Ένα σύμπτωμα οξειδωτικής-αναγωγικής φθοράς στις φωτογραφίες.</rdfs:comment>
         <rdfs:label xml:lang="en">Silver mirroring</rdfs:label>
         <rdfs:label xml:lang="el">Καθρέφτισμα</rdfs:label>
-        <skos:definition xml:lang="en">A symptom of oxidative-reductive deterioration in photographs.</skos:definition>
-        <skos:definition xml:lang="el">Ένα σύμπτωμα οξειδωτικής-αναγωγικής φθοράς στις φωτογραφίες.</skos:definition>
         <skos:prefLabel xml:lang="en">Silver mirroring</skos:prefLabel>
         <skos:prefLabel xml:lang="el">Καθρέφτισμα</skos:prefLabel>
     </owl:NamedIndividual>

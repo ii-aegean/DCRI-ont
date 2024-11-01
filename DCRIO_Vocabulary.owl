@@ -328,13 +328,9 @@ A secondary objective of the vocabulary is the development of a vocabulary for t
         <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
         <skos:broader rdf:resource="http://w3id.org/dcri-ont/vocabulary/concept_00020"/>
         <skos:inScheme rdf:resource="http://w3id.org/dcri-ont/vocabulary/conceptscheme"/>
-        <rdfs:comment xml:lang="en">It refers to a cleaning category, during which the removing of undesired matter from a substrate is achieved through the use of living organisms and/or their enzymes as cleaning agents by controlled reproduction of their metabolic processes.</rdfs:comment>
-        <rdfs:comment xml:lang="el">Αναφέρεται σε μια κατηγορία καθαρισμού, κατά την οποία η απομάκρυνση του μη επιθυμητού υλικού από μια επιφάνεια επιτυγχάνεται με την χρήση έμβιων οργανισμών και/ή των ενζύμων τους ως μέσα καθαρισμού με την ελεγχόμενη αναπαραγωγή των μεταβολικών τους διαδικασιών.</rdfs:comment>
         <rdfs:label xml:lang="en">Biological cleaning</rdfs:label>
         <rdfs:label xml:lang="el">Βιολογικός καθαρισμός</rdfs:label>
         <skos:altLabel xml:lang="en">Biocleaning</skos:altLabel>
-        <skos:definition xml:lang="en">It refers to a cleaning category, during which the removing of undesired matter from a substrate is achieved through the use of living organisms and/or their enzymes as cleaning agents by controlled reproduction of their metabolic processes.</skos:definition>
-        <skos:definition xml:lang="el">Αναφέρεται σε μια κατηγορία καθαρισμού, κατά την οποία η απομάκρυνση του μη επιθυμητού υλικού από μια επιφάνεια επιτυγχάνεται με την χρήση έμβιων οργανισμών και/ή των ενζύμων τους ως μέσα καθαρισμού με την ελεγχόμενη αναπαραγωγή των μεταβολικών τους διαδικασιών.</skos:definition>
         <skos:prefLabel xml:lang="en">Biological cleaning</skos:prefLabel>
         <skos:prefLabel xml:lang="el">Βιολογικός καθαρισμός</skos:prefLabel>
     </owl:NamedIndividual>
@@ -596,14 +592,10 @@ A secondary objective of the vocabulary is the development of a vocabulary for t
         <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
         <skos:broader rdf:resource="http://w3id.org/dcri-ont/vocabulary/concept_00223"/>
         <skos:inScheme rdf:resource="http://w3id.org/dcri-ont/vocabulary/conceptscheme"/>
-        <rdfs:comment xml:lang="en">A tool used for cleaning, having a rubber bulblike piece which produces vacuum suction when squeezed. The bulb was an opening at one end and often a tube is adjusted on this opening. It is used in the context of conservation interventions related to surface cleaning or removal of loose deposits (e.g. dust) from the surfaces of movable Cultural Heritage items.</rdfs:comment>
-        <rdfs:comment xml:lang="el">Εργαλείο καθαρισμού, αποτελούμενο από ένα λαστιχένιο κομμάτι που μοιάζει με βολβό το οποίο παράγει απορρόφηση κενού αέρος όταν πιεστεί. Το κομμάτι αυτό διαθέτει ένα άνοιγμα στην μια πλευρά του, στο οποίο προσαρμόζεται κάποιος σωλήνας. Χρησιμοποιείται στο πλαίσιο επεμβάσεων συντήρησης που αφορούν στον επιφανειακό καθαρισμό ή την απομάκρυνση χαλαρών επικαθίσεων (π.χ. σκόνης) από τις επιφάνειες κινητών αντικειμένων της Πολιτιστικής Κληρονομιάς.</rdfs:comment>
         <rdfs:label xml:lang="en">Dust bulb</rdfs:label>
         <rdfs:label xml:lang="el">Πουάρ</rdfs:label>
         <skos:altLabel xml:lang="en">Bulb duster</skos:altLabel>
         <skos:altLabel xml:lang="en">Rubber bulb</skos:altLabel>
-        <skos:definition xml:lang="en">A tool used for cleaning, having a rubber bulblike piece which produces vacuum suction when squeezed. The bulb was an opening at one end and often a tube is adjusted on this opening. It is used in the context of conservation interventions related to surface cleaning or removal of loose deposits (e.g. dust) from the surfaces of movable Cultural Heritage items.</skos:definition>
-        <skos:definition xml:lang="el">Εργαλείο καθαρισμού, αποτελούμενο από ένα λαστιχένιο κομμάτι που μοιάζει με βολβό το οποίο παράγει απορρόφηση κενού αέρος όταν πιεστεί. Το κομμάτι αυτό διαθέτει ένα άνοιγμα στην μια πλευρά του, στο οποίο προσαρμόζεται κάποιος σωλήνας. Χρησιμοποιείται στο πλαίσιο επεμβάσεων συντήρησης που αφορούν στον επιφανειακό καθαρισμό ή την απομάκρυνση χαλαρών επικαθίσεων (π.χ. σκόνης) από τις επιφάνειες κινητών αντικειμένων της Πολιτιστικής Κληρονομιάς.</skos:definition>
         <skos:prefLabel xml:lang="en">Dust bulb</skos:prefLabel>
         <skos:prefLabel xml:lang="el">Πουάρ</skos:prefLabel>
     </owl:NamedIndividual>
@@ -992,14 +984,14 @@ A secondary objective of the vocabulary is the development of a vocabulary for t
         <skos:narrower rdf:resource="http://w3id.org/dcri-ont/vocabulary/concept_00081"/>
         <skos:narrower rdf:resource="http://w3id.org/dcri-ont/vocabulary/concept_00082"/>
         <skos:narrower rdf:resource="http://w3id.org/dcri-ont/vocabulary/concept_00086"/>
-        <rdfs:comment xml:lang="en">A mass or layer of matter of varying thickness that has subsided or been precipitated from a fluid medium onto another mass of material, or has collected in one place by any natural process. The bond of the superficial deposit to the surface is loose.</rdfs:comment>
-        <rdfs:comment xml:lang="el">Μάζα ή στρώμα ύλης ποικίλου πάχους που έχει καθιζάνει ή καταβυθιστεί από ένα ρευστό μέσο σε μια άλλη μάζα υλικού ή έχει συγκεντρωθεί σε ένα μέρος με οποιαδήποτε φυσική διαδικασία. Οι δυνάμεις που συγκρατούν την επιφανειακή επικάθιση στην επιφάνεια είναι χαλαρές.</rdfs:comment>
+        <rdfs:comment xml:lang="en">The bond of the superficial deposit to the surface is loose.</rdfs:comment>
+        <rdfs:comment xml:lang="el">Οι δυνάμεις που συγκρατούν την επιφανειακή επικάθιση στην επιφάνεια είναι χαλαρές.</rdfs:comment>
         <rdfs:label xml:lang="en">Superficial deposit</rdfs:label>
         <rdfs:label xml:lang="el">Επιφανειακή επικάθιση</rdfs:label>
         <skos:altLabel xml:lang="en">Loose deposit</skos:altLabel>
         <skos:altLabel xml:lang="en">Superficial accretion</skos:altLabel>
-        <skos:definition xml:lang="en">A mass or layer of matter of varying thickness that has subsided or been precipitated from a fluid medium onto another mass of material, or has collected in one place by any natural process. The bond of the superficial deposit to the surface is loose.</skos:definition>
-        <skos:definition xml:lang="el">Μάζα ή στρώμα ύλης ποικίλου πάχους που έχει καθιζάνει ή καταβυθιστεί από ένα ρευστό μέσο σε μια άλλη μάζα υλικού ή έχει συγκεντρωθεί σε ένα μέρος με οποιαδήποτε φυσική διαδικασία. Οι δυνάμεις που συγκρατούν την επιφανειακή επικάθιση στην επιφάνεια είναι χαλαρές.</skos:definition>
+        <skos:definition xml:lang="en">The bond of the superficial deposit to the surface is loose.</skos:definition>
+        <skos:definition xml:lang="el">Οι δυνάμεις που συγκρατούν την επιφανειακή επικάθιση στην επιφάνεια είναι χαλαρές.</skos:definition>
         <skos:prefLabel xml:lang="en">Superficial deposit</skos:prefLabel>
         <skos:prefLabel xml:lang="el">Επιφανειακή επικάθιση</skos:prefLabel>
     </owl:NamedIndividual>
@@ -1012,12 +1004,8 @@ A secondary objective of the vocabulary is the development of a vocabulary for t
         <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
         <skos:broader rdf:resource="http://w3id.org/dcri-ont/vocabulary/concept_00075"/>
         <skos:inScheme rdf:resource="http://w3id.org/dcri-ont/vocabulary/conceptscheme"/>
-        <rdfs:comment xml:lang="en">Superficial deposit of unconsolidated material on the earth&apos;s surface formed by the weathering of rock.</rdfs:comment>
-        <rdfs:comment xml:lang="el">Επιφανειακή επικάθιση από μη σταθεροποιημένο υλικό στην επιφάνεια της γης που σχηματίζεται από τη διάβρωση του λίθου.</rdfs:comment>
         <rdfs:label xml:lang="en">Soil (superficial deposit)</rdfs:label>
         <rdfs:label xml:lang="el">Χώμα (επιφανειακή επικάθιση)</rdfs:label>
-        <skos:definition xml:lang="en">Superficial deposit of unconsolidated material on the earth&apos;s surface formed by the weathering of rock.</skos:definition>
-        <skos:definition xml:lang="el">Επιφανειακή επικάθιση από μη σταθεροποιημένο υλικό στην επιφάνεια της γης που σχηματίζεται από τη διάβρωση του λίθου.</skos:definition>
         <skos:prefLabel xml:lang="en">Soil (superficial deposit)</skos:prefLabel>
         <skos:prefLabel xml:lang="el">Χώμα (επιφανειακή επικάθιση)</skos:prefLabel>
     </owl:NamedIndividual>
@@ -1030,13 +1018,9 @@ A secondary objective of the vocabulary is the development of a vocabulary for t
         <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
         <skos:broader rdf:resource="http://w3id.org/dcri-ont/vocabulary/concept_00075"/>
         <skos:inScheme rdf:resource="http://w3id.org/dcri-ont/vocabulary/conceptscheme"/>
-        <rdfs:comment xml:lang="en">Waste matter discharged from the insects.</rdfs:comment>
-        <rdfs:comment xml:lang="el">Απόβλητες ουσίες που αποβάλλονται από έντομα.</rdfs:comment>
         <rdfs:label xml:lang="en">Insect excrement</rdfs:label>
         <rdfs:label xml:lang="el">Απεκκρίματα εντόμων</rdfs:label>
         <skos:altLabel xml:lang="en">Insect dropping</skos:altLabel>
-        <skos:definition xml:lang="en">Waste matter discharged from the insects.</skos:definition>
-        <skos:definition xml:lang="el">Απόβλητες ουσίες που αποβάλλονται από έντομα.</skos:definition>
         <skos:prefLabel xml:lang="en">Insect excrement</skos:prefLabel>
         <skos:prefLabel xml:lang="el">Απεκκρίματα εντόμων</skos:prefLabel>
     </owl:NamedIndividual>
@@ -1467,12 +1451,12 @@ A secondary objective of the vocabulary is the development of a vocabulary for t
         <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
         <skos:broader rdf:resource="http://w3id.org/dcri-ont/vocabulary/concept_00223"/>
         <skos:inScheme rdf:resource="http://w3id.org/dcri-ont/vocabulary/conceptscheme"/>
-        <rdfs:comment xml:lang="en">A tool consisting of a handle onto which bristles are wound. The bristles form a round-tapered shape. It is usually used in the context of conservation interventions related to consolidation of structular layers of movable or immovable Cultural Heritage (painting layers, substartes etc).</rdfs:comment>
-        <rdfs:comment xml:lang="el">Εργαλείο το οποίο αποτελείται από μια λαβή πάνω στην οποία είναι στερεωμένες τρίχες. Οι τρίχες σχηματίζουν ένα στρογγυλό-κωνικό σχήμα. Χρησιμοποιείται συνήθως στο πλαίσιο επεμβάσεων συντήρησης σχετικές με την στερέωση δομικών στρωμάτων κινητών ή μη κινητών αντικειμένων Πολιτιστικής Κληρονομιάς (ζωγραφικά στρώματα, υπόστρωμα έργων τέχνης κ.ά.).</rdfs:comment>
+        <rdfs:comment xml:lang="en">A tool consisting of a handle onto which bristles are wound. It is usually used in the context of conservation interventions related to consolidation of structular layers of movable or immovable Cultural Heritage (painting layers, substartes etc).</rdfs:comment>
+        <rdfs:comment xml:lang="el">Εργαλείο το οποίο αποτελείται από μια λαβή πάνω στην οποία είναι στερεωμένες τρίχες. Χρησιμοποιείται συνήθως στο πλαίσιο επεμβάσεων συντήρησης σχετικές με την στερέωση δομικών στρωμάτων κινητών ή μη κινητών αντικειμένων Πολιτιστικής Κληρονομιάς (ζωγραφικά στρώματα, υπόστρωμα έργων τέχνης κ.ά.).</rdfs:comment>
         <rdfs:label xml:lang="en">Round brush</rdfs:label>
         <rdfs:label xml:lang="el">Στρογγυλό πινέλο</rdfs:label>
-        <skos:definition xml:lang="en">A tool consisting of a handle onto which bristles are wound. The bristles form a round-tapered shape. It is usually used in the context of conservation interventions related to consolidation of structular layers of movable or immovable Cultural Heritage (painting layers, substartes etc).</skos:definition>
-        <skos:definition xml:lang="el">Εργαλείο το οποίο αποτελείται από μια λαβή πάνω στην οποία είναι στερεωμένες τρίχες. Οι τρίχες σχηματίζουν ένα στρογγυλό-κωνικό σχήμα. Χρησιμοποιείται συνήθως στο πλαίσιο επεμβάσεων συντήρησης σχετικές με την στερέωση δομικών στρωμάτων κινητών ή μη κινητών αντικειμένων Πολιτιστικής Κληρονομιάς (ζωγραφικά στρώματα, υπόστρωμα έργων τέχνης κ.ά.).</skos:definition>
+        <skos:definition xml:lang="en">A tool consisting of a handle onto which bristles are wound. It is usually used in the context of conservation interventions related to consolidation of structular layers of movable or immovable Cultural Heritage (painting layers, substartes etc).</skos:definition>
+        <skos:definition xml:lang="el">Εργαλείο το οποίο αποτελείται από μια λαβή πάνω στην οποία είναι στερεωμένες τρίχες. Χρησιμοποιείται συνήθως στο πλαίσιο επεμβάσεων συντήρησης σχετικές με την στερέωση δομικών στρωμάτων κινητών ή μη κινητών αντικειμένων Πολιτιστικής Κληρονομιάς (ζωγραφικά στρώματα, υπόστρωμα έργων τέχνης κ.ά.).</skos:definition>
         <skos:prefLabel xml:lang="en">Round brush</skos:prefLabel>
         <skos:prefLabel xml:lang="el">Στρογγυλό πινέλο</skos:prefLabel>
     </owl:NamedIndividual>
@@ -1874,12 +1858,12 @@ A secondary objective of the vocabulary is the development of a vocabulary for t
         <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
         <skos:broader rdf:resource="http://w3id.org/dcri-ont/vocabulary/concept_00223"/>
         <skos:inScheme rdf:resource="http://w3id.org/dcri-ont/vocabulary/conceptscheme"/>
-        <rdfs:comment xml:lang="en">Sponge composed of rubber, which is used for the removal of dirt and mainly soot from surgaces.</rdfs:comment>
-        <rdfs:comment xml:lang="el">Σφουγγάρι φτιαγμένο από καουτσούκ, το οποίο χρησιμοποιείται για την απομάκρυνση βρωμιάς και κατά κύριο λόγο αιθάλης από επιφάνειες.</rdfs:comment>
+        <rdfs:comment xml:lang="en">Sponge composed of rubber, which is used for the removal of dirt.</rdfs:comment>
+        <rdfs:comment xml:lang="el">Σφουγγάρι φτιαγμένο από καουτσούκ, το οποίο χρησιμοποιείται για την απομάκρυνση βρωμιάς.</rdfs:comment>
         <rdfs:label xml:lang="en">Smoke sponge</rdfs:label>
         <rdfs:label xml:lang="el">Σφουγγάρι αιθάλης</rdfs:label>
-        <skos:definition xml:lang="en">Sponge composed of rubber, which is used for the removal of dirt and mainly soot from surgaces.</skos:definition>
-        <skos:definition xml:lang="el">Σφουγγάρι φτιαγμένο από καουτσούκ, το οποίο χρησιμοποιείται για την απομάκρυνση βρωμιάς και κατά κύριο λόγο αιθάλης από επιφάνειες.</skos:definition>
+        <skos:definition xml:lang="en">Sponge composed of rubber, which is used for the removal of dirt.</skos:definition>
+        <skos:definition xml:lang="el">Σφουγγάρι φτιαγμένο από καουτσούκ, το οποίο χρησιμοποιείται για την απομάκρυνση βρωμιάς.</skos:definition>
         <skos:prefLabel xml:lang="en">Smoke sponge</skos:prefLabel>
         <skos:prefLabel xml:lang="el">Σφουγγάρι αιθάλης</skos:prefLabel>
     </owl:NamedIndividual>
